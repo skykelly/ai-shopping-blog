@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A035",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Elearningindustry.com",
+      "title": "Companies That Use AI Today: Real-World Examples Across Industries",
+      "excerpt": "AI adoption has become the remedy for many companies in the market. In this a...",
+      "source_url": "https://elearningindustry.com/advertise/elearning-marketing-resources/blog/companies-that-use-ai-today-real-world-examples-across-industries",
+      "source_name": "Elearningindustry.com",
+      "date": "2026.02",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Elearningindustry.co",
+      "grad": "cat-7",
+      "tags": [
+        "Elearningindustry.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-02T07:43:56.871555Z"
+    },
+    {
       "id": "A034",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -1042,7 +1067,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-02T07:43:01.057547",
-    "total_articles": 34
+    "last_updated": "2026-03-02T07:43:59.873218",
+    "total_articles": 35
   }
 }
