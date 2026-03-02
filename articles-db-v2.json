@@ -152,19 +152,16 @@
       "is_featured": true,
       "key_stat": "250M",
       "key_stat_label": "Users",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🤖",
-        "stat": "250M Users",
-        "label": "Amazon Rufus",
-        "gradient": "cat-1"
-      },
       "tags": [
         "Amazon",
         "Rufus",
         "Agentic Commerce",
         "Auto Buy"
-      ]
+      ],
+      "grad": "cat-1",
+      "thumb_label": "Amazon Rufus",
+      "thumb_stat": "250M Users",
+      "thumb_emoji": "🤖"
     },
     {
       "id": "A002",
@@ -181,19 +178,16 @@
       "is_featured": false,
       "key_stat": "+35%",
       "key_stat_label": "Order Value",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "⚡",
-        "stat": "+35% AOV",
-        "label": "Walmart Sparky",
-        "gradient": "cat-1"
-      },
       "tags": [
         "Walmart",
         "Sparky",
         "GenAI",
         "Shopping Assistant"
-      ]
+      ],
+      "grad": "cat-1",
+      "thumb_label": "Walmart Sparky",
+      "thumb_stat": "+35% AOV",
+      "thumb_emoji": "⚡"
     },
     {
       "id": "A003",
@@ -210,19 +204,16 @@
       "is_featured": false,
       "key_stat": "4 Min",
       "key_stat_label": "Grocery Shop",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🛒",
-        "stat": "4 Min Shop",
-        "label": "Albertsons AI",
-        "gradient": "cat-1"
-      },
       "tags": [
         "Albertsons",
         "Grocery",
         "Agentic",
         "Automation"
-      ]
+      ],
+      "grad": "cat-1",
+      "thumb_label": "Albertsons AI",
+      "thumb_stat": "4 Min Shop",
+      "thumb_emoji": "🛒"
     },
     {
       "id": "A004",
@@ -239,19 +230,16 @@
       "is_featured": false,
       "key_stat": "800M",
       "key_stat_label": "Weekly Users",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "💬",
-        "stat": "800M/Week",
-        "label": "OpenAI Shop",
-        "gradient": "cat-2"
-      },
       "tags": [
         "OpenAI",
         "ChatGPT",
         "Instant Checkout",
         "Platform Commerce"
-      ]
+      ],
+      "grad": "cat-2",
+      "thumb_label": "OpenAI Shop",
+      "thumb_stat": "800M/Week",
+      "thumb_emoji": "💬"
     },
     {
       "id": "A005",
@@ -268,19 +256,16 @@
       "is_featured": false,
       "key_stat": "Open",
       "key_stat_label": "Commerce Standard",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🌐",
-        "stat": "NRF 2026",
-        "label": "Google UCP",
-        "gradient": "cat-2"
-      },
       "tags": [
         "Google",
         "UCP",
         "Agentic Commerce",
         "NRF 2026"
-      ]
+      ],
+      "grad": "cat-2",
+      "thumb_label": "Google UCP",
+      "thumb_stat": "NRF 2026",
+      "thumb_emoji": "🌐"
     },
     {
       "id": "A006",
@@ -297,19 +282,16 @@
       "is_featured": false,
       "key_stat": "3×",
       "key_stat_label": "Shopping Activity",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🎙️",
-        "stat": "3× Shopping",
-        "label": "Amazon Alexa+",
-        "gradient": "cat-2"
-      },
       "tags": [
         "Amazon",
         "Alexa+",
         "Voice Commerce",
         "Prime"
-      ]
+      ],
+      "grad": "cat-2",
+      "thumb_label": "Amazon Alexa+",
+      "thumb_stat": "3× Shopping",
+      "thumb_emoji": "🎙️"
     },
     {
       "id": "A007",
@@ -326,19 +308,16 @@
       "is_featured": false,
       "key_stat": "2026",
       "key_stat_label": "Full Launch",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "👔",
-        "stat": "Super-Agent",
-        "label": "Levi's × MS",
-        "gradient": "cat-2"
-      },
       "tags": [
         "Levi's",
         "Microsoft",
         "Super-Agent",
         "Enterprise AI"
-      ]
+      ],
+      "grad": "cat-2",
+      "thumb_label": "Levi's × MS",
+      "thumb_stat": "Super-Agent",
+      "thumb_emoji": "👔"
     },
     {
       "id": "A008",
@@ -355,19 +334,16 @@
       "is_featured": true,
       "key_stat": "$5T",
       "key_stat_label": "Global by 2030",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "📊",
-        "stat": "$5T · 2030",
-        "label": "McKinsey Report",
-        "gradient": "cat-7"
-      },
       "tags": [
         "McKinsey",
         "Agentic Commerce",
         "Market Forecast",
         "$5T"
-      ]
+      ],
+      "grad": "cat-7",
+      "thumb_label": "McKinsey Report",
+      "thumb_stat": "$5T · 2030",
+      "thumb_emoji": "📊"
     },
     {
       "id": "A009",
@@ -384,19 +360,16 @@
       "is_featured": false,
       "key_stat": "$15T",
       "key_stat_label": "B2B by 2028",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "📈",
-        "stat": "$15T B2B",
-        "label": "Gartner 2028",
-        "gradient": "cat-7"
-      },
       "tags": [
         "Gartner",
         "B2B",
         "AI Agents",
         "Forecast"
-      ]
+      ],
+      "grad": "cat-7",
+      "thumb_label": "Gartner 2028",
+      "thumb_stat": "$15T B2B",
+      "thumb_emoji": "📈"
     },
     {
       "id": "A010",
@@ -413,19 +386,16 @@
       "is_featured": false,
       "key_stat": "758%",
       "key_stat_label": "Traffic Growth YoY",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "📉",
-        "stat": "+758% Traffic",
-        "label": "Adobe Holiday",
-        "gradient": "cat-7"
-      },
       "tags": [
         "Adobe",
         "Holiday 2025",
         "AI Traffic",
         "E-Commerce"
-      ]
+      ],
+      "grad": "cat-7",
+      "thumb_label": "Adobe Holiday",
+      "thumb_stat": "+758% Traffic",
+      "thumb_emoji": "📉"
     },
     {
       "id": "A011",
@@ -442,19 +412,16 @@
       "is_featured": false,
       "key_stat": "87%",
       "key_stat_label": "Positive Revenue",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "📋",
-        "stat": "87% Positive",
-        "label": "Capgemini Study",
-        "gradient": "cat-7"
-      },
       "tags": [
         "Capgemini",
         "Survey",
         "Consumer Behavior",
         "Adoption"
-      ]
+      ],
+      "grad": "cat-7",
+      "thumb_label": "Capgemini Study",
+      "thumb_stat": "87% Positive",
+      "thumb_emoji": "📋"
     },
     {
       "id": "A012",
@@ -471,19 +438,16 @@
       "is_featured": false,
       "key_stat": "81%",
       "key_stat_label": "Brand Loyalty Risk",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "⚠️",
-        "stat": "81% Concern",
-        "label": "Deloitte Outlook",
-        "gradient": "cat-3"
-      },
       "tags": [
         "Deloitte",
         "Risk",
         "Brand Loyalty",
         "GenAI"
-      ]
+      ],
+      "grad": "cat-3",
+      "thumb_label": "Deloitte Outlook",
+      "thumb_stat": "81% Concern",
+      "thumb_emoji": "⚠️"
     },
     {
       "id": "A013",
@@ -500,19 +464,16 @@
       "is_featured": false,
       "key_stat": "+73%",
       "key_stat_label": "Customer LTV",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🎯",
-        "stat": "CLV +73%",
-        "label": "AI Personalization",
-        "gradient": "cat-7"
-      },
       "tags": [
         "Personalization",
         "CLV",
         "Conversion",
         "Revenue Lift"
-      ]
+      ],
+      "grad": "cat-7",
+      "thumb_label": "AI Personalization",
+      "thumb_stat": "CLV +73%",
+      "thumb_emoji": "🎯"
     },
     {
       "id": "A014",
@@ -529,19 +490,16 @@
       "is_featured": false,
       "key_stat": "↓ Cost",
       "key_stat_label": "Photo Production",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "👗",
-        "stat": "AI Avatars",
-        "label": "H&M Fashion AI",
-        "gradient": "cat-4"
-      },
       "tags": [
         "H&M",
         "AI Avatars",
         "Fashion",
         "Creative AI"
-      ]
+      ],
+      "grad": "cat-4",
+      "thumb_label": "H&M Fashion AI",
+      "thumb_stat": "AI Avatars",
+      "thumb_emoji": "👗"
     },
     {
       "id": "A015",
@@ -558,19 +516,16 @@
       "is_featured": false,
       "key_stat": "3.5B",
       "key_stat_label": "Social Impressions",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🕊️",
-        "stat": "3.5B Impr.",
-        "label": "Dove Campaign",
-        "gradient": "cat-4"
-      },
       "tags": [
         "Dove",
         "Unilever",
         "AI Campaign",
         "Social Media"
-      ]
+      ],
+      "grad": "cat-4",
+      "thumb_label": "Dove Campaign",
+      "thumb_stat": "3.5B Impr.",
+      "thumb_emoji": "🕊️"
     },
     {
       "id": "A016",
@@ -587,19 +542,16 @@
       "is_featured": false,
       "key_stat": "AR+AI",
       "key_stat_label": "Virtual Try-On",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "💄",
-        "stat": "ModiFace AR",
-        "label": "L'Oréal Beauty AI",
-        "gradient": "cat-4"
-      },
       "tags": [
         "L'Oréal",
         "ModiFace",
         "AR",
         "Beauty Tech"
-      ]
+      ],
+      "grad": "cat-4",
+      "thumb_label": "L'Oréal Beauty AI",
+      "thumb_stat": "ModiFace AR",
+      "thumb_emoji": "💄"
     },
     {
       "id": "A017",
@@ -616,19 +568,16 @@
       "is_featured": false,
       "key_stat": "↓ Returns",
       "key_stat_label": "AR Fit Technology",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "👟",
-        "stat": "13-Point Fit",
-        "label": "Nike AI Fit",
-        "gradient": "cat-4"
-      },
       "tags": [
         "Nike",
         "AR",
         "Fit Technology",
         "Returns Reduction"
-      ]
+      ],
+      "grad": "cat-4",
+      "thumb_label": "Nike AI Fit",
+      "thumb_stat": "13-Point Fit",
+      "thumb_emoji": "👟"
     },
     {
       "id": "A018",
@@ -645,19 +594,16 @@
       "is_featured": false,
       "key_stat": "AI",
       "key_stat_label": "Demand Forecasting",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "👕",
-        "stat": "Trend AI",
-        "label": "Zara Forecast",
-        "gradient": "cat-4"
-      },
       "tags": [
         "Zara",
         "Trend Prediction",
         "Supply Chain",
         "Fast Fashion"
-      ]
+      ],
+      "grad": "cat-4",
+      "thumb_label": "Zara Forecast",
+      "thumb_stat": "Trend AI",
+      "thumb_emoji": "👕"
     },
     {
       "id": "A019",
@@ -674,19 +620,16 @@
       "is_featured": false,
       "key_stat": "4,700%",
       "key_stat_label": "AI Traffic Growth",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🔍",
-        "stat": "+4,700% YoY",
-        "label": "GEO Revolution",
-        "gradient": "cat-5"
-      },
       "tags": [
         "GEO",
         "SEO",
         "AI Traffic",
         "BigCommerce"
-      ]
+      ],
+      "grad": "cat-5",
+      "thumb_label": "GEO Revolution",
+      "thumb_stat": "+4,700% YoY",
+      "thumb_emoji": "🔍"
     },
     {
       "id": "A020",
@@ -703,19 +646,16 @@
       "is_featured": false,
       "key_stat": "−64%",
       "key_stat_label": "Organic Traffic",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "📰",
-        "stat": "Traffic −64%",
-        "label": "HBR 2026",
-        "gradient": "cat-5"
-      },
       "tags": [
         "HBR",
         "GEO",
         "Organic Traffic",
         "Brand Marketing"
-      ]
+      ],
+      "grad": "cat-5",
+      "thumb_label": "HBR 2026",
+      "thumb_stat": "Traffic −64%",
+      "thumb_emoji": "📰"
     },
     {
       "id": "A021",
@@ -732,19 +672,16 @@
       "is_featured": false,
       "key_stat": "대상",
       "key_stat_label": "AI서비스어워드 2025",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🏬",
-        "stat": "AI어워드 대상",
-        "label": "현대 HEYDI",
-        "gradient": "cat-6"
-      },
       "tags": [
         "현대백화점",
         "HEYDI",
         "오프라인 AI",
         "백화점"
-      ]
+      ],
+      "grad": "cat-6",
+      "thumb_label": "현대 HEYDI",
+      "thumb_stat": "AI어워드 대상",
+      "thumb_emoji": "🏬"
     },
     {
       "id": "A022",
@@ -761,19 +698,16 @@
       "is_featured": false,
       "key_stat": "APP",
       "key_stat_label": "대화형 AI 안내",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🤝",
-        "stat": "AI Chatbot",
-        "label": "롯데 Dustin",
-        "gradient": "cat-6"
-      },
       "tags": [
         "롯데백화점",
         "더스틴",
         "Chatbot",
         "백화점 AI"
-      ]
+      ],
+      "grad": "cat-6",
+      "thumb_label": "롯데 Dustin",
+      "thumb_stat": "AI Chatbot",
+      "thumb_emoji": "🤝"
     },
     {
       "id": "A023",
@@ -790,19 +724,16 @@
       "is_featured": false,
       "key_stat": "2026",
       "key_stat_label": "Personal Shopper",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🧠",
-        "stat": "퍼스널 쇼퍼",
-        "label": "신세계 S-Mind",
-        "gradient": "cat-6"
-      },
       "tags": [
         "신세계",
         "S-마인드",
         "퍼스널쇼퍼",
         "초개인화"
-      ]
+      ],
+      "grad": "cat-6",
+      "thumb_label": "신세계 S-Mind",
+      "thumb_stat": "퍼스널 쇼퍼",
+      "thumb_emoji": "🧠"
     },
     {
       "id": "A024",
@@ -819,19 +750,16 @@
       "is_featured": false,
       "key_stat": "1st",
       "key_stat_label": "AI Voice CS",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🎙️",
-        "stat": "유통 최초",
-        "label": "SSG 조이 AI",
-        "gradient": "cat-6"
-      },
       "tags": [
         "SSG닷컴",
         "AI 음성상담",
         "반품 자동화",
         "CS AI"
-      ]
+      ],
+      "grad": "cat-6",
+      "thumb_label": "SSG 조이 AI",
+      "thumb_stat": "유통 최초",
+      "thumb_emoji": "🎙️"
     },
     {
       "id": "A025",
@@ -848,19 +776,16 @@
       "is_featured": true,
       "key_stat": "+26.2%",
       "key_stat_label": "Commerce Revenue",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🟢",
-        "stat": "+26.2% 커머스",
-        "label": "NAVER Agent N",
-        "gradient": "cat-6"
-      },
       "tags": [
         "네이버",
         "에이전트N",
         "AI 기업",
         "커머스"
-      ]
+      ],
+      "grad": "cat-6",
+      "thumb_label": "NAVER Agent N",
+      "thumb_stat": "+26.2% 커머스",
+      "thumb_emoji": "🟢"
     },
     {
       "id": "A026",
@@ -877,19 +802,16 @@
       "is_featured": false,
       "key_stat": "Open",
       "key_stat_label": "Agent Ecosystem",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "💛",
-        "stat": "Open Platform",
-        "label": "카카오 PlayMCP",
-        "gradient": "cat-6"
-      },
       "tags": [
         "카카오",
         "PlayMCP",
         "에이전트 빌더",
         "개방형 AI"
-      ]
+      ],
+      "grad": "cat-6",
+      "thumb_label": "카카오 PlayMCP",
+      "thumb_stat": "Open Platform",
+      "thumb_emoji": "💛"
     },
     {
       "id": "A027",
@@ -906,19 +828,16 @@
       "is_featured": false,
       "key_stat": "100%",
       "key_stat_label": "전국 쿠세권",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "📦",
-        "stat": "₩3조 투자",
-        "label": "쿠팡 AI물류",
-        "gradient": "cat-6"
-      },
       "tags": [
         "쿠팡",
         "물류 AI",
         "쿠세권",
         "이커머스"
-      ]
+      ],
+      "grad": "cat-6",
+      "thumb_label": "쿠팡 AI물류",
+      "thumb_stat": "₩3조 투자",
+      "thumb_emoji": "📦"
     },
     {
       "id": "A028",
@@ -935,19 +854,16 @@
       "is_featured": false,
       "key_stat": "ALL",
       "key_stat_label": "홈쇼핑 AI 도입",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "📺",
-        "stat": "V커머스 AI",
-        "label": "홈쇼핑 AI전환",
-        "gradient": "cat-6"
-      },
       "tags": [
         "홈앤쇼핑",
         "V커머스",
         "홈쇼핑 AI",
         "숏폼"
-      ]
+      ],
+      "grad": "cat-6",
+      "thumb_label": "홈쇼핑 AI전환",
+      "thumb_stat": "V커머스 AI",
+      "thumb_emoji": "📺"
     },
     {
       "id": "A029",
@@ -964,19 +880,16 @@
       "is_featured": false,
       "key_stat": "🛡️",
       "key_stat_label": "Agent Pushback",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🛡️",
-        "stat": "Data War",
-        "label": "Retailer Defense",
-        "gradient": "cat-3"
-      },
       "tags": [
         "Shopify",
         "Amazon",
         "Data Ownership",
         "AI Policy"
-      ]
+      ],
+      "grad": "cat-3",
+      "thumb_label": "Retailer Defense",
+      "thumb_stat": "Data War",
+      "thumb_emoji": "🛡️"
     },
     {
       "id": "A030",
@@ -993,19 +906,16 @@
       "is_featured": false,
       "key_stat": "75%",
       "key_stat_label": "Multi-Agent Plan",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🔮",
-        "stat": "7 AI Trends",
-        "label": "Agentic Commerce",
-        "gradient": "cat-3"
-      },
       "tags": [
         "Commercetools",
         "Agentic Commerce",
         "2026 Trends",
         "Multi-Agent"
-      ]
+      ],
+      "grad": "cat-3",
+      "thumb_label": "Agentic Commerce",
+      "thumb_stat": "7 AI Trends",
+      "thumb_emoji": "🔮"
     },
     {
       "id": "A031",
@@ -1022,19 +932,16 @@
       "is_featured": false,
       "key_stat": "71%",
       "key_stat_label": "GenAI Marketers",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "📣",
-        "stat": "71% Marketers",
-        "label": "AI Marketing 2026",
-        "gradient": "cat-4"
-      },
       "tags": [
         "Marketing AI",
         "GenAI",
         "Brand Strategy",
         "Holiday 2025"
-      ]
+      ],
+      "grad": "cat-4",
+      "thumb_label": "AI Marketing 2026",
+      "thumb_stat": "71% Marketers",
+      "thumb_emoji": "📣"
     },
     {
       "id": "A032",
@@ -1051,19 +958,16 @@
       "is_featured": false,
       "key_stat": "ALL",
       "key_stat_label": "Channel AI 전환",
-      "thumbnail": {
-        "type": "generated",
-        "emoji": "🇰🇷",
-        "stat": "전 채널 AI",
-        "label": "한국 유통 혁신",
-        "gradient": "cat-6"
-      },
       "tags": [
         "한국 유통",
         "AI 커머스",
         "대화형 쇼핑",
         "서울경제"
-      ]
+      ],
+      "grad": "cat-6",
+      "thumb_label": "한국 유통 혁신",
+      "thumb_stat": "전 채널 AI",
+      "thumb_emoji": "🇰🇷"
     }
   ],
   "metadata": {

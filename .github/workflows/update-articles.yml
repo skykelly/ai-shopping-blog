@@ -2,8 +2,8 @@ name: 🤖 Daily Article Pipeline
 
 on:
   schedule:
-    # 매일 한국 시간 오후 4시 (UTC 07:00)
-    - cron: "0 7 * * *"
+    # 매일 한국 시간 오전 6시 (UTC 21:00 전날)
+    - cron: "0 21 * * *"
   workflow_dispatch:  # Actions 탭에서 수동 실행 가능
 
 permissions:
