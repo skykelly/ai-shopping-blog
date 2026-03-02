@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name  "github-actions[bot]"
-          git add articles-db-v2.json blog.html pipeline-run.log
+          git add articles-db-v2.json blog.html
           if git diff --staged --quiet; then
             echo "변경 없음 — 커밋 건너뜀"
             echo "ARTICLES_ADDED=false" >> $GITHUB_ENV
