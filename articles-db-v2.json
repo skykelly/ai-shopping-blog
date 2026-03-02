@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A036",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Associated Press",
+      "title": "The 2026 AI Cost Crisis: The Rise of One API Aggregation Platforms and Their Potential to Deliver 80% Savings",
+      "excerpt": "2026년까지 AI 시장 1조 달러 예상. 기업들이 직면한 비용 위기와 API 집계 플랫폼의 80% 절감 가능성.",
+      "source_url": "https://apnews.com/press-release/ein-presswire-newsmatics/the-2026-ai-cost-crisis-the-rise-of-one-api-aggregation-platforms-and-their-potential-to-deliver-80-savings-44143bf1f32e33814ff3fc21b8a3f725",
+      "source_name": "Associated Press",
+      "date": "2026.02",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "80%",
+      "key_stat_label": "Cost Savings",
+      "thumb_emoji": "📊",
+      "thumb_stat": "80% Savings",
+      "thumb_label": "AI Cost Crisis",
+      "grad": "cat-7",
+      "tags": [
+        "AI Cost Crisis",
+        "API Aggregation",
+        "Generative AI",
+        "Savings"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-02T21:23:10.741724Z"
+    },
+    {
       "id": "A035",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -971,7 +998,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-02T07:43:59.873218",
-    "total_articles": 35
+    "last_updated": "2026-03-02T21:23:17.871137",
+    "total_articles": 36
   }
 }
