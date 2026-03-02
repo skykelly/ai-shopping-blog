@@ -12,19 +12,81 @@
       "한국 사례",
       "데이터 & 리포트"
     ],
-    "regions": ["Global", "US", "Korea", "Europe"],
-    "featured_ids": ["A001", "A008", "A025"],
+    "regions": [
+      "Global",
+      "US",
+      "Korea",
+      "Europe"
+    ],
+    "featured_ids": [
+      "A001",
+      "A008",
+      "A025"
+    ],
     "category_gradients": {
-      "AI 쇼핑 어시스턴트": { "class": "cat-1", "from": "#5b21b6", "to": "#c026d3" },
-      "AI 플랫폼 커머스":   { "class": "cat-2", "from": "#1e3a8a", "to": "#7c3aed" },
-      "리테일러 AI 도입":   { "class": "cat-3", "from": "#3b0764", "to": "#0f0a1e" },
-      "브랜드 AI 마케팅/세일즈": { "class": "cat-4", "from": "#be185d", "to": "#f43f5e" },
-      "GEO":              { "class": "cat-5", "from": "#065f46", "to": "#7c3aed" },
-      "한국 사례":          { "class": "cat-6", "from": "#9a3412", "to": "#d946ef" },
-      "데이터 & 리포트":    { "class": "cat-7", "from": "#0c4a6e", "to": "#7c3aed" }
+      "AI 쇼핑 어시스턴트": {
+        "class": "cat-1",
+        "from": "#5b21b6",
+        "to": "#c026d3"
+      },
+      "AI 플랫폼 커머스": {
+        "class": "cat-2",
+        "from": "#1e3a8a",
+        "to": "#7c3aed"
+      },
+      "리테일러 AI 도입": {
+        "class": "cat-3",
+        "from": "#3b0764",
+        "to": "#0f0a1e"
+      },
+      "브랜드 AI 마케팅/세일즈": {
+        "class": "cat-4",
+        "from": "#be185d",
+        "to": "#f43f5e"
+      },
+      "GEO": {
+        "class": "cat-5",
+        "from": "#065f46",
+        "to": "#7c3aed"
+      },
+      "한국 사례": {
+        "class": "cat-6",
+        "from": "#9a3412",
+        "to": "#d946ef"
+      },
+      "데이터 & 리포트": {
+        "class": "cat-7",
+        "from": "#0c4a6e",
+        "to": "#7c3aed"
+      }
     }
   },
   "articles": [
+    {
+      "id": "A033",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "MarketingProfs.com",
+      "title": "AI Update, February 27, 2026: AI News and Views From the Past Week",
+      "excerpt": "Catch up on select AI news and developments since the workweek ended February...",
+      "source_url": "https://www.marketingprofs.com/opinions/2026/54358/ai-update-february-27-2026-ai-news-and-views-from-the-past-week",
+      "source_name": "MarketingProfs.com",
+      "date": "2026.02",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "MarketingProfs.com",
+      "grad": "cat-7",
+      "tags": [
+        "MarketingProfs.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-02T07:34:48.739779Z"
+    },
     {
       "id": "A001",
       "blog_category": "AI 쇼핑 어시스턴트",
@@ -47,7 +109,12 @@
         "label": "Amazon Rufus",
         "gradient": "cat-1"
       },
-      "tags": ["Amazon", "Rufus", "Agentic Commerce", "Auto Buy"]
+      "tags": [
+        "Amazon",
+        "Rufus",
+        "Agentic Commerce",
+        "Auto Buy"
+      ]
     },
     {
       "id": "A002",
@@ -71,7 +138,12 @@
         "label": "Walmart Sparky",
         "gradient": "cat-1"
       },
-      "tags": ["Walmart", "Sparky", "GenAI", "Shopping Assistant"]
+      "tags": [
+        "Walmart",
+        "Sparky",
+        "GenAI",
+        "Shopping Assistant"
+      ]
     },
     {
       "id": "A003",
@@ -95,7 +167,12 @@
         "label": "Albertsons AI",
         "gradient": "cat-1"
       },
-      "tags": ["Albertsons", "Grocery", "Agentic", "Automation"]
+      "tags": [
+        "Albertsons",
+        "Grocery",
+        "Agentic",
+        "Automation"
+      ]
     },
     {
       "id": "A004",
@@ -119,7 +196,12 @@
         "label": "OpenAI Shop",
         "gradient": "cat-2"
       },
-      "tags": ["OpenAI", "ChatGPT", "Instant Checkout", "Platform Commerce"]
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Instant Checkout",
+        "Platform Commerce"
+      ]
     },
     {
       "id": "A005",
@@ -143,7 +225,12 @@
         "label": "Google UCP",
         "gradient": "cat-2"
       },
-      "tags": ["Google", "UCP", "Agentic Commerce", "NRF 2026"]
+      "tags": [
+        "Google",
+        "UCP",
+        "Agentic Commerce",
+        "NRF 2026"
+      ]
     },
     {
       "id": "A006",
@@ -167,7 +254,12 @@
         "label": "Amazon Alexa+",
         "gradient": "cat-2"
       },
-      "tags": ["Amazon", "Alexa+", "Voice Commerce", "Prime"]
+      "tags": [
+        "Amazon",
+        "Alexa+",
+        "Voice Commerce",
+        "Prime"
+      ]
     },
     {
       "id": "A007",
@@ -191,7 +283,12 @@
         "label": "Levi's × MS",
         "gradient": "cat-2"
       },
-      "tags": ["Levi's", "Microsoft", "Super-Agent", "Enterprise AI"]
+      "tags": [
+        "Levi's",
+        "Microsoft",
+        "Super-Agent",
+        "Enterprise AI"
+      ]
     },
     {
       "id": "A008",
@@ -215,7 +312,12 @@
         "label": "McKinsey Report",
         "gradient": "cat-7"
       },
-      "tags": ["McKinsey", "Agentic Commerce", "Market Forecast", "$5T"]
+      "tags": [
+        "McKinsey",
+        "Agentic Commerce",
+        "Market Forecast",
+        "$5T"
+      ]
     },
     {
       "id": "A009",
@@ -239,7 +341,12 @@
         "label": "Gartner 2028",
         "gradient": "cat-7"
       },
-      "tags": ["Gartner", "B2B", "AI Agents", "Forecast"]
+      "tags": [
+        "Gartner",
+        "B2B",
+        "AI Agents",
+        "Forecast"
+      ]
     },
     {
       "id": "A010",
@@ -263,7 +370,12 @@
         "label": "Adobe Holiday",
         "gradient": "cat-7"
       },
-      "tags": ["Adobe", "Holiday 2025", "AI Traffic", "E-Commerce"]
+      "tags": [
+        "Adobe",
+        "Holiday 2025",
+        "AI Traffic",
+        "E-Commerce"
+      ]
     },
     {
       "id": "A011",
@@ -287,7 +399,12 @@
         "label": "Capgemini Study",
         "gradient": "cat-7"
       },
-      "tags": ["Capgemini", "Survey", "Consumer Behavior", "Adoption"]
+      "tags": [
+        "Capgemini",
+        "Survey",
+        "Consumer Behavior",
+        "Adoption"
+      ]
     },
     {
       "id": "A012",
@@ -311,7 +428,12 @@
         "label": "Deloitte Outlook",
         "gradient": "cat-3"
       },
-      "tags": ["Deloitte", "Risk", "Brand Loyalty", "GenAI"]
+      "tags": [
+        "Deloitte",
+        "Risk",
+        "Brand Loyalty",
+        "GenAI"
+      ]
     },
     {
       "id": "A013",
@@ -335,7 +457,12 @@
         "label": "AI Personalization",
         "gradient": "cat-7"
       },
-      "tags": ["Personalization", "CLV", "Conversion", "Revenue Lift"]
+      "tags": [
+        "Personalization",
+        "CLV",
+        "Conversion",
+        "Revenue Lift"
+      ]
     },
     {
       "id": "A014",
@@ -359,7 +486,12 @@
         "label": "H&M Fashion AI",
         "gradient": "cat-4"
       },
-      "tags": ["H&M", "AI Avatars", "Fashion", "Creative AI"]
+      "tags": [
+        "H&M",
+        "AI Avatars",
+        "Fashion",
+        "Creative AI"
+      ]
     },
     {
       "id": "A015",
@@ -383,7 +515,12 @@
         "label": "Dove Campaign",
         "gradient": "cat-4"
       },
-      "tags": ["Dove", "Unilever", "AI Campaign", "Social Media"]
+      "tags": [
+        "Dove",
+        "Unilever",
+        "AI Campaign",
+        "Social Media"
+      ]
     },
     {
       "id": "A016",
@@ -407,7 +544,12 @@
         "label": "L'Oréal Beauty AI",
         "gradient": "cat-4"
       },
-      "tags": ["L'Oréal", "ModiFace", "AR", "Beauty Tech"]
+      "tags": [
+        "L'Oréal",
+        "ModiFace",
+        "AR",
+        "Beauty Tech"
+      ]
     },
     {
       "id": "A017",
@@ -431,7 +573,12 @@
         "label": "Nike AI Fit",
         "gradient": "cat-4"
       },
-      "tags": ["Nike", "AR", "Fit Technology", "Returns Reduction"]
+      "tags": [
+        "Nike",
+        "AR",
+        "Fit Technology",
+        "Returns Reduction"
+      ]
     },
     {
       "id": "A018",
@@ -455,7 +602,12 @@
         "label": "Zara Forecast",
         "gradient": "cat-4"
       },
-      "tags": ["Zara", "Trend Prediction", "Supply Chain", "Fast Fashion"]
+      "tags": [
+        "Zara",
+        "Trend Prediction",
+        "Supply Chain",
+        "Fast Fashion"
+      ]
     },
     {
       "id": "A019",
@@ -479,7 +631,12 @@
         "label": "GEO Revolution",
         "gradient": "cat-5"
       },
-      "tags": ["GEO", "SEO", "AI Traffic", "BigCommerce"]
+      "tags": [
+        "GEO",
+        "SEO",
+        "AI Traffic",
+        "BigCommerce"
+      ]
     },
     {
       "id": "A020",
@@ -503,7 +660,12 @@
         "label": "HBR 2026",
         "gradient": "cat-5"
       },
-      "tags": ["HBR", "GEO", "Organic Traffic", "Brand Marketing"]
+      "tags": [
+        "HBR",
+        "GEO",
+        "Organic Traffic",
+        "Brand Marketing"
+      ]
     },
     {
       "id": "A021",
@@ -527,7 +689,12 @@
         "label": "현대 HEYDI",
         "gradient": "cat-6"
       },
-      "tags": ["현대백화점", "HEYDI", "오프라인 AI", "백화점"]
+      "tags": [
+        "현대백화점",
+        "HEYDI",
+        "오프라인 AI",
+        "백화점"
+      ]
     },
     {
       "id": "A022",
@@ -551,7 +718,12 @@
         "label": "롯데 Dustin",
         "gradient": "cat-6"
       },
-      "tags": ["롯데백화점", "더스틴", "Chatbot", "백화점 AI"]
+      "tags": [
+        "롯데백화점",
+        "더스틴",
+        "Chatbot",
+        "백화점 AI"
+      ]
     },
     {
       "id": "A023",
@@ -575,7 +747,12 @@
         "label": "신세계 S-Mind",
         "gradient": "cat-6"
       },
-      "tags": ["신세계", "S-마인드", "퍼스널쇼퍼", "초개인화"]
+      "tags": [
+        "신세계",
+        "S-마인드",
+        "퍼스널쇼퍼",
+        "초개인화"
+      ]
     },
     {
       "id": "A024",
@@ -599,7 +776,12 @@
         "label": "SSG 조이 AI",
         "gradient": "cat-6"
       },
-      "tags": ["SSG닷컴", "AI 음성상담", "반품 자동화", "CS AI"]
+      "tags": [
+        "SSG닷컴",
+        "AI 음성상담",
+        "반품 자동화",
+        "CS AI"
+      ]
     },
     {
       "id": "A025",
@@ -623,7 +805,12 @@
         "label": "NAVER Agent N",
         "gradient": "cat-6"
       },
-      "tags": ["네이버", "에이전트N", "AI 기업", "커머스"]
+      "tags": [
+        "네이버",
+        "에이전트N",
+        "AI 기업",
+        "커머스"
+      ]
     },
     {
       "id": "A026",
@@ -647,7 +834,12 @@
         "label": "카카오 PlayMCP",
         "gradient": "cat-6"
       },
-      "tags": ["카카오", "PlayMCP", "에이전트 빌더", "개방형 AI"]
+      "tags": [
+        "카카오",
+        "PlayMCP",
+        "에이전트 빌더",
+        "개방형 AI"
+      ]
     },
     {
       "id": "A027",
@@ -671,7 +863,12 @@
         "label": "쿠팡 AI물류",
         "gradient": "cat-6"
       },
-      "tags": ["쿠팡", "물류 AI", "쿠세권", "이커머스"]
+      "tags": [
+        "쿠팡",
+        "물류 AI",
+        "쿠세권",
+        "이커머스"
+      ]
     },
     {
       "id": "A028",
@@ -695,7 +892,12 @@
         "label": "홈쇼핑 AI전환",
         "gradient": "cat-6"
       },
-      "tags": ["홈앤쇼핑", "V커머스", "홈쇼핑 AI", "숏폼"]
+      "tags": [
+        "홈앤쇼핑",
+        "V커머스",
+        "홈쇼핑 AI",
+        "숏폼"
+      ]
     },
     {
       "id": "A029",
@@ -719,7 +921,12 @@
         "label": "Retailer Defense",
         "gradient": "cat-3"
       },
-      "tags": ["Shopify", "Amazon", "Data Ownership", "AI Policy"]
+      "tags": [
+        "Shopify",
+        "Amazon",
+        "Data Ownership",
+        "AI Policy"
+      ]
     },
     {
       "id": "A030",
@@ -743,7 +950,12 @@
         "label": "Agentic Commerce",
         "gradient": "cat-3"
       },
-      "tags": ["Commercetools", "Agentic Commerce", "2026 Trends", "Multi-Agent"]
+      "tags": [
+        "Commercetools",
+        "Agentic Commerce",
+        "2026 Trends",
+        "Multi-Agent"
+      ]
     },
     {
       "id": "A031",
@@ -767,7 +979,12 @@
         "label": "AI Marketing 2026",
         "gradient": "cat-4"
       },
-      "tags": ["Marketing AI", "GenAI", "Brand Strategy", "Holiday 2025"]
+      "tags": [
+        "Marketing AI",
+        "GenAI",
+        "Brand Strategy",
+        "Holiday 2025"
+      ]
     },
     {
       "id": "A032",
@@ -791,7 +1008,16 @@
         "label": "한국 유통 혁신",
         "gradient": "cat-6"
       },
-      "tags": ["한국 유통", "AI 커머스", "대화형 쇼핑", "서울경제"]
+      "tags": [
+        "한국 유통",
+        "AI 커머스",
+        "대화형 쇼핑",
+        "서울경제"
+      ]
     }
-  ]
+  ],
+  "metadata": {
+    "last_updated": "2026-03-02T07:34:51.741277",
+    "total_articles": 33
+  }
 }
