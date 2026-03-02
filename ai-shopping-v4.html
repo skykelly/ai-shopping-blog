@@ -1,0 +1,2190 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXT AI RETAIL OS — 2030</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500&family=Syne:wght@400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+
+    :root {
+      --void: #04020c;
+      --deep: #0a0618;
+      --nebula: #130d2b;
+      --purple: #7c3aed;
+      --lavender: #a78bfa;
+      --fuchsia: #d946ef;
+      --plasma: #e879f9;
+      --starlight: #f8f4ff;
+      --mist: #c4b5fd;
+      --dim: #6b7280;
+      --mono: 'DM Mono', 'Pretendard Variable', 'Pretendard', monospace;
+      --display: 'Bebas Neue', 'Pretendard Variable', 'Pretendard', sans-serif;
+      --body: 'Syne', 'Pretendard Variable', 'Pretendard', sans-serif;
+    }
+
+    html {
+      scroll-behavior: auto;
+      overflow-x: hidden
+    }
+
+    body {
+      background: var(--void);
+      color: var(--starlight);
+      font-family: var(--body);
+      overflow-x: hidden;
+      cursor: none;
+    }
+
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      opacity: .025;
+      pointer-events: none;
+      z-index: 9997
+    }
+
+    #cursor {
+      position: fixed;
+      width: 12px;
+      height: 12px;
+      background: var(--plasma);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9999;
+      transform: translate(-50%, -50%);
+      mix-blend-mode: exclusion;
+      transition: width .3s, height .3s
+    }
+
+    #cursor-ring {
+      position: fixed;
+      width: 44px;
+      height: 44px;
+      border: 1px solid rgba(167, 139, 250, .5);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9998;
+      transform: translate(-50%, -50%);
+      transition: width .3s, height .3s
+    }
+
+    #progress-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--purple), var(--plasma));
+      z-index: 1000;
+      width: 0%;
+      transform-origin: left;
+      will-change: width
+    }
+
+    #bg-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+      opacity: .35
+    }
+
+    #vbar-wrap {
+      position: fixed;
+      right: 32px;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 800;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      align-items: center
+    }
+
+    #vbar-label {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--dim);
+      letter-spacing: 2px;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      margin-top: 8px
+    }
+
+    #vbar-track {
+      width: 2px;
+      height: 120px;
+      background: rgba(124, 58, 237, .2);
+      border-radius: 2px;
+      overflow: hidden;
+      position: relative
+    }
+
+    #vbar-fill {
+      position: absolute;
+      bottom: 50%;
+      left: 0;
+      right: 0;
+      background: linear-gradient(0deg, var(--purple), var(--plasma));
+      border-radius: 2px;
+      height: 0%;
+      transition: height .1s, background .3s
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 900;
+      padding: 24px 8vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center
+    }
+
+    .nav-logo {
+      font-family: var(--display);
+      font-size: 18px;
+      letter-spacing: 4px;
+      color: var(--mist)
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      align-items: center
+    }
+
+    .nav-link {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--dim);
+      letter-spacing: 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color .3s
+    }
+
+    .nav-link:hover {
+      color: var(--lavender)
+    }
+
+    .nav-link.active {
+      color: var(--plasma);
+      font-weight: 800
+    }
+
+    .nav-year {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--lavender);
+      letter-spacing: 2px;
+      opacity: .7
+    }
+
+    .divider {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(124, 58, 237, .4), transparent);
+      position: relative;
+      z-index: 1
+    }
+
+    /* ━━━━━━━━ HERO ━━━━━━━━ */
+    #hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 8vw;
+      overflow: hidden;
+      position: relative;
+      z-index: 1
+    }
+
+    .hero-eyebrow {
+      font-family: var(--mono);
+      font-size: 13px;
+      letter-spacing: 6px;
+      color: var(--plasma);
+      text-transform: uppercase;
+      margin-bottom: 28px;
+      opacity: 0;
+      transform: translateY(30px)
+    }
+
+    .hero-title-outer {
+      font-family: var(--display);
+      font-size: clamp(72px, 12vw, 200px);
+      line-height: .88;
+    }
+
+    .title-line-wrap {
+      display: block;
+      overflow: hidden;
+      line-height: 1.02
+    }
+
+    .title-line-inner {
+      display: block;
+      transform: translateY(110%);
+      opacity: 0;
+    }
+
+    .title-line-inner.accent {
+      -webkit-text-stroke: 1.5px var(--plasma);
+      color: transparent
+    }
+
+    .title-line-inner.small-line {
+      font-size: clamp(28px, 4vw, 64px);
+      color: var(--lavender);
+      letter-spacing: 6px;
+    }
+
+    .hero-sub {
+      margin-top: 44px;
+      max-width: 560px;
+      font-size: 18px;
+      line-height: 1.85;
+      color: var(--mist);
+      opacity: 0;
+      transform: translateY(30px)
+    }
+
+    .hero-scroll-hint {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--dim);
+      letter-spacing: 4px;
+      margin-top: 52px;
+      opacity: 0;
+      transform: translateY(20px)
+    }
+
+    .scroll-line {
+      width: 60px;
+      height: 1px;
+      background: linear-gradient(90deg, var(--purple), transparent)
+    }
+
+    .hero-badge {
+      position: absolute;
+      right: 8vw;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 180px;
+      height: 180px;
+      border: 1px solid rgba(167, 139, 250, .2);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--lavender);
+      letter-spacing: 2px;
+      text-align: center;
+      line-height: 2.2;
+      opacity: 0;
+    }
+
+    .hero-badge::before {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      border-radius: 50%;
+      background: conic-gradient(var(--purple) 0%, transparent 60%);
+      animation: rotateBadge 8s linear infinite;
+      z-index: -1
+    }
+
+    .badge-num {
+      font-family: var(--display);
+      font-size: 36px;
+      color: var(--starlight);
+      line-height: 1;
+      display: block;
+      margin-bottom: 4px
+    }
+
+    .badge-label {
+      font-size: 9px;
+      letter-spacing: 3px
+    }
+
+    /* ━━━━━━━━ CHAPTER TAG ━━━━━━━━ */
+    .chapter-tag {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--purple);
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      opacity: 0;
+      transform: translateY(20px)
+    }
+
+    .chapter-tag::before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 1px;
+      background: var(--purple)
+    }
+
+    /* ━━━━━━━━ SHIFT (WAS: PROBLEM) ━━━━━━━━ */
+    #shift {
+      padding: 130px 8vw;
+      background: linear-gradient(180deg, var(--void), var(--deep));
+      position: relative;
+      z-index: 1
+    }
+
+    .shift-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: start;
+      margin-top: 70px
+    }
+
+    .shift-headline {
+      font-family: var(--display);
+      font-size: clamp(48px, 6vw, 96px);
+      line-height: .95
+    }
+
+    .shift-headline span {
+      color: var(--plasma)
+    }
+
+    .shift-desc {
+      font-size: 18px;
+      line-height: 1.8;
+      color: var(--mist);
+      margin-top: 32px;
+      border-left: 2px solid var(--purple);
+      padding-left: 24px;
+      opacity: 0;
+      transform: translateY(30px)
+    }
+
+    .shift-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px
+    }
+
+    .shift-card {
+      background: rgba(91, 33, 182, .08);
+      border: 1px solid rgba(124, 58, 237, .2);
+      border-radius: 12px;
+      padding: 28px;
+      cursor: default;
+      opacity: 0;
+      transform: translateY(40px) scale(.96);
+      transition: background .4s, border-color .4s, box-shadow .4s, transform .35s
+    }
+
+    .shift-card:hover {
+      background: rgba(91, 33, 182, .18);
+      border-color: rgba(217, 70, 239, .4);
+      box-shadow: 0 20px 60px rgba(124, 58, 237, .15);
+      transform: translateY(-6px) scale(1) !important
+    }
+
+    .shift-icon {
+      font-size: 28px;
+      margin-bottom: 16px;
+      display: block
+    }
+
+    .shift-title {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: var(--lavender);
+      margin-bottom: 8px;
+      text-transform: uppercase
+    }
+
+    .shift-text {
+      font-family: var(--mono);
+      font-size: 16px;
+      color: var(--dim);
+      line-height: 1.6
+    }
+
+    /* ━━━━━━━━ VISION (RETAIL OS) ━━━━━━━━ */
+    #vision {
+      padding: 130px 8vw;
+      background: var(--deep);
+      overflow: hidden;
+      position: relative;
+      z-index: 1
+    }
+
+    .vision-big {
+      font-family: var(--display);
+      font-size: clamp(36px, 5.5vw, 88px);
+      line-height: 1.1;
+      max-width: 1100px;
+      margin: 60px 0;
+    }
+
+    .vision-big .hl {
+      background: linear-gradient(90deg, var(--purple), var(--plasma));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent
+    }
+
+    .vision-big .ow {
+      -webkit-text-stroke: 1px var(--lavender);
+      color: transparent
+    }
+
+    .vline-wrap {
+      display: block;
+      overflow: hidden
+    }
+
+    .vline-inner {
+      display: block;
+      transform: translateY(110%);
+      opacity: 0
+    }
+
+    .vision-stat-row {
+      display: flex;
+      gap: 60px;
+      margin-top: 80px;
+      border-top: 1px solid rgba(167, 139, 250, .15);
+      padding-top: 60px
+    }
+
+    .vision-stat {
+      flex: 1;
+      opacity: 0;
+      transform: translateY(30px)
+    }
+
+    .stat-num {
+      font-family: var(--display);
+      font-size: clamp(48px, 6vw, 80px);
+      background: linear-gradient(135deg, var(--lavender), var(--plasma));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: block;
+      line-height: 1
+    }
+
+    .stat-label {
+      font-family: var(--mono);
+      font-size: 15px;
+      color: var(--dim);
+      letter-spacing: 3px;
+      margin-top: 8px;
+      text-transform: uppercase
+    }
+
+    /* ━━━━━━━━ 3 AI SERVICES ━━━━━━━━ */
+    #tech {
+      padding: 130px 8vw;
+      background: linear-gradient(180deg, var(--deep), var(--nebula));
+      position: relative;
+      z-index: 1
+    }
+
+    .tech-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 80px
+    }
+
+    .tech-title {
+      font-family: var(--display);
+      font-size: clamp(48px, 6vw, 90px);
+      line-height: .9
+    }
+
+    .tech-desc-side {
+      max-width: 300px;
+      font-family: var(--mono);
+      font-size: 16px;
+      color: var(--dim);
+      line-height: 1.8;
+      text-align: right;
+      opacity: 0;
+      transform: translateY(20px)
+    }
+
+    .tech-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px
+    }
+
+    .tech-card {
+      perspective: 1000px;
+      height: 460px;
+      cursor: pointer;
+      opacity: 0;
+      transform: translateY(50px) scale(.95)
+    }
+
+    .tc-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform .7s cubic-bezier(.23, 1, .32, 1);
+      transform-style: preserve-3d
+    }
+
+    .tech-card:hover .tc-inner {
+      transform: rotateY(180deg)
+    }
+
+    .tc-front,
+    .tc-back {
+      position: absolute;
+      inset: 0;
+      backface-visibility: hidden;
+      border-radius: 16px;
+      padding: 40px;
+      border: 1px solid rgba(124, 58, 237, .25)
+    }
+
+    .tc-front {
+      background: linear-gradient(135deg, rgba(91, 33, 182, .15), rgba(4, 2, 12, .8));
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end
+    }
+
+    .tc-back {
+      background: linear-gradient(135deg, var(--nebula), rgba(91, 33, 182, .3));
+      transform: rotateY(180deg);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-color: rgba(217, 70, 239, .4)
+    }
+
+    .tc-num {
+      font-family: var(--display);
+      font-size: 100px;
+      color: rgba(167, 139, 250, .07);
+      line-height: 1;
+      position: absolute;
+      top: 16px;
+      right: 20px
+    }
+
+    .tc-icon {
+      font-size: 48px;
+      margin-bottom: 24px
+    }
+
+    .tc-name {
+      font-family: var(--display);
+      font-size: 28px;
+      color: var(--starlight);
+      margin-bottom: 8px;
+      line-height: 1.1
+    }
+
+    .tc-tag {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--plasma);
+      letter-spacing: 3px;
+      text-transform: uppercase
+    }
+
+    .tc-desc {
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--mist);
+      margin: 16px 0
+    }
+
+    .tc-list {
+      list-style: none
+    }
+
+    .tc-list li {
+      font-family: var(--mono);
+      font-size: 15px;
+      color: var(--lavender);
+      padding: 7px 0;
+      border-bottom: 1px solid rgba(167, 139, 250, .1);
+      display: flex;
+      align-items: flex-start;
+      gap: 8px
+    }
+
+    .tc-list li::before {
+      content: '→';
+      color: var(--plasma);
+      font-size: 10px;
+      flex-shrink: 0;
+      margin-top: 1px
+    }
+
+    /* ━━━━━━━━ ARCHITECTURE PIPELINE ━━━━━━━━ */
+    #arch {
+      padding: 130px 8vw;
+      background: var(--nebula);
+      position: relative;
+      z-index: 1;
+      overflow: hidden
+    }
+
+    .arch-title {
+      font-family: var(--display);
+      font-size: clamp(48px, 6vw, 90px);
+      line-height: .9;
+      margin-top: 16px
+    }
+
+    .arch-subtitle {
+      font-family: var(--mono);
+      font-size: 17px;
+      color: var(--mist);
+      line-height: 1.8;
+      max-width: 680px;
+      margin-top: 32px;
+      opacity: 0;
+      transform: translateY(20px)
+    }
+
+    .arch-flow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      margin-top: 80px;
+      position: relative
+    }
+
+    .arch-flow::before {
+      content: '';
+      position: absolute;
+      top: 60px;
+      left: 10%;
+      right: 10%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--purple), var(--plasma), var(--purple), transparent);
+      z-index: 0
+    }
+
+    .arch-node {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 16px;
+      position: relative;
+      z-index: 1;
+      opacity: 0;
+      transform: translateY(40px)
+    }
+
+    .arch-dot {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, rgba(91, 33, 182, .3), rgba(4, 2, 12, .8));
+      border: 1px solid rgba(124, 58, 237, .4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      margin-bottom: 20px;
+      position: relative;
+      transition: transform .4s, box-shadow .4s, border-color .4s
+    }
+
+    .arch-node:hover .arch-dot {
+      transform: scale(1.1);
+      box-shadow: 0 0 40px rgba(124, 58, 237, .4);
+      border-color: var(--plasma)
+    }
+
+    .arch-dot-label {
+      font-family: var(--display);
+      font-size: 11px;
+      position: absolute;
+      bottom: -6px;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      color: var(--plasma);
+      letter-spacing: 2px
+    }
+
+    .arch-node-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--lavender);
+      margin-bottom: 8px;
+      letter-spacing: .5px
+    }
+
+    .arch-node-desc {
+      font-family: var(--mono);
+      font-size: 15px;
+      color: var(--dim);
+      line-height: 1.6
+    }
+
+    .arch-row2 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      margin-top: 60px
+    }
+
+    .arch-connector {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: translateY(10px)
+    }
+
+    .arch-connector-line {
+      width: 1px;
+      height: 40px;
+      background: linear-gradient(180deg, var(--purple), var(--plasma));
+      margin: 0 auto
+    }
+
+    .arch-loop {
+      margin-top: 60px;
+      background: rgba(91, 33, 182, .08);
+      border: 1px solid rgba(124, 58, 237, .2);
+      border-radius: 16px;
+      padding: 40px;
+      display: flex;
+      gap: 48px;
+      align-items: flex-start;
+      opacity: 0;
+      transform: translateY(30px)
+    }
+
+    .arch-loop-icon {
+      font-size: 40px;
+      flex-shrink: 0
+    }
+
+    .arch-loop-title {
+      font-family: var(--display);
+      font-size: 24px;
+      color: var(--lavender);
+      margin-bottom: 12px
+    }
+
+    .arch-loop-desc {
+      font-family: var(--mono);
+      font-size: 16px;
+      color: var(--dim);
+      line-height: 1.8
+    }
+
+    .arch-loop-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px
+    }
+
+    .arch-loop-tag {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--plasma);
+      border: 1px solid rgba(217, 70, 239, .3);
+      padding: 4px 12px;
+      border-radius: 20px;
+      letter-spacing: 1px
+    }
+
+    /* SSOT + KG Section inside arch */
+    .ssot-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 60px
+    }
+
+    .ssot-card {
+      background: rgba(91, 33, 182, .06);
+      border: 1px solid rgba(124, 58, 237, .18);
+      border-radius: 16px;
+      padding: 36px;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: background .4s, border-color .4s
+    }
+
+    .ssot-card:hover {
+      background: rgba(91, 33, 182, .14);
+      border-color: rgba(217, 70, 239, .35)
+    }
+
+    .ssot-card-icon {
+      font-size: 36px;
+      margin-bottom: 16px;
+      display: block
+    }
+
+    .ssot-card-title {
+      font-family: var(--display);
+      font-size: 22px;
+      color: var(--starlight);
+      margin-bottom: 12px
+    }
+
+    .ssot-card-desc {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--mist)
+    }
+
+    .ssot-card-list {
+      margin-top: 16px;
+      list-style: none
+    }
+
+    .ssot-card-list li {
+      font-family: var(--mono);
+      font-size: 15px;
+      color: var(--lavender);
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(167, 139, 250, .08);
+      display: flex;
+      align-items: center;
+      gap: 8px
+    }
+
+    .ssot-card-list li::before {
+      content: '›';
+      color: var(--plasma)
+    }
+
+    /* ━━━━━━━━ SCENARIOS ━━━━━━━━ */
+    #scenarios {
+      padding: 130px 0;
+      background: linear-gradient(180deg, var(--nebula), var(--deep));
+      position: relative;
+      z-index: 1
+    }
+
+    .scenarios-heading {
+      padding: 0 8vw;
+      margin-bottom: 56px
+    }
+
+    .scenarios-title {
+      font-family: var(--display);
+      font-size: clamp(48px, 6vw, 90px);
+      line-height: .9;
+      margin-top: 16px
+    }
+
+    .drag-hint {
+      font-family: var(--mono);
+      font-size: 14px;
+      color: var(--dim);
+      margin-top: 16px;
+      opacity: 0;
+      transform: translateY(10px)
+    }
+
+    .scroll-track {
+      display: flex;
+      gap: 24px;
+      padding: 20px 8vw 44px;
+      overflow-x: auto;
+      cursor: grab;
+      scrollbar-width: none
+    }
+
+    .scroll-track::-webkit-scrollbar {
+      display: none
+    }
+
+    .scroll-track:active {
+      cursor: grabbing
+    }
+
+    .s-card {
+      flex: 0 0 400px;
+      height: 540px;
+      border-radius: 20px;
+      padding: 40px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      border: 1px solid rgba(124, 58, 237, .2);
+      transition: transform .4s cubic-bezier(.23, 1, .32, 1), box-shadow .4s;
+      opacity: 0;
+      transform: translateY(50px) scale(.95)
+    }
+
+    .s-card:hover {
+      transform: translateY(-10px) scale(1) !important;
+      box-shadow: 0 30px 80px rgba(91, 33, 182, .3)
+    }
+
+    .s-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 20%, rgba(4, 2, 12, .97) 100%);
+      z-index: 1
+    }
+
+    .s-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--plasma), transparent);
+      z-index: 3;
+      opacity: 0;
+      transition: opacity .4s
+    }
+
+    .s-card:hover::after {
+      opacity: 1
+    }
+
+    .s-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0
+    }
+
+    .s-content {
+      position: relative;
+      z-index: 2
+    }
+
+    .s-label {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--plasma);
+      letter-spacing: 4px;
+      margin-bottom: 8px;
+      text-transform: uppercase
+    }
+
+    .s-year {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: rgba(167, 139, 250, .5);
+      letter-spacing: 3px;
+      margin-bottom: 16px
+    }
+
+    .s-title {
+      font-family: var(--display);
+      font-size: 26px;
+      line-height: 1.15;
+      margin-bottom: 16px;
+      white-space: pre-line
+    }
+
+    .s-desc {
+      font-family: var(--mono);
+      font-size: 15px;
+      color: var(--mist);
+      line-height: 1.75
+    }
+
+    .s-tag {
+      display: inline-block;
+      margin-top: 14px;
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--purple);
+      border: 1px solid rgba(124, 58, 237, .35);
+      padding: 3px 10px;
+      border-radius: 20px;
+      letter-spacing: 1px
+    }
+
+    /* ━━━━━━━━ STATS ━━━━━━━━ */
+    #stats {
+      padding: 130px 8vw;
+      background: linear-gradient(180deg, var(--deep), var(--void));
+      position: relative;
+      z-index: 1
+    }
+
+    .stats-title {
+      font-family: var(--display);
+      font-size: clamp(48px, 6vw, 90px);
+      line-height: .9;
+      margin-top: 24px
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 80px;
+      border: 1px solid rgba(124, 58, 237, .2);
+      border-radius: 20px;
+      overflow: hidden
+    }
+
+    .sb {
+      padding: 60px 40px;
+      text-align: center;
+      border-right: 1px solid rgba(124, 58, 237, .2);
+      position: relative;
+      overflow: hidden;
+      transition: background .4s;
+      opacity: 0;
+      transform: scale(.93)
+    }
+
+    .sb:last-child {
+      border-right: none
+    }
+
+    .sb:hover {
+      background: rgba(91, 33, 182, .12)
+    }
+
+    .sb::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 0%, rgba(217, 70, 239, .1), transparent 70%);
+      opacity: 0;
+      transition: opacity .4s
+    }
+
+    .sb:hover::before {
+      opacity: 1
+    }
+
+    .sb-val {
+      font-family: var(--display);
+      font-size: clamp(48px, 5vw, 72px);
+      background: linear-gradient(135deg, #c084fc, var(--plasma));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+      display: block
+    }
+
+    .sb-unit {
+      font-family: var(--display);
+      font-size: 32px;
+      color: var(--lavender)
+    }
+
+    .sb-desc {
+      font-family: var(--mono);
+      font-size: 15px;
+      color: var(--dim);
+      letter-spacing: 2px;
+      margin-top: 12px;
+      text-transform: uppercase;
+      line-height: 1.5
+    }
+
+    /* ━━━━━━━━ CONCLUSION SUMMARY ━━━━━━━━ */
+    #summary {
+      padding: 130px 8vw;
+      background: var(--void);
+      position: relative;
+      z-index: 1
+    }
+
+    .summary-title {
+      font-family: var(--display);
+      font-size: clamp(48px, 6vw, 90px);
+      line-height: .9;
+      margin-top: 24px;
+      margin-bottom: 80px
+    }
+
+    .summary-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0
+    }
+
+    .summary-item {
+      display: flex;
+      gap: 48px;
+      align-items: flex-start;
+      padding: 48px 0;
+      border-bottom: 1px solid rgba(124, 58, 237, .15);
+      opacity: 0;
+      transform: translateX(-30px)
+    }
+
+    .summary-item:last-child {
+      border-bottom: none
+    }
+
+    .summary-num {
+      font-family: var(--display);
+      font-size: 80px;
+      color: rgba(124, 58, 237, .15);
+      line-height: 1;
+      flex-shrink: 0;
+      width: 100px;
+      text-align: right
+    }
+
+    .summary-body-title {
+      font-family: var(--display);
+      font-size: clamp(24px, 3vw, 40px);
+      color: var(--starlight);
+      margin-bottom: 16px;
+      line-height: 1.1
+    }
+
+    .summary-body-title .hl {
+      background: linear-gradient(90deg, var(--lavender), var(--plasma));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent
+    }
+
+    .summary-body-desc {
+      font-family: var(--mono);
+      font-size: 17px;
+      color: var(--dim);
+      line-height: 1.8;
+      max-width: 680px
+    }
+
+    /* ━━━━━━━━ CTA ━━━━━━━━ */
+    #cta {
+      padding: 160px 8vw;
+      text-align: center;
+      background: var(--void);
+      position: relative;
+      overflow: hidden;
+      z-index: 1
+    }
+
+    #cta::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(124, 58, 237, .12), transparent 70%);
+      pointer-events: none
+    }
+
+    .cta-over {
+      font-family: var(--mono);
+      font-size: 15px;
+      color: var(--plasma);
+      letter-spacing: 6px;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      opacity: 0;
+      transform: translateY(20px)
+    }
+
+    .cta-title-outer {
+      font-family: var(--display);
+      font-size: clamp(64px, 10vw, 160px);
+      line-height: .88;
+      margin-bottom: 60px
+    }
+
+    .cta-ghost {
+      -webkit-text-stroke: 1px rgba(167, 139, 250, .4);
+      color: transparent;
+      display: block
+    }
+
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+      background: linear-gradient(135deg, var(--purple), var(--fuchsia));
+      color: #fff;
+      text-decoration: none;
+      font-family: var(--mono);
+      font-size: 15px;
+      letter-spacing: 3px;
+      padding: 20px 48px;
+      border-radius: 60px;
+      border: none;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: transform .3s, box-shadow .3s;
+      opacity: 0;
+      transform: translateY(30px) scale(.95)
+    }
+
+    .cta-btn:hover {
+      transform: scale(1.07) !important;
+      box-shadow: 0 24px 64px rgba(217, 70, 239, .35)
+    }
+
+    .cta-foot {
+      margin-top: 80px;
+      font-family: var(--mono);
+      font-size: 14px;
+      color: rgba(107, 114, 128, .4);
+      letter-spacing: 2px;
+      opacity: 0;
+      transform: translateY(20px)
+    }
+
+    @keyframes rotateBadge {
+      from {
+        transform: rotate(0deg)
+      }
+
+      to {
+        transform: rotate(360deg)
+      }
+    }
+
+    @keyframes pulseLine {
+
+      0%,
+      100% {
+        opacity: .4
+      }
+
+      50% {
+        opacity: 1
+      }
+    }
+
+    .scroll-line {
+      animation: pulseLine 2s infinite
+    }
+
+    @keyframes archPulse {
+
+      0%,
+      100% {
+        box-shadow: 0 0 0 0 rgba(124, 58, 237, 0)
+      }
+
+      50% {
+        box-shadow: 0 0 0 8px rgba(124, 58, 237, .15)
+      }
+    }
+
+    @media(max-width:768px) {
+
+      .shift-grid,
+      .tech-cards,
+      .ssot-grid {
+        grid-template-columns: 1fr
+      }
+
+      .arch-flow,
+      .arch-row2 {
+        grid-template-columns: 1fr 1fr
+      }
+
+      .stats-grid {
+        grid-template-columns: 1fr 1fr
+      }
+
+      .tech-header {
+        flex-direction: column;
+        gap: 24px
+      }
+
+      .vision-stat-row {
+        flex-direction: column;
+        gap: 40px
+      }
+
+      .hero-badge {
+        display: none
+      }
+
+      #vbar-wrap {
+        display: none
+      }
+
+      .arch-loop {
+        flex-direction: column;
+        gap: 24px
+      }
+
+      .summary-item {
+        flex-direction: column;
+        gap: 16px
+      }
+
+      .summary-num {
+        font-size: 48px;
+        width: auto;
+        text-align: left
+      }
+
+      .nav-links {
+        display: none
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+  <div id="progress-bar"></div>
+  <canvas id="bg-canvas"></canvas>
+
+  <div id="vbar-wrap">
+    <div id="vbar-track">
+      <div id="vbar-fill"></div>
+    </div>
+    <div id="vbar-label">VEL</div>
+  </div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">AI×RETAIL OS</div>
+    <div class="nav-links main-menu">
+      <a href="ai-shopping-v4.html" class="nav-link active">Home</a>
+      <a href="blog.html" class="nav-link">Blogs</a>
+    </div>
+  </nav>
+
+  <!-- ════════════════ HERO ════════════════ -->
+  <section id="hero">
+    <div class="hero-eyebrow">Chapter 00 — The Operating System of Retail</div>
+
+    <div class="hero-title-outer" id="hero-title">
+      <div class="title-line-wrap">
+        <span class="title-line-inner">NEXT</span>
+      </div>
+      <div class="title-line-wrap">
+        <span class="title-line-inner accent">AI RETAIL</span>
+      </div>
+      <div class="title-line-wrap">
+        <span class="title-line-inner">OS</span>
+      </div>
+      <div class="title-line-wrap">
+        <span class="title-line-inner small-line">POWERED BY CONVERSATION</span>
+      </div>
+    </div>
+
+    <p class="hero-sub">
+      진열(Display)의 시대가 끝나고, <span style="color:var(--plasma)">대화(Conversation)의 시대</span>가 시작된다.<br>
+      AI는 단순한 챗봇을 넘어, 리테일 비즈니스 전체를 재설계하는<br>
+      <strong style="color:var(--lavender)">차세대 운영체계(Retail OS)</strong>가 된다.
+    </p>
+
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+      <span>SCROLL TO EXPLORE</span>
+    </div>
+
+    <div class="hero-badge">
+      <span class="badge-num">2030</span>
+      <span class="badge-label">AGENTIC</span>
+      <span class="badge-label">COMMERCE</span>
+      <span class="badge-label">ERA</span>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ════════════════ THE SHIFT ════════════════ -->
+  <section id="shift">
+    <div class="chapter-tag">Chapter 01 — The Great Shift</div>
+    <div class="shift-grid">
+      <div>
+        <div class="shift-headline">
+          <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">진열의</span></div>
+          <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit"><span
+                style="color:var(--plasma)">시대에서</span></span></div>
+          <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">대화로</span></div>
+        </div>
+        <p class="shift-desc">
+          오프라인 매대와 이커머스의 물량 경쟁은 끝났다.<br>
+          이제 고객의 <strong style="color:var(--lavender)">모호한 발화(Utterance)</strong>를 구조화된 커머스 신호로 변환하여,<br>
+          상품 데이터·마케팅·판매 프로세스 전체를 재설계하는<br>
+          AI 기반 고객 접점의 시대가 열린다.
+        </p>
+      </div>
+      <div class="shift-cards">
+        <div class="shift-card"><span class="shift-icon">📣</span>
+          <div class="shift-title">물량 경쟁의 종말</div>
+          <p class="shift-text">하루 2만 개 이상의 새로운 SKU. '더 많이 보여주기' 전략은 고객을 지치게 만든다. 이제 정답은 '더 잘 이해하기'다.</p>
+        </div>
+        <div class="shift-card"><span class="shift-icon">💬</span>
+          <div class="shift-title">발화가 데이터가 된다</div>
+          <p class="shift-text">"제주도 여행에 입을 시원하면서 격식 있는 옷"—고객의 말이 곧 의도(Intent)다. 클릭은 '무엇을'만 말하지만, 대화는 '왜'를 말한다.</p>
+        </div>
+        <div class="shift-card"><span class="shift-icon">🤖</span>
+          <div class="shift-title">에이전틱 커머스</div>
+          <p class="shift-text">AI 에이전트가 탐색·비교·결제를 대행한다. 고객은 더 이상 쇼핑을 '노동'하지 않는다. 고객 접점의 소유권 전쟁이 시작됐다.</p>
+        </div>
+        <div class="shift-card"><span class="shift-icon">🏗️</span>
+          <div class="shift-title">리테일 OS의 부상</div>
+          <p class="shift-text">AI는 챗봇 UI가 아니다. 고객 접점·콘텐츠·공급망·판매 전략을 통합하는 차세대 리테일 운영체계(Retail OS)다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ════════════════ VISION ════════════════ -->
+  <section id="vision">
+    <div class="chapter-tag">Chapter 02 — The Retail OS Vision</div>
+    <div class="vision-big" id="vision-text">
+      <div class="vline-wrap">
+        <div class="vline-inner">고객 발화에서 <span class="hl">의도를 포착</span>하고,</div>
+      </div>
+      <div class="vline-wrap">
+        <div class="vline-inner"><span class="ow">맥락을 개인화</span>하며,</div>
+      </div>
+      <div class="vline-wrap">
+        <div class="vline-inner">실시간으로 <span class="hl">콘텐츠를 생성</span>하여</div>
+      </div>
+      <div class="vline-wrap">
+        <div class="vline-inner">결제까지 완성하는 <span class="hl">에이전트</span></div>
+      </div>
+    </div>
+    <div class="vision-stat-row">
+      <div class="vision-stat"><span class="stat-num" id="st1">0B</span>
+        <div class="stat-label">Global AI Retail Market 2030</div>
+      </div>
+      <div class="vision-stat"><span class="stat-num" id="st2">0%</span>
+        <div class="stat-label">AI 쇼핑 경험 선호율</div>
+      </div>
+      <div class="vision-stat"><span class="stat-num" id="st3">0X</span>
+        <div class="stat-label">AI 개인화 ROI</div>
+      </div>
+      <div class="vision-stat"><span class="stat-num" id="st4">0S</span>
+        <div class="stat-label">AI 쇼핑 의사결정 시간</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ════════════════ 3 AI SERVICES ════════════════ -->
+  <section id="tech">
+    <div class="tech-header">
+      <div>
+        <div class="chapter-tag">Chapter 03 — 3 AI Services for Retailers</div>
+        <div class="tech-title">
+          <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">세 가지</span></div>
+          <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">고객 접점</span></div>
+          <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">AI 서비스</span></div>
+        </div>
+      </div>
+      <p class="tech-desc-side">카드를 뒤집어<br>각 서비스의<br>핵심을 확인하라</p>
+    </div>
+    <div class="tech-cards">
+      <!-- Card 1: Online AI Shopping Agent -->
+      <div class="tech-card">
+        <div class="tc-inner">
+          <div class="tc-front">
+            <div class="tc-num">01</div>
+            <div class="tc-icon">🛒</div>
+            <div class="tc-name">ONLINE AI SHOPPING AGENT</div>
+            <div class="tc-tag">Consideration · Conversion</div>
+          </div>
+          <div class="tc-back">
+            <div class="tc-tag" style="margin-bottom:16px">Online Agent</div>
+            <p class="tc-desc">모호한 요구를 명확히 하는 질문 생성, 후보군 검색·요약, 대화 메모리 유지, 하이브리드 인덱스 기반 검색 루프—구매 의사결정 전 단계를 AI가 대행한다.
+            </p>
+            <ul class="tc-list">
+              <li>NLU 기반 의도·제약조건 추출</li>
+              <li>개인화 컨텍스트 + 쇼핑 메모리</li>
+              <li>RAG 기반 근거 있는 추천·비교표</li>
+              <li>장바구니·쿠폰·주문 자동 실행</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2: Offline Sales AI Assistant -->
+      <div class="tech-card">
+        <div class="tc-inner">
+          <div class="tc-front">
+            <div class="tc-num">02</div>
+            <div class="tc-icon">🏪</div>
+            <div class="tc-name">OFFLINE SALES AI ASSISTANT</div>
+            <div class="tc-tag">In-Store · Staff Empowerment</div>
+          </div>
+          <div class="tc-back">
+            <div class="tc-tag" style="margin-bottom:16px">Offline Assistant</div>
+            <p class="tc-desc">직원이 고객 앞에서 당장 사용하는 도구. 지연시간은 단순 성능 지표가 아니라 신뢰·전문성·응대 품질의 일부다. 흐름을 끊지 않는 답이 핵심.</p>
+            <ul class="tc-list">
+              <li>상품 추천·비교 즉시 제시</li>
+              <li>재고·대체재·프로모션 실시간 안내</li>
+              <li>정책·AS·설치 스크립트 생성</li>
+              <li>실시간 번역 + 현장 지식 접근</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3: GEO -->
+      <div class="tech-card">
+        <div class="tc-inner">
+          <div class="tc-front">
+            <div class="tc-num">03</div>
+            <div class="tc-icon">🔍</div>
+            <div class="tc-name">GEO GENERATIVE ENGINE OPTIMIZATION</div>
+            <div class="tc-tag">Discover · AI Visibility</div>
+          </div>
+          <div class="tc-back">
+            <div class="tc-tag" style="margin-bottom:16px">GEO Agent</div>
+            <p class="tc-desc">경쟁 단위가 '트래픽'에서 'AI 답변 내 인용'으로 이동한다. 브랜드/상품 노출은 이제 AI가 생성한 하나의 답변 속 언급 여부가 결정한다.</p>
+            <ul class="tc-list">
+              <li>상품 상세 페이지 Fact Density 강화</li>
+              <li>Schema.org 구조화 데이터 적용</li>
+              <li>GEO Audit + 자동 콘텐츠 생성기</li>
+              <li>Retrieval → Generation → Ranking 최적화</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ════════════════ ARCHITECTURE PIPELINE ════════════════ -->
+  <section id="arch">
+    <div class="chapter-tag">Chapter 04 — Backend Architecture</div>
+    <div class="arch-title">
+      <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">의도에서</span></div>
+      <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">행동까지</span></div>
+    </div>
+    <p class="arch-subtitle">
+      고객의 발화로부터 직접적인 Intent를 수집하고, 5계층 파이프라인을 통해<br>
+      실시간 개인화된 행동까지 자동으로 완성하는 End-to-End 아키텍처
+    </p>
+
+    <!-- 5-layer pipeline -->
+    <div class="arch-flow">
+      <div class="arch-node">
+        <div class="arch-dot">
+          <span style="font-size:36px">🗣️</span>
+          <span class="arch-dot-label">LAYER 1</span>
+        </div>
+        <div class="arch-node-title">고객 발화</div>
+        <div class="arch-node-desc">NLU 기반 의도·제약조건 추출 (구조화 출력)</div>
+      </div>
+      <div class="arch-node">
+        <div class="arch-dot">
+          <span style="font-size:36px">🧩</span>
+          <span class="arch-dot-label">LAYER 2</span>
+        </div>
+        <div class="arch-node-title">맥락 결합</div>
+        <div class="arch-node-desc">고객 프로필·세션·메모리·행동로그 개인화</div>
+      </div>
+      <div class="arch-node">
+        <div class="arch-dot">
+          <span style="font-size:36px">🔎</span>
+          <span class="arch-dot-label">LAYER 3</span>
+        </div>
+        <div class="arch-node-title">후보 생성</div>
+        <div class="arch-node-desc">키워드+속성 필터+벡터 검색 및 랭킹</div>
+      </div>
+      <div class="arch-node">
+        <div class="arch-dot">
+          <span style="font-size:36px">✍️</span>
+          <span class="arch-dot-label">LAYER 4</span>
+        </div>
+        <div class="arch-node-title">근거 생성</div>
+        <div class="arch-node-desc">RAG — 정책·리뷰·스펙 인용, 비교표 생성</div>
+      </div>
+    </div>
+    <div class="arch-flow" style="margin-top:32px">
+      <div class="arch-node" style="grid-column:2 / span 2">
+        <div class="arch-dot" style="width:140px;height:140px">
+          <span style="font-size:40px">⚡</span>
+          <span class="arch-dot-label">LAYER 5</span>
+        </div>
+        <div class="arch-node-title">행동 실행 + 학습 루프</div>
+        <div class="arch-node-desc">장바구니·쿠폰·재고확인·주문·CS 티켓 자동 실행<br>→ 실패·누락·불만 로그 수집 → 콘텐츠·정책 재설계</div>
+      </div>
+    </div>
+
+    <!-- SSOT + KG -->
+    <div style="margin-top:80px">
+      <div class="chapter-tag" style="opacity:1;transform:none;margin-bottom:16px">핵심 인프라</div>
+      <div
+        style="font-family:var(--display);font-size:clamp(28px,3.5vw,52px);color:var(--starlight);margin-bottom:40px">
+        SSOT + Knowledge Graph</div>
+    </div>
+    <div class="ssot-grid">
+      <div class="ssot-card">
+        <span class="ssot-card-icon">🗄️</span>
+        <div class="ssot-card-title">SSOT — Single Source of Truth</div>
+        <p class="ssot-card-desc">파편화된 데이터 사이로(Silo)를 제거하고, 제품명·가격·재고 상황에 대해 기업 내 유일하고 최신의 정보 기준점을 제공한다.</p>
+        <ul class="ssot-card-list">
+          <li>데이터 무결성(Data Integrity) 담보</li>
+          <li>전사 공통 언어로 의도 판별</li>
+          <li>AI 답변의 사실 기반 보장</li>
+        </ul>
+      </div>
+      <div class="ssot-card">
+        <span class="ssot-card-icon">🕸️</span>
+        <div class="ssot-card-title">Knowledge Graph — GraphRAG</div>
+        <p class="ssot-card-desc">검증된 사실을 노드(엔티티)와 엣지(관계)로 연결 저장. AI가 이 그래프를 참조해 통계적 추측이 아닌 확정된 사실에 기반한 정밀 응대를 수행한다.</p>
+        <ul class="ssot-card-list">
+          <li>사양·리뷰·인증 정보 기반 신뢰도 평가</li>
+          <li>데이터가 풍부한 브랜드 우선 인용</li>
+          <li>시맨틱 레이어로 고객 언어 통일</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Closing Loop -->
+    <div class="arch-loop">
+      <div class="arch-loop-icon">🔁</div>
+      <div>
+        <div class="arch-loop-title">공급자 커뮤니케이션 재설계: Closing the Loop</div>
+        <p class="arch-loop-desc">
+          고객이 AI 챗봇과 나눈 대화 데이터는 제품 개발과 마케팅 콘텐츠 제작의 보물창고다.
+          고객이 자주 묻는 질문, 비교 시 언급하는 경쟁사, 사용 목적을 분석하면
+          기존의 공급자 중심 상세 페이지의 한계를 정확히 파악할 수 있다.
+          AI는 이 데이터로 세그먼트별 최적화 콘텐츠를 자동 생성한다.
+        </p>
+        <div class="arch-loop-tags">
+          <span class="arch-loop-tag">Intent Data</span>
+          <span class="arch-loop-tag">Content Generation</span>
+          <span class="arch-loop-tag">Supplier Redesign</span>
+          <span class="arch-loop-tag">Hyper-Personalization</span>
+          <span class="arch-loop-tag">GEO Feedback</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ════════════════ SCENARIOS ════════════════ -->
+  <section id="scenarios">
+    <div class="scenarios-heading">
+      <div class="chapter-tag">Chapter 05 — 2030 Live Scenarios</div>
+      <div class="scenarios-title">
+        <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">Retail OS가</span></div>
+        <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">작동하는 순간</span></div>
+      </div>
+      <p class="drag-hint">→ DRAG TO EXPLORE</p>
+    </div>
+    <div class="scroll-track" id="scenarioTrack">
+      <div class="s-card">
+        <div class="s-bg" style="background:radial-gradient(circle at 30% 40%,#4c1d95,#1e1b4b 40%,#04020c)"></div>
+        <div class="s-content">
+          <div class="s-label">Online AI Agent</div>
+          <div class="s-year">SCENARIO 01 · 09:15 AM</div>
+          <h3 class="s-title">대화 한 번으로&#10;쇼핑 완료</h3>
+          <p class="s-desc">고객: "다음 달 결혼식에 입을 세미포멀 재킷, 예산 30만원". AI가 체형·과거 구매·날씨·행사 분위기를 즉시 분석해 3개 후보와 비교표를 생성. 클릭 한 번에
+            주문.</p>
+          <span class="s-tag">RAG · Shopping Memory</span>
+        </div>
+      </div>
+      <div class="s-card">
+        <div class="s-bg" style="background:radial-gradient(circle at 70% 30%,#7e22ce,#312e81 40%,#04020c)"></div>
+        <div class="s-content">
+          <div class="s-label">Offline AI Assistant</div>
+          <div class="s-year">SCENARIO 02 · 14:30 PM</div>
+          <h3 class="s-title">직원의 말이&#10;더 정확해진다</h3>
+          <p class="s-desc">직원이 "에어컨 소음 문제요"라고 입력하는 순간, AI가 재고·AS 정책·대체 모델·할인 프로모션·설치 스크립트를 동시에 제시. 고객 앞에서 3초 이내.</p>
+          <span class="s-tag">Staff Empowerment · Latency UX</span>
+        </div>
+      </div>
+      <div class="s-card">
+        <div class="s-bg" style="background:radial-gradient(circle at 50% 60%,#6d28d9,#1e1b4b 50%,#04020c)"></div>
+        <div class="s-content">
+          <div class="s-label">GEO Optimization</div>
+          <div class="s-year">SCENARIO 03 · 11:00 AM</div>
+          <h3 class="s-title">AI 검색이&#10;우리 브랜드를 인용한다</h3>
+          <p class="s-desc">ChatGPT가 "최고의 캠핑 텐트"를 묻는 사용자에게 우리 제품을 3번째로 언급한다. GEO 에이전트가 Schema.org 구조화 데이터·Fact Density를
+            지속 최적화한 결과.</p>
+          <span class="s-tag">GEO · AI Visibility</span>
+        </div>
+      </div>
+      <div class="s-card">
+        <div class="s-bg" style="background:radial-gradient(circle at 20% 70%,#5b21b6,#0f0a1e 50%,#04020c)"></div>
+        <div class="s-content">
+          <div class="s-label">Intent Data → Content</div>
+          <div class="s-year">SCENARIO 04 · 16:00 PM</div>
+          <h3 class="s-title">대화가&#10;콘텐츠가 된다</h3>
+          <p class="s-desc">이번 주 챗봇 대화 1만 건 분석. "경량" 관심 백패커에게는 기술 스펙을, "아이 안전" 걱정하는 부모에게는 소재 안전성을 자동 생성해 각각 노출한다.</p>
+          <span class="s-tag">Hyper-Personalization · Auto Content</span>
+        </div>
+      </div>
+      <div class="s-card">
+        <div class="s-bg" style="background:radial-gradient(circle at 80% 50%,#9333ea,#1e1b4b 40%,#04020c)"></div>
+        <div class="s-content">
+          <div class="s-label">Agentic Commerce</div>
+          <div class="s-year">SCENARIO 05 · 22:00 PM</div>
+          <h3 class="s-title">자는 동안&#10;에이전트가 장 본다</h3>
+          <p class="s-desc">냉장고 AI가 식재료를 분석하고, 쇼핑 에이전트가 최저가를 비교한 뒤, 선호 마트에 자동 주문. 고객의 개입 없이 End-to-End 구매가 완료된다.</p>
+          <span class="s-tag">Agentic Commerce · Full Automation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ════════════════ STATS ════════════════ -->
+  <section id="stats">
+    <div class="chapter-tag">Chapter 06 — The Numbers</div>
+    <div class="stats-title">
+      <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">숫자가 말한다</span></div>
+    </div>
+    <div class="stats-grid">
+      <div class="sb"><span class="sb-val"><span class="counter" data-target="340" data-suffix="B">0B</span></span>
+        <div class="sb-desc">Global AI Retail Market 2030</div>
+      </div>
+      <div class="sb"><span class="sb-val"><span class="counter" data-target="73" data-suffix="%">0%</span></span>
+        <div class="sb-desc">소비자가 AI 쇼핑 경험 선호</div>
+      </div>
+      <div class="sb"><span class="sb-val"><span class="counter" data-target="11" data-suffix="X">0X</span></span>
+        <div class="sb-desc">AI 개인화 ROI (기존 대비)</div>
+      </div>
+      <div class="sb"><span class="sb-val"><span class="counter" data-target="2" data-suffix="S">0S</span></span>
+        <div class="sb-desc">AI 쇼핑 평균 결정 시간</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ════════════════ SUMMARY ════════════════ -->
+  <section id="summary">
+    <div class="chapter-tag">Chapter 07 — Key Takeaways</div>
+    <div class="summary-title">
+      <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">리테일러를</span></div>
+      <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">위한 결론</span></div>
+    </div>
+    <div class="summary-list">
+      <div class="summary-item">
+        <div class="summary-num">01</div>
+        <div class="summary-body">
+          <div class="summary-body-title">AI 경쟁력은 <span class="hl">진열이 아니라 문제정의 능력</span>이다</div>
+          <p class="summary-body-desc">얼마나 많은 상품을 보여주느냐가 아니라, 고객의 모호한 발화를 얼마나 정확하게 이해하고 해결해주느냐가 승부를 가른다. 대화형 인터페이스는 기업의
+            가장 중요한 자산이 된다.</p>
+        </div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-num">02</div>
+        <div class="summary-body">
+          <div class="summary-body-title">온라인 Agent·오프라인 Assistant·GEO는 <span class="hl">같은 대화 엔진의 다른 출구</span></div>
+          <p class="summary-body-desc">세 가지 서비스는 결국 하나의 고객 맥락(Single Customer Context)을 공유하는 유기체다. 채널별 분리 운영이 아니라, 통합된
+            Retail OS로 설계해야 진정한 개인화가 가능해진다.</p>
+        </div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-num">03</div>
+        <div class="summary-body">
+          <div class="summary-body-title">미래 검색은 <span class="hl">링크가 아니라 AI 답변</span>이다</div>
+          <p class="summary-body-desc">검색 결과 10개의 링크 경쟁은 끝난다. AI가 생성한 1개의 답변 속 인용·언급 여부가 브랜드 노출을 결정한다. 우리는 그 답의 품질을 설계해야
+            한다.</p>
+        </div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-num">04</div>
+        <div class="summary-body">
+          <div class="summary-body-title">쇼핑은 더 이상 <span class="hl">숙제가 아니라 대화</span>다</div>
+          <p class="summary-body-desc">리테일의 본질적 진화는 '구매라는 노동'을 '발견이라는 즐거움'으로 바꾸는 것이다. 미래의 리테일러는 물건을 파는 곳이 아니라, 고객의 쇼핑
+            문제를 해결해주는 지능형 파트너여야 한다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════ CTA ════════════════ -->
+  <section id="cta">
+    <div class="cta-over">The Future of Retail is Conversational</div>
+    <div class="cta-title-outer">
+      <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">WELCOME</span></div>
+      <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">TO THE</span></div>
+      <div class="title-line-wrap"><span class="title-line-inner cta-ghost" style="font-size:inherit">RETAIL OS</span>
+      </div>
+    </div>
+    <a href="blog.html" class="cta-btn">✦ AI Retail UPDATE ✦</a>
+    <p class="cta-foot">© 2030 NEXT AI RETAIL OS · POWERED BY AGENTIC COMMERCE · ALL TOUCHPOINTS UNIFIED</p>
+  </section>
+
+  <!-- ════════════════ SCRIPTS ════════════════ -->
+  <script>
+    /* ── THREE.JS PARTICLE BG ─────────────────────── */
+    (function () {
+      const canvas = document.getElementById('bg-canvas');
+      const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
+      renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+      renderer.setSize(innerWidth, innerHeight);
+
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 0.1, 2000);
+      camera.position.z = 500;
+
+      const N = 2800;
+      const pos = new Float32Array(N * 3);
+      const col = new Float32Array(N * 3);
+      const pal = [[.486, .227, .933], [.655, .541, .98], [.851, .275, .937], [.91, .475, .976], [.973, .957, 1], [.298, .114, .706]];
+      for (let i = 0; i < N; i++) {
+        pos[i * 3] = (Math.random() - .5) * 2000;
+        pos[i * 3 + 1] = (Math.random() - .5) * 2000;
+        pos[i * 3 + 2] = (Math.random() - .5) * 1500;
+        const c = pal[Math.floor(Math.random() * pal.length)];
+        col[i * 3] = c[0]; col[i * 3 + 1] = c[1]; col[i * 3 + 2] = c[2];
+      }
+      const geo = new THREE.BufferGeometry();
+      geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+      geo.setAttribute('color', new THREE.BufferAttribute(col, 3));
+      const mat = new THREE.PointsMaterial({ size: 2, vertexColors: true, transparent: true, opacity: .8 });
+      const stars = new THREE.Points(geo, mat);
+      scene.add(stars);
+
+      let mx = 0, my = 0;
+      document.addEventListener('mousemove', e => {
+        mx = (e.clientX / innerWidth - .5) * .3;
+        my = (e.clientY / innerHeight - .5) * .3;
+      });
+
+      const clock = new THREE.Clock();
+      (function tick() {
+        requestAnimationFrame(tick);
+        const t = clock.getElapsedTime();
+        stars.rotation.y = t * .02 + mx * .5;
+        stars.rotation.x = t * .01 + my * .3;
+        stars.rotation.z = t * .005;
+        camera.position.y = -scrollY * .05;
+        renderer.render(scene, camera);
+      })();
+
+      addEventListener('resize', () => {
+        camera.aspect = innerWidth / innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(innerWidth, innerHeight);
+      });
+    })();
+
+    /* ── CURSOR ─────────────────────────────────── */
+    (function () {
+      const dot = document.getElementById('cursor');
+      const ring = document.getElementById('cursor-ring');
+      let cx = 0, cy = 0, tx = 0, ty = 0;
+      document.addEventListener('mousemove', e => {
+        cx = e.clientX; cy = e.clientY;
+        dot.style.left = cx + 'px'; dot.style.top = cy + 'px';
+      });
+      (function loop() {
+        tx += (cx - tx) * .12; ty += (cy - ty) * .12;
+        ring.style.left = tx + 'px'; ring.style.top = ty + 'px';
+        requestAnimationFrame(loop);
+      })();
+      document.querySelectorAll('a,button,.tech-card,.shift-card,.s-card,.ssot-card,.arch-node').forEach(el => {
+        el.addEventListener('mouseenter', () => { dot.style.width = '20px'; dot.style.height = '20px'; ring.style.width = '64px'; ring.style.height = '64px' });
+        el.addEventListener('mouseleave', () => { dot.style.width = '12px'; dot.style.height = '12px'; ring.style.width = '44px'; ring.style.height = '44px' });
+      });
+    })();
+
+    /* ── DRAG SCROLL (scenarios) ─────────────────── */
+    (function () {
+      const track = document.getElementById('scenarioTrack');
+      let down = false, sx, sl;
+      track.addEventListener('mousedown', e => { down = true; sx = e.pageX - track.offsetLeft; sl = track.scrollLeft; track.style.cursor = 'grabbing'; });
+      track.addEventListener('mouseleave', () => { down = false; track.style.cursor = 'grab'; });
+      track.addEventListener('mouseup', () => { down = false; track.style.cursor = 'grab'; });
+      track.addEventListener('mousemove', e => { if (!down) return; e.preventDefault(); track.scrollLeft = sl - (e.pageX - track.offsetLeft - sx) * 1.4; });
+    })();
+
+    /* ── COUNTER UTIL ────────────────────────────── */
+    function animateCounter(el, target, suffix, dur = 2) {
+      let val = 0;
+      const step = target / (dur * 60);
+      const id = setInterval(() => {
+        val = Math.min(val + step, target);
+        el.textContent = Math.floor(val) + suffix;
+        if (val >= target) clearInterval(id);
+      }, 1000 / 60);
+    }
+
+    /* ── GSAP REGISTER ───────────────────────────── */
+    gsap.registerPlugin(ScrollTrigger);
+
+    /* ── SCROLL PROGRESS BAR ─────────────────────── */
+    gsap.to('#progress-bar', {
+      width: '100%',
+      ease: 'none',
+      scrollTrigger: { scrub: 0.1, start: 'top top', end: 'bottom bottom' }
+    });
+
+    /* ── HERO ENTRANCE ───────────────────────────── */
+    const heroTL = gsap.timeline({ defaults: { ease: 'power4.out' } });
+    heroTL
+      .to('.hero-eyebrow', { opacity: 1, y: 0, duration: .9, delay: .3 })
+      .to('.hero-title-outer .title-line-inner', { y: '0%', opacity: 1, duration: 1.0, stagger: .12 }, '-=.5')
+      .to('.hero-sub', { opacity: 1, y: 0, duration: .9 }, '-=.4')
+      .to('.hero-scroll-hint', { opacity: 1, y: 0, duration: .8 }, '-=.4')
+      .to('.hero-badge', { opacity: 1, scale: 1, duration: 1.2, ease: 'elastic.out(1,.7)' }, '-=.6');
+
+    /* ── VELOCITY-BASED PARALLAX ──────────────────── */
+    let lastScrollY = 0;
+    let velocity = 0;
+    let velDisplay = 0;
+
+    (function velLoop() {
+      requestAnimationFrame(velLoop);
+      const curr = window.scrollY;
+      const delta = curr - lastScrollY;
+      lastScrollY = curr;
+      velocity = delta;
+      velDisplay += (velocity - velDisplay) * .12;
+
+      const baseY = curr * -0.18;
+      const velPush = velocity * -2.5;
+      gsap.set('#hero-title', { y: baseY + velPush });
+
+      const absVel = Math.abs(velocity);
+      const ls = -2 + Math.min(absVel * .15, 14);
+      gsap.set('#hero-title', { letterSpacing: ls + 'px', overwrite: 'auto' });
+
+      const vhFrac = Math.max(0, 1 - curr / (window.innerHeight * .8));
+      gsap.set('#hero', { opacity: vhFrac });
+
+      const vPct = Math.min(Math.abs(velDisplay) / 20, 1) * 100;
+      const fill = document.getElementById('vbar-fill');
+      if (fill) {
+        fill.style.height = vPct + '%';
+        fill.style.background = velocity < 0
+          ? 'linear-gradient(0deg,#e879f9,#7c3aed)'
+          : 'linear-gradient(0deg,#7c3aed,#e879f9)';
+      }
+    })();
+
+    /* ── CHAPTER TAGS ────────────────────────────── */
+    gsap.utils.toArray('.chapter-tag').forEach(el => {
+      gsap.to(el, {
+        opacity: 1, y: 0, duration: .8, ease: 'power3.out',
+        scrollTrigger: { trigger: el, start: 'top 88%', toggleActions: 'play none none none' }
+      });
+    });
+
+    /* ── GENERIC LINE REVEALS ─────────────────────── */
+    document.querySelectorAll('section:not(#hero) .title-line-inner').forEach((el, i) => {
+      gsap.to(el, {
+        y: '0%', opacity: 1, duration: 1.0, ease: 'power4.out',
+        scrollTrigger: {
+          trigger: el.closest('section') || el.parentElement,
+          start: 'top 80%',
+          toggleActions: 'play none none none'
+        },
+        delay: (i % 4) * .12
+      });
+    });
+    document.querySelectorAll('.vline-inner').forEach((el, i) => {
+      gsap.to(el, {
+        y: '0%', opacity: 1, duration: 1.0, ease: 'power4.out',
+        scrollTrigger: { trigger: '#vision', start: 'top 75%' },
+        delay: i * .14
+      });
+    });
+
+    /* ── SHIFT: desc + cards ─────────────────────── */
+    gsap.to('.shift-desc', {
+      opacity: 1, y: 0, duration: .9, ease: 'power3.out',
+      scrollTrigger: { trigger: '#shift', start: 'top 70%' },
+      delay: .3
+    });
+    document.querySelectorAll('.shift-card').forEach((el, i) => {
+      gsap.to(el, {
+        opacity: 1, y: 0, scale: 1, duration: .8, ease: 'back.out(1.4)',
+        scrollTrigger: { trigger: '#shift', start: 'top 65%' },
+        delay: .15 + i * .1
+      });
+    });
+
+    /* ── VISION: stats ───────────────────────────── */
+    document.querySelectorAll('.vision-stat').forEach((el, i) => {
+      gsap.to(el, {
+        opacity: 1, y: 0, duration: .9, ease: 'power3.out',
+        scrollTrigger: { trigger: '.vision-stat-row', start: 'top 80%' },
+        delay: i * .1,
+        onStart: function () {
+          const targets = [
+            { el: '#st1', val: 340, s: 'B' },
+            { el: '#st2', val: 73, s: '%' },
+            { el: '#st3', val: 11, s: 'X' },
+            { el: '#st4', val: 2, s: 'S' },
+          ];
+          if (i < targets.length) {
+            const t = targets[i];
+            animateCounter(document.querySelector(t.el), t.val, t.s, 1.8);
+          }
+        }
+      });
+    });
+
+    gsap.to('#vision-text', {
+      y: -60, ease: 'none',
+      scrollTrigger: { trigger: '#vision', start: 'top bottom', end: 'bottom top', scrub: 1.5 }
+    });
+
+    /* ── TECH: cards ─────────────────────────────── */
+    document.querySelectorAll('.tech-card').forEach((el, i) => {
+      gsap.to(el, {
+        opacity: 1, y: 0, scale: 1, duration: 1.0, ease: 'power4.out',
+        scrollTrigger: { trigger: '#tech', start: 'top 70%' },
+        delay: .1 + i * .15
+      });
+    });
+    gsap.to('.tech-desc-side', {
+      opacity: 1, y: 0, duration: .9, ease: 'power3.out',
+      scrollTrigger: { trigger: '#tech', start: 'top 70%' },
+      delay: .3
+    });
+
+    /* ── ARCH: pipeline nodes ────────────────────── */
+    gsap.to('.arch-subtitle', {
+      opacity: 1, y: 0, duration: .9, ease: 'power3.out',
+      scrollTrigger: { trigger: '#arch', start: 'top 75%' },
+      delay: .3
+    });
+    document.querySelectorAll('.arch-node').forEach((el, i) => {
+      gsap.to(el, {
+        opacity: 1, y: 0, duration: .9, ease: 'back.out(1.3)',
+        scrollTrigger: { trigger: '#arch', start: 'top 65%' },
+        delay: .1 + i * .12
+      });
+    });
+    document.querySelectorAll('.ssot-card').forEach((el, i) => {
+      gsap.to(el, {
+        opacity: 1, y: 0, duration: .9, ease: 'power3.out',
+        scrollTrigger: { trigger: '.ssot-grid', start: 'top 80%' },
+        delay: i * .15
+      });
+    });
+    gsap.to('.arch-loop', {
+      opacity: 1, y: 0, duration: .9, ease: 'power3.out',
+      scrollTrigger: { trigger: '.arch-loop', start: 'top 85%' }
+    });
+
+    /* ── SCENARIOS ───────────────────────────────── */
+    document.querySelectorAll('.s-card').forEach((el, i) => {
+      gsap.to(el, {
+        opacity: 1, y: 0, scale: 1, duration: .9, ease: 'back.out(1.2)',
+        scrollTrigger: { trigger: '#scenarios', start: 'top 75%' },
+        delay: i * .1
+      });
+    });
+    gsap.to('.drag-hint', {
+      opacity: 1, y: 0, duration: .7, ease: 'power3.out',
+      scrollTrigger: { trigger: '#scenarios', start: 'top 75%' },
+      delay: .5
+    });
+
+    /* ── STATS ───────────────────────────────────── */
+    document.querySelectorAll('.sb').forEach((el, i) => {
+      gsap.to(el, {
+        opacity: 1, scale: 1, duration: .9, ease: 'back.out(1.3)',
+        scrollTrigger: { trigger: '#stats', start: 'top 75%' },
+        delay: i * .1,
+        onStart() {
+          const counters = el.querySelectorAll('.counter');
+          counters.forEach(c => {
+            animateCounter(c, parseInt(c.dataset.target), c.dataset.suffix, 1.8);
+          });
+        }
+      });
+    });
+
+    /* ── SUMMARY items ───────────────────────────── */
+    document.querySelectorAll('.summary-item').forEach((el, i) => {
+      gsap.to(el, {
+        opacity: 1, x: 0, duration: 1.0, ease: 'power4.out',
+        scrollTrigger: { trigger: el, start: 'top 85%' },
+        delay: i * .08
+      });
+    });
+
+    /* ── CTA ─────────────────────────────────────── */
+    gsap.to('.cta-over', {
+      opacity: 1, y: 0, duration: .8, ease: 'power3.out',
+      scrollTrigger: { trigger: '#cta', start: 'top 80%' }
+    });
+    document.querySelectorAll('#cta .title-line-inner').forEach((el, i) => {
+      gsap.to(el, {
+        y: '0%', opacity: 1, duration: 1.1, ease: 'power4.out',
+        scrollTrigger: { trigger: '#cta', start: 'top 80%' },
+        delay: i * .14
+      });
+    });
+    gsap.to('.cta-btn', {
+      opacity: 1, y: 0, scale: 1, duration: 1.0, ease: 'back.out(1.5)',
+      scrollTrigger: { trigger: '#cta', start: 'top 70%' },
+      delay: .4
+    });
+    gsap.to('.cta-foot', {
+      opacity: 1, y: 0, duration: .8, ease: 'power3.out',
+      scrollTrigger: { trigger: '#cta', start: 'top 70%' },
+      delay: .6
+    });
+    gsap.from('#cta > *', {
+      scale: .9, duration: 1.2, ease: 'power3.out',
+      scrollTrigger: { trigger: '#cta', start: 'top 80%' }
+    });
+  </script>
+</body>
+
+</html>

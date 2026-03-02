@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "created": "2026-03-02",
+    "total_articles": 32,
+    "categories": ["AI 쇼핑 어시스턴트", "AI 플랫폼 커머스", "리테일러 AI 도입", "브랜드 AI 마케팅/세일즈", "GEO", "한국 사례"],
+    "regions": ["Global", "US", "Korea", "Europe"]
+  },
+  "articles": [
+
+    {
+      "id": "A001",
+      "category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "Amazon",
+      "product": "Rufus",
+      "title": "Why the AI Shopping Agent Wars Will Heat Up in 2026",
+      "summary": "Amazon Rufus AI 쇼핑 어시스턴트가 2025년 2억5천만 명 사용자 달성. MAU 140% YoY 성장. Rufus 사용자는 비사용자 대비 구매 전환율 60% 높음. 연간 증분 매출 $100억 달성 예상. Auto Buy 버튼 출시로 목표 가격 도달 시 에이전트가 자동 결제 완료.",
+      "key_stats": ["250M 사용자", "140% MAU 성장 YoY", "60% 전환율 향상", "$10B 증분 매출"],
+      "source_url": "https://www.modernretail.co/technology/why-the-ai-shopping-agent-wars-will-heat-up-in-2026/",
+      "source_name": "Modern Retail",
+      "date": "2026-01",
+      "tags": ["Amazon", "Rufus", "Agentic Commerce", "Auto Buy"]
+    },
+
+    {
+      "id": "A002",
+      "category": "AI 쇼핑 어시스턴트",
+      "region": "US",
+      "company": "Walmart",
+      "product": "Sparky",
+      "title": "Walmart's Sparky AI Shopping Assistant Drives 35% Higher Sales",
+      "summary": "월마트가 2025년 6월 생성형 AI 어시스턴트 Sparky 출시. 앱 사용자 약 50%가 시도. Sparky 사용 고객의 주문 금액이 미사용 고객보다 35% 높음. CEO 발언: Sparky가 '쇼핑의 primary vehicle'이 될 것. 리뷰 요약, 행사별 추천, 장바구니 계획 지원.",
+      "key_stats": ["35% 높은 주문 금액", "앱 사용자 50% 시도율"],
+      "source_url": "https://corporate.walmart.com/news/2025/06/06/walmart-the-future-of-shopping-is-agentic-meet-sparky",
+      "source_name": "Walmart Corporate / Retail Dive",
+      "date": "2025-06",
+      "tags": ["Walmart", "Sparky", "GenAI", "Shopping Assistant"]
+    },
+
+    {
+      "id": "A003",
+      "category": "AI 쇼핑 어시스턴트",
+      "region": "US",
+      "company": "Albertsons",
+      "product": "AI Shopping Assistant",
+      "title": "Albertsons Accelerates Digital Transformation with AI Shopping Assistant",
+      "summary": "알버트슨이 AI 쇼핑 어시스턴트로 식료품 쇼핑 시간을 최소 4분으로 단축. 레시피 디지털화 및 스마트 장바구니 구성, 양방향 대화형 End-to-End 식료품 작업 실행 지원. Agentic Commerce 전략의 최전선 사례.",
+      "key_stats": ["쇼핑 시간 4분으로 단축", "End-to-End 식료품 자동화"],
+      "source_url": "https://www.albertsonscompanies.com/newsroom/press-releases/news-details/2025/Albertsons-Companies-Accelerates-Digital-Transformation-with-the-Albertsons-AI-Shopping-Assistant-Redefining-the-Grocery-Shopping-Experience/default.aspx",
+      "source_name": "Albertsons Companies",
+      "date": "2025",
+      "tags": ["Albertsons", "Grocery", "Agentic", "Automation"]
+    },
+
+    {
+      "id": "A004",
+      "category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "OpenAI",
+      "product": "ChatGPT Shopping / Instant Checkout",
+      "title": "OpenAI Launches Instant Checkout, Partners with Target, Instacart, DoorDash",
+      "summary": "OpenAI가 ChatGPT 내 Instant Checkout 기능 출시로 외부 플랫폼 라우팅 없이 플랫폼 내 End-to-End 쇼핑 완결. Target, Instacart, DoorDash와 파트너십. 주당 약 8억 명이 ChatGPT를 통해 제품 비교·검색. 검색이 아닌 AI 답변이 첫 번째 쇼핑 접점이 되는 시대.",
+      "key_stats": ["800M+ 주간 사용자", "Target/Instacart/DoorDash 파트너십"],
+      "source_url": "https://www.modernretail.co/technology/why-the-ai-shopping-agent-wars-will-heat-up-in-2026/",
+      "source_name": "Modern Retail",
+      "date": "2025",
+      "tags": ["OpenAI", "ChatGPT", "Instant Checkout", "Platform Commerce"]
+    },
+
+    {
+      "id": "A005",
+      "category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Google",
+      "product": "Universal Commerce Protocol",
+      "title": "Google Unveils Universal Commerce Protocol at NRF 2026",
+      "summary": "2026년 1월 NRF에서 구글 CEO 선다 피차이가 Universal Commerce Protocol 공개. AI 에이전트가 구글 생태계 안에서 상품 발견부터 결제까지 전체 쇼핑 여정을 탐색하는 오픈 표준. Target, Walmart, Etsy가 Gemini 연동 파트너십 발표.",
+      "key_stats": ["NRF 2026 기조연설 발표", "Target·Walmart·Etsy 연동"],
+      "source_url": "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/",
+      "source_name": "Google Blog / Modern Retail",
+      "date": "2026-01",
+      "tags": ["Google", "Gemini", "Universal Commerce Protocol", "NRF"]
+    },
+
+    {
+      "id": "A006",
+      "category": "AI 플랫폼 커머스",
+      "region": "US",
+      "company": "Amazon",
+      "product": "Alexa+",
+      "title": "Alexa+ Launch: Users Triple Shopping Activity vs Original Alexa",
+      "summary": "아마존이 2026년 2월 Alexa+를 미국 전체 사용자 대상으로 출시. 2억5천만 Prime 멤버에게 무료 제공. 얼리 액세스 데이터: 기존 Alexa 대비 쇼핑 활동 3배 증가, 대화 2~3배 증가. 쇼핑 에이전트로 진화한 음성 어시스턴트.",
+      "key_stats": ["쇼핑 활동 3X 증가", "대화 2~3X 증가", "250M Prime 멤버 무료"],
+      "source_url": "https://www.modernretail.co/technology/why-the-ai-shopping-agent-wars-will-heat-up-in-2026/",
+      "source_name": "Modern Retail",
+      "date": "2026-02",
+      "tags": ["Amazon", "Alexa+", "Voice Commerce", "Agent"]
+    },
+
+    {
+      "id": "A007",
+      "category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Levi's",
+      "product": "Microsoft Agentic AI Framework",
+      "title": "Levi's Partners with Microsoft to Deploy Agentic AI Across Operations",
+      "summary": "리바이스가 마이크로소프트와 파트너십으로 IT·HR·운영 전체를 통합하는 'Super-Agent' 에이전트 네트워크 구축. 2026년 전면 출시 예정. 리테일 기업의 전사적 Agentic AI 도입 대표 사례.",
+      "key_stats": ["전사 AI 에이전트 네트워크", "2026년 출시"],
+      "source_url": "https://www.modernretail.co/technology/why-the-ai-shopping-agent-wars-will-heat-up-in-2026/",
+      "source_name": "Modern Retail",
+      "date": "2025",
+      "tags": ["Levi's", "Microsoft", "Enterprise AI", "Super-Agent"]
+    },
+
+    {
+      "id": "A008",
+      "category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "McKinsey",
+      "product": "Agentic Commerce Report",
+      "title": "McKinsey Forecasts $5 Trillion in Agentic Commerce Sales by 2030",
+      "summary": "맥킨지가 Agentic Commerce를 '지진급 변화(Seismic Shift)'로 규정. 2030년까지 미국 소매 수익 최대 $1T, 글로벌 $3~5T 창출 예측. AI 에이전트가 탐색·비교·협상·결제를 자동 수행하며 쇼핑을 연속적인 의도 기반 흐름으로 전환.",
+      "key_stats": ["$5T 글로벌 에이전틱 커머스 (2030)", "$1T 미국 소매 수익 영향"],
+      "source_url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-agentic-commerce-opportunity-how-ai-agents-are-ushering-in-a-new-era-for-consumers-and-merchants",
+      "source_name": "McKinsey & Company",
+      "date": "2025-10",
+      "tags": ["McKinsey", "Agentic Commerce", "Market Forecast", "2030"]
+    },
+
+    {
+      "id": "A009",
+      "category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "Gartner",
+      "product": "AI Agents B2B Report",
+      "title": "Gartner: AI Agents Will Command $15 Trillion in B2B Purchases by 2028",
+      "summary": "가트너가 3년 내 B2B 구매의 90%가 AI 에이전트에 의해 처리될 것으로 예측. 자동화된 교환을 통해 $15T 이상 거래 처리. 리테일러의 48%가 2026년까지 AI 에이전트 배포 계획. 다중 에이전트 프레임워크: 60% 오류 감소, 40% 빠른 실행, 25% 운영비 절감.",
+      "key_stats": ["$15T B2B 구매 (2028)", "B2B 구매 90% AI 처리", "48% 리테일러 배포 계획"],
+      "source_url": "https://www.digitalcommerce360.com/2025/11/28/gartner-ai-agents-15-trillion-in-b2b-purchases-by-2028/",
+      "source_name": "Gartner / Digital Commerce 360",
+      "date": "2025-11",
+      "tags": ["Gartner", "B2B", "AI Agents", "Market Forecast"]
+    },
+
+    {
+      "id": "A010",
+      "category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "Adobe",
+      "product": "2025 Holiday Shopping Report",
+      "title": "AI-Driven US E-Commerce Traffic Grew 758% YoY (2025 Holiday)",
+      "summary": "어도비 2025 연말 쇼핑 보고서: AI 기반 미국 이커머스 트래픽이 11월~12월 기간 전년 대비 758% 성장. 사이버먼데이의 AI 리테일 사이트 트래픽은 670% 급증. AI 플랫폼이 2026년 전체 이커머스 매출의 1.5% ($209억) 차지 예상—2025년 대비 4배.",
+      "key_stats": ["AI 트래픽 758% YoY 성장", "사이버먼데이 670% 증가", "$20.9B AI 플랫폼 매출 (2026)"],
+      "source_url": "https://www.retaildive.com/news/a-look-at-retails-year-of-ai-news/807946/",
+      "source_name": "Adobe / Retail Dive",
+      "date": "2025-12",
+      "tags": ["Adobe", "Holiday Shopping", "Traffic Growth", "Statistics"]
+    },
+
+    {
+      "id": "A011",
+      "category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "Capgemini / Industry",
+      "product": "Consumer AI Research",
+      "title": "87% of Retailers Report AI Positive Revenue Impact; 71% Consumers Want GenAI",
+      "summary": "2025년 기준: 87% 리테일러가 AI의 매출 긍정 효과 보고, 94%가 운영비 절감 확인. 캡제미니 연구: 소비자 71%가 GenAI 쇼핑 경험 원함 (Z세대·밀레니얼 더 높음). 41%의 소비자가 AI 플랫폼을 상품 발견에 활용. 33%는 기존 방법을 완전 대체.",
+      "key_stats": ["87% 리테일러 매출 증가", "71% 소비자 GenAI 원함", "41% AI 플랫폼 활용"],
+      "source_url": "https://insiderone.com/ai-retail-trends/",
+      "source_name": "Capgemini / InsiderOne",
+      "date": "2025",
+      "tags": ["Consumer Research", "Adoption Rate", "GenAI", "Statistics"]
+    },
+
+    {
+      "id": "A012",
+      "category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "Deloitte",
+      "product": "2026 Retail Global Outlook",
+      "title": "Deloitte: 81% of Retail Execs Fear GenAI Will Weaken Brand Loyalty",
+      "summary": "딜로이트 2026 리테일 글로벌 아웃룩: 소매 임원 81%가 GenAI가 2027년까지 브랜드 충성도를 약화시킬 것으로 우려. 외부 AI 플랫폼이 고객-브랜드 직접 관계를 중개함으로써 데이터 소유권 상실 위험. 리테일러의 AI 컨트롤 필요성 대두.",
+      "key_stats": ["81% 임원 브랜드 충성도 약화 우려"],
+      "source_url": "https://www.retaildive.com/news/retails-ai-bet-risks-data-market-share/810202/",
+      "source_name": "Deloitte / Retail Dive",
+      "date": "2026",
+      "tags": ["Deloitte", "Brand Loyalty", "Risk", "Data Ownership"]
+    },
+
+    {
+      "id": "A013",
+      "category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "Industry",
+      "product": "AI Personalization Stats",
+      "title": "AI Personalization Boosts Conversion 10%, Revenue 15%, CLV 73%",
+      "summary": "2025년 이커머스 AI 개인화 핵심 성과 지표: 전환율 최대 10% 향상, 매출 15% 증가, 고객 생애 가치(CLV) 73% 상승. 71% 이커머스 사이트가 AI 기반 상품 추천 사용. AI를 보유한 리테일러의 자체 브랜드 에이전트 매출 성장 속도가 없는 곳보다 32% 빠름.",
+      "key_stats": ["전환율 10% 향상", "매출 15% 증가", "CLV 73% 상승", "자체 에이전트 매출 32% 빠른 성장"],
+      "source_url": "https://www.envive.ai/post/ai-personalization-in-ecommerce-lift-statistics",
+      "source_name": "Envive AI / SAP Emarsys",
+      "date": "2025",
+      "tags": ["Personalization", "ROI", "Statistics", "Conversion"]
+    },
+
+    {
+      "id": "A014",
+      "category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "H&M",
+      "product": "AI Avatar Campaign",
+      "title": "H&M Uses AI-Generated Avatars in Ads, Ecommerce, and Social Media",
+      "summary": "H&M이 AI 생성 아바타를 광고·이커머스 상품 페이지·소셜 미디어에 활용, 반복 포토 촬영 없이 크리에이티브 생산 비용 대폭 절감. 생성형 AI가 패션 업계의 콘텐츠 생산 방식을 근본적으로 변화시키는 대표 사례.",
+      "key_stats": ["포토 촬영 비용 대폭 절감", "크리에이티브 생산 속도 향상"],
+      "source_url": "https://www.businessoffashion.com/articles/retail/how-ai-will-shape-e-commerce-in-2026/",
+      "source_name": "Business of Fashion",
+      "date": "2025",
+      "tags": ["H&M", "AI Avatar", "Creative Production", "Fashion"]
+    },
+
+    {
+      "id": "A015",
+      "category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Dove (Unilever)",
+      "product": "AI-Generated Content Campaign",
+      "title": "Dove AI Campaign: 3.5B Social Impressions, 52% First-Time Buyers",
+      "summary": "도브의 AI 생성 콘텐츠 캠페인이 소셜 미디어 임프레션 35억 건 달성, 한정판 제품 라인에서 신규 구매자 비율 52% 기록. AI가 브랜드 캠페인의 도달범위와 신규 고객 획득을 동시에 해결한 성공 사례.",
+      "key_stats": ["3.5B 소셜 임프레션", "52% 신규 구매자"],
+      "source_url": "https://stellites.com/how-generative-ai-can-boost-consumer-marketing-in-2026/",
+      "source_name": "Stellites",
+      "date": "2025",
+      "tags": ["Dove", "Unilever", "AI Content", "Social Media"]
+    },
+
+    {
+      "id": "A016",
+      "category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "L'Oréal",
+      "product": "ModiFace / Perso / AI Agents",
+      "title": "L'Oréal Deploys AI Agents for Precision Recommendations and Operations",
+      "summary": "로레알이 ModiFace AR/AI 가상 메이크업 체험과 Perso AI 실시간 개인 스킨케어 조제 서비스 운영. 2024~2025년 AI 에이전트를 추가 출시해 정밀 추천, 고객 경험 개선, 백오피스 운영 자동화 지원. 뷰티 업계 AI 활용의 글로벌 벤치마크.",
+      "key_stats": ["ModiFace 가상 메이크업 체험", "Perso 개인 스킨케어 AI"],
+      "source_url": "https://digitalagencynetwork.com/loreal-digital-marketing-strategy/",
+      "source_name": "Digital Agency Network / Zinnov",
+      "date": "2025",
+      "tags": ["L'Oréal", "ModiFace", "Beauty Tech", "AI Agent"]
+    },
+
+    {
+      "id": "A017",
+      "category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Nike",
+      "product": "Nike Fit / Nike By You",
+      "title": "Nike's AI-Powered Fit and Personalization Platform Reduces Returns, Boosts Profits",
+      "summary": "나이키의 Nike Fit 앱이 AR로 발 스캔해 13포인트 측정 시스템으로 정확한 신발 사이즈 추천, 반품률 감소 및 수익 향상. Nike By You 플랫폼은 색상·소재·핏 커스터마이징으로 과잉 생산 절감. AI 기반 수요 예측과 공급망 최적화 구현.",
+      "key_stats": ["반품률 감소", "과잉 생산 절감", "개인 맞춤 신발 제작"],
+      "source_url": "https://stylitics.com/resources/blog/fashion-brands-using-ai/",
+      "source_name": "Stylitics",
+      "date": "2025",
+      "tags": ["Nike", "AR Fitting", "Personalization", "Supply Chain"]
+    },
+
+    {
+      "id": "A018",
+      "category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Zara (Inditex)",
+      "product": "AI Demand Forecasting",
+      "title": "Zara Uses AI for Trend Prediction, Demand Forecasting, and Personalized Experience",
+      "summary": "자라가 AI 알고리즘으로 트렌드 패턴 파악 및 수요 예측, 상품 개발·재고 전략·마케팅 캠페인에 활용. AI 기반 빠른 트렌드 적용과 과잉 생산 절감 실현. 쇼핑 개인화 경험 강화로 패스트패션의 AI 선도 사례.",
+      "key_stats": ["AI 트렌드 예측", "과잉 생산 절감", "공급망 최적화"],
+      "source_url": "https://www.texspacetoday.com/fashion-brands-use-ai-big-data-for-hyper-personalization/",
+      "source_name": "TexSpace Today",
+      "date": "2025",
+      "tags": ["Zara", "Demand Forecasting", "Trend AI", "Fashion"]
+    },
+
+    {
+      "id": "A019",
+      "category": "GEO",
+      "region": "Global",
+      "company": "Industry / BigCommerce",
+      "product": "GEO (Generative Engine Optimization)",
+      "title": "Ecommerce GEO: AI-Driven Retail Traffic Up 4,700% YoY by July 2025",
+      "summary": "2025년 7월 기준 AI 기반 리테일 트래픽이 전년 대비 4,700% 폭증. 미국 소비자의 38%가 이미 쇼핑에 AI 사용. Y Combinator 데이터: 전통 검색 엔진 트래픽이 2026년 25%, 2028년 50% 감소 예상. 브랜드 노출이 '링크 클릭'에서 'AI 답변 내 인용'으로 전환.",
+      "key_stats": ["AI 트래픽 4,700% YoY (Jul 2025)", "38% 미국 소비자 AI 쇼핑", "전통 검색 2026년 -25%"],
+      "source_url": "https://www.bigcommerce.com/blog/ecommerce-geo/",
+      "source_name": "BigCommerce / Search Engine Land",
+      "date": "2025",
+      "tags": ["GEO", "AI Search", "Brand Visibility", "SEO to GEO"]
+    },
+
+    {
+      "id": "A020",
+      "category": "GEO",
+      "region": "Global",
+      "company": "Harvard Business Review",
+      "product": "AI Marketing Disruption Report",
+      "title": "HBR: AI Is Upending Marketing on Two Fronts",
+      "summary": "HBR 2026년 2월 커버 스토리: 대화형 AI가 웹사이트와 전통 검색을 대체하며 기업의 가시성 방식 재설계 강요. 오가닉 트래픽 카테고리별 15~64% 감소. 브랜드가 Schema.org, Fact Density, 구조화 데이터로 AI 답변 내 인용 최적화 필요.",
+      "key_stats": ["오가닉 트래픽 15~64% 감소", "800M 주간 ChatGPT 사용자"],
+      "source_url": "https://hbr.org/2026/02/ai-is-upending-marketing-on-two-fronts",
+      "source_name": "Harvard Business Review",
+      "date": "2026-02",
+      "tags": ["HBR", "GEO", "AI Search", "Brand Visibility"]
+    },
+
+    {
+      "id": "A021",
+      "category": "한국 사례",
+      "region": "Korea",
+      "company": "현대백화점",
+      "product": "헤이디(HEYDI)",
+      "title": "현대백화점 AI 쇼핑 어시스턴트 '헤이디', 오프라인 매장 AI 접점 선도",
+      "summary": "현대백화점이 2025년 생성형 AI 기반 쇼핑 어시스턴트 '헤이디(HEYDI)'를 전국 백화점·아울렛에 정식 도입. 방문 점포 선택 후 AI와 대화하며 선물 추천, 팝업스토어·식당 안내, 쇼핑 동선 최적화 제공. 현대퓨처넷 자체 개발, 'AI서비스어워드 2025' 쇼핑 부문 대상 수상.",
+      "key_stats": ["전국 현대백화점·아울렛 도입", "AI서비스어워드 2025 대상"],
+      "source_url": "https://www.fintechtimes.co.kr/news/article.html?no=49233",
+      "source_name": "핀테크경제신문 / 이지에코노미",
+      "date": "2025",
+      "tags": ["현대백화점", "헤이디", "HEYDI", "오프라인 AI", "쇼핑 어시스턴트"]
+    },
+
+    {
+      "id": "A022",
+      "category": "한국 사례",
+      "region": "Korea",
+      "company": "롯데백화점",
+      "product": "더스틴(Dustin)",
+      "title": "롯데백화점, AI 쇼핑 챗봇 '더스틴' 출시—대화형 쇼핑 안내 시스템",
+      "summary": "롯데백화점이 모바일 앱을 통해 AI 쇼핑 챗봇 '더스틴(Dustin)' 출시. 매장 위치, 할인 혜택, 영업 시간 등 쇼핑 정보를 대화형으로 제공. 롯데그룹은 유통 특화 AI 에이전트와 커머스 연계 모델을 추진 중. 롯데(독자개발) vs 신세계(동맹전략) AI 경쟁 본격화.",
+      "key_stats": ["모바일 앱 대화형 AI 안내", "유통 특화 AI 에이전트 개발 중"],
+      "source_url": "https://www.withbuyer.com/news/articleView.html?idxno=31255",
+      "source_name": "더바이어 / 인사이트코리아",
+      "date": "2025",
+      "tags": ["롯데백화점", "더스틴", "Dustin", "챗봇", "AI 쇼핑"]
+    },
+
+    {
+      "id": "A023",
+      "category": "한국 사례",
+      "region": "Korea",
+      "company": "신세계",
+      "product": "S-마인드 / 퍼스널 쇼퍼",
+      "title": "신세계, AI 고객 분석 'S-마인드' 고도화—퍼스널 쇼퍼 시스템 구축",
+      "summary": "신세계가 AI 고객 분석 시스템 'S-마인드(S-Mind)' 고도화. 2026년 상반기 쿠폰 발급부터 교환·환불 안내까지 AI 지원하는 '퍼스널 쇼퍼' 시스템 구축 예정. 생성형 AI 기반 초개인화 커머스 서비스 가능성 검토 중.",
+      "key_stats": ["S-마인드 AI 분석 고도화", "2026년 퍼스널 쇼퍼 시스템 구축"],
+      "source_url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=240566",
+      "source_name": "인사이트코리아",
+      "date": "2025",
+      "tags": ["신세계", "S-마인드", "퍼스널쇼퍼", "초개인화", "AI 분석"]
+    },
+
+    {
+      "id": "A024",
+      "category": "한국 사례",
+      "region": "Korea",
+      "company": "SSG.COM",
+      "product": "AI 음성 상담사 '조이'",
+      "title": "SSG닷컴, 유통 최초 AI 음성 상담사 '조이' 도입—반품 업무까지 자동화",
+      "summary": "SSG닷컴이 2024년 3월 유통 업계 최초로 AI 음성 상담사 '조이' 도입, 2025년 8월부터 반품 업무까지 담당 범위 확대. 고객 상담의 AI 자동화로 응대 효율 향상 및 운영 비용 절감.",
+      "key_stats": ["유통 최초 AI 음성 상담사", "반품 업무까지 자동화"],
+      "source_url": "http://www.iconsumer.or.kr/news/articleView.html?idxno=26919",
+      "source_name": "아이소비자",
+      "date": "2025",
+      "tags": ["SSG닷컴", "조이", "AI 음성 상담", "자동화", "CS"]
+    },
+
+    {
+      "id": "A025",
+      "category": "한국 사례",
+      "region": "Korea",
+      "company": "네이버",
+      "product": "쇼핑 에이전트 / AI탭 / 에이전트N",
+      "title": "네이버 'AI 기업' 전환 선언—쇼핑 에이전트·에이전트N 2026년 출시",
+      "summary": "네이버가 'AI 기업'으로 정체성 전환 공식화. 2026년 로드맵: Q1 쇼핑 에이전트(네이버플러스 스토어 우선), Q2 통합검색 기반 'AI탭', Q3 통합형 에이전트 '에이전트N' 본격 출시. 2025년 커머스 매출 3조6,884억원(+26.2% YoY)으로 역대 최고치.",
+      "key_stats": ["커머스 매출 3조6,884억(+26.2%)", "2026 Q3 에이전트N 출시"],
+      "source_url": "https://www.ceoscoredaily.com/page/view/2025111016374961417",
+      "source_name": "CEO스코어데일리 / 이코노믹리뷰",
+      "date": "2025-2026",
+      "tags": ["네이버", "에이전트N", "쇼핑 에이전트", "AI탭", "이커머스"]
+    },
+
+    {
+      "id": "A026",
+      "category": "한국 사례",
+      "region": "Korea",
+      "company": "카카오",
+      "product": "PlayMCP / 에이전트 빌더",
+      "title": "카카오, '플레이MCP'·'에이전트 빌더' 출시—개방형 AI 에이전트 생태계 구축",
+      "summary": "카카오가 AI 생태계 확장을 위해 '플레이MCP'와 '에이전트 빌더' 중심의 개방형 에이전트 전략 발표. 누구나 카카오 플랫폼 내에서 AI 에이전트 개발 참여 가능한 생태계 설계. 검색→커머스 확장 가속화 전략.",
+      "key_stats": ["개방형 에이전트 생태계", "PlayMCP 출시"],
+      "source_url": "https://www.ceoscoredaily.com/page/view/2025111016374961417",
+      "source_name": "CEO스코어데일리",
+      "date": "2025",
+      "tags": ["카카오", "PlayMCP", "에이전트빌더", "AI생태계", "오픈플랫폼"]
+    },
+
+    {
+      "id": "A027",
+      "category": "한국 사례",
+      "region": "Korea",
+      "company": "쿠팡",
+      "product": "AI + 물류 인프라",
+      "title": "쿠팡, AI+물류 결합 '쿠세권 100%' 전략—3조원 투자 로드맵",
+      "summary": "쿠팡이 2026년까지 3년간 3조원 이상을 물류 인프라에 투자, 전국 '쿠세권' 100% 커버리지 목표. AI 기술을 물류 인프라에 접목한 독자적 플랫폼 전략 추진. 국내 이커머스 AI 경쟁에서 물류 우위 + AI 결합의 차별화 포지셔닝.",
+      "key_stats": ["3조원+ 물류 투자", "전국 쿠세권 100% 커버"],
+      "source_url": "https://www.newstopkorea.com/news/articleView.html?idxno=42305",
+      "source_name": "뉴스톱",
+      "date": "2026",
+      "tags": ["쿠팡", "물류AI", "쿠세권", "인프라", "이커머스"]
+    },
+
+    {
+      "id": "A028",
+      "category": "한국 사례",
+      "region": "Korea",
+      "company": "홈앤쇼핑 / 홈쇼핑 업계",
+      "product": "에이플러스 AI",
+      "title": "홈앤쇼핑 '에이플러스 AI' 도입—검색·숏폼 콘텐츠 경쟁력 강화",
+      "summary": "홈앤쇼핑이 '에이플러스 AI' 도입으로 검색 및 숏폼 콘텐츠 경쟁력 강화. 롯데·현대·SK스토아·신세계라이브쇼핑도 콘텐츠 기획, 고객 응대 챗봇, V커머스 제작 등에 AI 도입 확산. 인력 중심 프로세스에서 AI 고도화로 전환 중.",
+      "key_stats": ["에이플러스 AI 도입", "V커머스 AI 제작"],
+      "source_url": "https://www.asiae.co.kr/article/2025110608354386032",
+      "source_name": "아시아경제",
+      "date": "2025-11",
+      "tags": ["홈앤쇼핑", "에이플러스AI", "V커머스", "홈쇼핑", "AI콘텐츠"]
+    },
+
+    {
+      "id": "A029",
+      "category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "Shopify / Amazon (Pushback)",
+      "product": "AI Agent Pushback Policy",
+      "title": "Retailer Pushback: Shopify and Amazon Resist External AI Agent Activity",
+      "summary": "일부 이커머스 플랫폼이 외부 AI 에이전트에 저항 시작. 쇼피파이와 아마존이 자사 생태계 내 외부 에이전트 활동 제한 정책 추진. 월마트도 AI 에이전트가 결제 페이지 접근·주문 완료하는 것을 막는 가이드라인 추가. 데이터 소유권과 고객 이탈 우려가 핵심.",
+      "key_stats": ["Shopify/Amazon 외부 에이전트 제한", "Walmart 에이전트 결제 차단"],
+      "source_url": "https://www.emarketer.com/content/ai-shopping-tools-gain-traction-retailer-pushback-could-cloud-2026-progress",
+      "source_name": "eMarketer",
+      "date": "2026",
+      "tags": ["Retailer Pushback", "Data Ownership", "Agent Policy", "Shopify", "Amazon"]
+    },
+
+    {
+      "id": "A030",
+      "category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Commercetools / Industry",
+      "product": "Agentic Commerce Trends Report",
+      "title": "7 AI Trends Shaping Agentic Commerce in 2026",
+      "summary": "커머스툴스가 분석한 2026년 에이전틱 커머스 7대 트렌드: ①AI 에이전트 간 협업(Multi-Agent), ②Headless + Agent Architecture, ③실시간 맥락 개인화, ④AI 기반 공급망 자동화, ⑤Conversational Commerce 표준화, ⑥리테일 미디어 AI 타겟팅, ⑦에이전트 신뢰·규제 문제.",
+      "key_stats": ["Multi-Agent Framework 75% 기업 도입 계획"],
+      "source_url": "https://commercetools.com/blog/ai-trends-shaping-agentic-commerce",
+      "source_name": "Commercetools",
+      "date": "2026",
+      "tags": ["Agentic Commerce", "Multi-Agent", "2026 Trends", "Commerce Architecture"]
+    },
+
+    {
+      "id": "A031",
+      "category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Industry / HBR",
+      "product": "AI Marketing 2026 Playbook",
+      "title": "AI Is Transforming Brand Marketing: 71% of Marketers Rely on GenAI for Content",
+      "summary": "2026년 마케터 71%가 GenAI를 핵심 업무 도구로 활용, 반복 업무 제거 및 전략 집중. 리테일러 자체 AI 에이전트 보유 브랜드의 매출 성장 속도가 없는 브랜드 대비 32% 빠름. 브랜드 AI 활용의 핵심은 '콘텐츠 자동화'에서 '고객 접점 AI화'로 이동.",
+      "key_stats": ["마케터 71% GenAI 활용", "자체 AI 에이전트 매출 32% 빠른 성장"],
+      "source_url": "https://martech.org/how-ai-agents-shaped-the-record-breaking-2025-holiday-season/",
+      "source_name": "MarTech / WordStream",
+      "date": "2026",
+      "tags": ["AI Marketing", "Brand Strategy", "GenAI", "Content Automation"]
+    },
+
+    {
+      "id": "A032",
+      "category": "한국 사례",
+      "region": "Korea",
+      "company": "유통 업계 전반",
+      "product": "AI 유통 혁신 트렌드",
+      "title": "말로 쇼핑하는 시대 열렸다—AI가 바꾸는 유통 지형도",
+      "summary": "서울경제 분석: 국내 유통 업계 전반이 대화형 AI 쇼핑으로 전환 중. 백화점, 대형마트, 이커머스, 홈쇼핑 전 채널에서 AI 도입 확산. 원가 예측, 상품 추천, 수요 예측, 물류 최적화까지 대부분 프로세스가 AI 중심 재편. 2026년 AI 개인화 커머스가 온라인 유통 판도 변화의 핵심.",
+      "key_stats": ["전 채널 AI 도입 확산", "2026년 AI 커머스 판도 변화"],
+      "source_url": "https://www.sedaily.com/NewsView/2GZAVGPL62",
+      "source_name": "서울경제",
+      "date": "2025",
+      "tags": ["유통AI", "한국", "대화형쇼핑", "2026전망", "전채널"]
+    }
+
+  ],
+
+  "category_summary": {
+    "AI 쇼핑 어시스턴트": { "count": 3, "key_companies": ["Amazon Rufus", "Walmart Sparky", "Albertsons"], "top_stat": "Rufus 250M 사용자, 140% MAU 성장" },
+    "AI 플랫폼 커머스": { "count": 5, "key_companies": ["OpenAI", "Google", "Amazon Alexa+", "Levi's×Microsoft"], "top_stat": "Google Universal Commerce Protocol, OpenAI Instant Checkout" },
+    "리테일러 AI 도입": { "count": 7, "key_companies": ["McKinsey", "Gartner", "Adobe", "Deloitte"], "top_stat": "McKinsey $5T 에이전틱 커머스 (2030), AI 트래픽 758% YoY" },
+    "브랜드 AI 마케팅/세일즈": { "count": 6, "key_companies": ["H&M", "Dove", "L'Oréal", "Nike", "Zara"], "top_stat": "Dove 3.5B 소셜 임프레션, L'Oréal ModiFace·Perso" },
+    "GEO": { "count": 2, "key_companies": ["BigCommerce", "HBR"], "top_stat": "AI 트래픽 4,700% YoY, 전통 검색 2026년 -25%" },
+    "한국 사례": { "count": 9, "key_companies": ["현대백화점 헤이디", "롯데 더스틴", "신세계 S-마인드", "SSG 조이", "네이버 에이전트N", "카카오 PlayMCP", "쿠팡"], "top_stat": "네이버 커머스 +26.2% YoY, 현대 헤이디 AI어워드 대상" }
+  }
+}

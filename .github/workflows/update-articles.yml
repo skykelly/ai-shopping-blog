@@ -1,0 +1,62 @@
+name: 🤖 Daily Article Auto-Update
+
+on:
+  schedule:
+    # 매일 한국 시간 오전 9시 (UTC 00:00) 자동 실행
+    - cron: "0 0 * * *"
+  workflow_dispatch:  # GitHub Actions 탭에서 수동 실행 가능
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # DB JSON 커밋 권한
+      pages: write      # GitHub Pages 배포 권한
+      id-token: write   # OIDC 토큰
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+
+      - name: Run article update script
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python scripts/update_articles.py
+
+      - name: Commit updated DB if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add articles-db-v2.json
+          # 변경이 있을 때만 커밋
+          git diff --staged --quiet || git commit -m "🤖 Auto-update: $(date +'%Y-%m-%d') 기사 DB 업데이트"
+
+      - name: Push changes
+        run: git push
+
+      # ── 업데이트 후 자동 재배포 ─────────────────────────────────
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

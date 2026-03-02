@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FUTURE OF AI SHOPPING — 2030</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<!-- GSAP + ScrollTrigger via CDN (bulletproof) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+
+:root{
+  --void:#04020c;
+  --deep:#0a0618;
+  --nebula:#130d2b;
+  --purple:#7c3aed;
+  --lavender:#a78bfa;
+  --fuchsia:#d946ef;
+  --plasma:#e879f9;
+  --starlight:#f8f4ff;
+  --mist:#c4b5fd;
+  --dim:#6b7280;
+  --mono:'DM Mono',monospace;
+  --display:'Bebas Neue',sans-serif;
+  --body:'Syne',sans-serif;
+}
+
+html{scroll-behavior:auto;overflow-x:hidden}
+body{
+  background:var(--void);
+  color:var(--starlight);
+  font-family:var(--body);
+  overflow-x:hidden;
+  cursor:none;
+}
+
+/* grain */
+body::after{
+  content:'';
+  position:fixed;inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity:.025;pointer-events:none;z-index:9997
+}
+
+/* cursor */
+#cursor{position:fixed;width:12px;height:12px;background:var(--plasma);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);mix-blend-mode:exclusion;transition:width .3s,height .3s}
+#cursor-ring{position:fixed;width:44px;height:44px;border:1px solid rgba(167,139,250,.5);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:width .3s,height .3s}
+
+/* progress */
+#progress-bar{position:fixed;top:0;left:0;height:2px;background:linear-gradient(90deg,var(--purple),var(--plasma));z-index:1000;width:0%;transform-origin:left;will-change:width}
+
+/* three canvas */
+#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.35}
+
+/* velocity bar */
+#vbar-wrap{position:fixed;right:32px;top:50%;transform:translateY(-50%);z-index:800;display:flex;flex-direction:column;gap:6px;align-items:center}
+#vbar-label{font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:2px;writing-mode:vertical-rl;transform:rotate(180deg);margin-top:8px}
+#vbar-track{width:2px;height:120px;background:rgba(124,58,237,.2);border-radius:2px;overflow:hidden;position:relative}
+#vbar-fill{position:absolute;bottom:50%;left:0;right:0;background:linear-gradient(0deg,var(--purple),var(--plasma));border-radius:2px;height:0%;transition:height .1s,background .3s}
+
+/* nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:900;padding:24px 8vw;display:flex;justify-content:space-between;align-items:center}
+.nav-logo{font-family:var(--display);font-size:18px;letter-spacing:4px;color:var(--mist)}
+.nav-year{font-family:var(--mono);font-size:11px;color:var(--lavender);letter-spacing:2px;opacity:.7}
+
+/* ── divider ── */
+.divider{width:100%;height:1px;background:linear-gradient(90deg,transparent,rgba(124,58,237,.4),transparent);position:relative;z-index:1}
+
+/* ━━━━━━━━ HERO ━━━━━━━━ */
+#hero{
+  height:100vh;display:flex;flex-direction:column;
+  justify-content:center;padding:0 8vw;
+  overflow:hidden;position:relative;z-index:1
+}
+.hero-eyebrow{
+  font-family:var(--mono);font-size:11px;letter-spacing:6px;
+  color:var(--plasma);text-transform:uppercase;margin-bottom:28px;
+  opacity:0;transform:translateY(30px)
+}
+/* split title lines - each line has an overflow:hidden wrapper */
+.hero-title-outer{
+  font-family:var(--display);
+  font-size:clamp(80px,14vw,220px);
+  line-height:.88;
+  /* parallax will be applied via gsap */
+}
+.title-line-wrap{display:block;overflow:hidden;line-height:1.02}
+.title-line-inner{
+  display:block;
+  transform:translateY(110%);
+  opacity:0;
+}
+.title-line-inner.accent{
+  -webkit-text-stroke:1.5px var(--plasma);
+  color:transparent
+}
+.hero-sub{
+  margin-top:44px;max-width:500px;
+  font-size:16px;line-height:1.75;color:var(--mist);
+  opacity:0;transform:translateY(30px)
+}
+.hero-scroll-hint{
+  display:flex;align-items:center;gap:16px;
+  font-family:var(--mono);font-size:10px;
+  color:var(--dim);letter-spacing:4px;margin-top:52px;
+  opacity:0;transform:translateY(20px)
+}
+.scroll-line{width:60px;height:1px;background:linear-gradient(90deg,var(--purple),transparent)}
+.hero-badge{
+  position:absolute;right:8vw;top:50%;transform:translateY(-50%);
+  width:160px;height:160px;
+  border:1px solid rgba(167,139,250,.2);border-radius:50%;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  font-family:var(--mono);font-size:10px;color:var(--lavender);
+  letter-spacing:2px;text-align:center;line-height:2;
+  opacity:0;
+}
+.hero-badge::before{
+  content:'';position:absolute;inset:-1px;border-radius:50%;
+  background:conic-gradient(var(--purple) 0%,transparent 60%);
+  animation:rotateBadge 8s linear infinite;z-index:-1
+}
+.badge-num{font-family:var(--display);font-size:42px;color:var(--starlight);line-height:1}
+
+/* ━━━━━━━━ CHAPTER TAG ━━━━━━━━ */
+.chapter-tag{
+  font-family:var(--mono);font-size:10px;color:var(--purple);
+  letter-spacing:6px;text-transform:uppercase;margin-bottom:24px;
+  display:flex;align-items:center;gap:12px;
+  opacity:0;transform:translateY(20px)
+}
+.chapter-tag::before{content:'';display:inline-block;width:24px;height:1px;background:var(--purple)}
+
+/* ━━━━━━━━ PROBLEM ━━━━━━━━ */
+#problem{padding:130px 8vw;background:linear-gradient(180deg,var(--void),var(--deep));position:relative;z-index:1}
+.problem-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;margin-top:70px}
+.problem-headline{font-family:var(--display);font-size:clamp(48px,6vw,96px);line-height:.95}
+.problem-headline span{color:var(--plasma)}
+.problem-desc{font-size:16px;line-height:1.8;color:var(--mist);margin-top:32px;border-left:2px solid var(--purple);padding-left:24px;opacity:0;transform:translateY(30px)}
+.pain-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.pain-card{
+  background:rgba(91,33,182,.08);border:1px solid rgba(124,58,237,.2);
+  border-radius:12px;padding:28px;cursor:default;
+  opacity:0;transform:translateY(40px) scale(.96);
+  transition:background .4s,border-color .4s,box-shadow .4s,transform .35s
+}
+.pain-card:hover{background:rgba(91,33,182,.18);border-color:rgba(217,70,239,.4);box-shadow:0 20px 60px rgba(124,58,237,.15);transform:translateY(-6px) scale(1) !important}
+.pain-icon{font-size:28px;margin-bottom:16px;display:block}
+.pain-title{font-size:13px;font-weight:700;letter-spacing:1px;color:var(--lavender);margin-bottom:8px;text-transform:uppercase}
+.pain-text{font-family:var(--mono);font-size:12px;color:var(--dim);line-height:1.6}
+
+/* ━━━━━━━━ VISION ━━━━━━━━ */
+#vision{padding:130px 8vw;background:var(--deep);overflow:hidden;position:relative;z-index:1}
+.vision-big{
+  font-family:var(--display);font-size:clamp(36px,5.5vw,88px);
+  line-height:1.1;max-width:1100px;margin:60px 0;
+}
+.vision-big .hl{background:linear-gradient(90deg,var(--purple),var(--plasma));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.vision-big .ow{-webkit-text-stroke:1px var(--lavender);color:transparent}
+/* each line in vision-big also split */
+.vline-wrap{display:block;overflow:hidden}
+.vline-inner{display:block;transform:translateY(110%);opacity:0}
+.vision-stat-row{display:flex;gap:60px;margin-top:80px;border-top:1px solid rgba(167,139,250,.15);padding-top:60px}
+.vision-stat{flex:1;opacity:0;transform:translateY(30px)}
+.stat-num{font-family:var(--display);font-size:clamp(48px,6vw,80px);background:linear-gradient(135deg,var(--lavender),var(--plasma));-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:block;line-height:1}
+.stat-label{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:3px;margin-top:8px;text-transform:uppercase}
+
+/* ━━━━━━━━ TECH ━━━━━━━━ */
+#tech{padding:130px 8vw;background:linear-gradient(180deg,var(--deep),var(--nebula));position:relative;z-index:1}
+.tech-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:80px}
+.tech-title{font-family:var(--display);font-size:clamp(48px,6vw,90px);line-height:.9}
+.tech-desc-side{max-width:300px;font-family:var(--mono);font-size:12px;color:var(--dim);line-height:1.8;text-align:right;opacity:0;transform:translateY(20px)}
+.tech-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.tech-card{perspective:1000px;height:420px;cursor:pointer;opacity:0;transform:translateY(50px) scale(.95)}
+.tc-inner{position:relative;width:100%;height:100%;transition:transform .7s cubic-bezier(.23,1,.32,1);transform-style:preserve-3d}
+.tech-card:hover .tc-inner{transform:rotateY(180deg)}
+.tc-front,.tc-back{position:absolute;inset:0;backface-visibility:hidden;border-radius:16px;padding:40px;border:1px solid rgba(124,58,237,.25)}
+.tc-front{background:linear-gradient(135deg,rgba(91,33,182,.15),rgba(4,2,12,.8));display:flex;flex-direction:column;justify-content:flex-end}
+.tc-back{background:linear-gradient(135deg,var(--nebula),rgba(91,33,182,.3));transform:rotateY(180deg);display:flex;flex-direction:column;justify-content:center;border-color:rgba(217,70,239,.4)}
+.tc-num{font-family:var(--display);font-size:100px;color:rgba(167,139,250,.07);line-height:1;position:absolute;top:16px;right:20px}
+.tc-icon{font-size:48px;margin-bottom:24px}
+.tc-name{font-family:var(--display);font-size:32px;color:var(--starlight);margin-bottom:8px}
+.tc-tag{font-family:var(--mono);font-size:10px;color:var(--plasma);letter-spacing:3px;text-transform:uppercase}
+.tc-desc{font-size:14px;line-height:1.7;color:var(--mist);margin:20px 0}
+.tc-list{list-style:none}
+.tc-list li{font-family:var(--mono);font-size:12px;color:var(--lavender);padding:8px 0;border-bottom:1px solid rgba(167,139,250,.1);display:flex;align-items:center;gap:8px}
+.tc-list li::before{content:'→';color:var(--plasma);font-size:10px}
+
+/* ━━━━━━━━ SCENARIOS ━━━━━━━━ */
+#scenarios{padding:130px 0;background:var(--nebula);position:relative;z-index:1}
+.scenarios-heading{padding:0 8vw;margin-bottom:56px}
+.scenarios-title{font-family:var(--display);font-size:clamp(48px,6vw,90px);line-height:.9;margin-top:16px}
+.drag-hint{font-family:var(--mono);font-size:12px;color:var(--dim);margin-top:16px;opacity:0;transform:translateY(10px)}
+.scroll-track{display:flex;gap:24px;padding:20px 8vw 44px;overflow-x:auto;cursor:grab;scrollbar-width:none}
+.scroll-track::-webkit-scrollbar{display:none}
+.scroll-track:active{cursor:grabbing}
+.s-card{
+  flex:0 0 380px;height:520px;border-radius:20px;padding:40px;
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  border:1px solid rgba(124,58,237,.2);
+  transition:transform .4s cubic-bezier(.23,1,.32,1),box-shadow .4s;
+  opacity:0;transform:translateY(50px) scale(.95)
+}
+.s-card:hover{transform:translateY(-10px) scale(1) !important;box-shadow:0 30px 80px rgba(91,33,182,.3)}
+.s-card::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(4,2,12,.95) 100%);z-index:1}
+.s-card::after{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--plasma),transparent);z-index:3;opacity:0;transition:opacity .4s}
+.s-card:hover::after{opacity:1}
+.s-bg{position:absolute;inset:0;z-index:0}
+.s-content{position:relative;z-index:2}
+.s-year{font-family:var(--mono);font-size:10px;color:var(--plasma);letter-spacing:4px;margin-bottom:16px}
+.s-title{font-family:var(--display);font-size:28px;line-height:1.1;margin-bottom:16px;white-space:pre-line}
+.s-desc{font-family:var(--mono);font-size:12px;color:var(--mist);line-height:1.7}
+
+/* ━━━━━━━━ STATS ━━━━━━━━ */
+#stats{padding:130px 8vw;background:linear-gradient(180deg,var(--nebula),var(--void));position:relative;z-index:1}
+.stats-title{font-family:var(--display);font-size:clamp(48px,6vw,90px);line-height:.9;margin-top:24px}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);margin-top:80px;border:1px solid rgba(124,58,237,.2);border-radius:20px;overflow:hidden}
+.sb{padding:60px 40px;text-align:center;border-right:1px solid rgba(124,58,237,.2);position:relative;overflow:hidden;transition:background .4s;opacity:0;transform:scale(.93)}
+.sb:last-child{border-right:none}
+.sb:hover{background:rgba(91,33,182,.12)}
+.sb::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,rgba(217,70,239,.1),transparent 70%);opacity:0;transition:opacity .4s}
+.sb:hover::before{opacity:1}
+.sb-val{font-family:var(--display);font-size:clamp(48px,5vw,72px);background:linear-gradient(135deg,#c084fc,var(--plasma));-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1;display:block}
+.sb-unit{font-family:var(--display);font-size:32px;color:var(--lavender)}
+.sb-desc{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:2px;margin-top:12px;text-transform:uppercase}
+
+/* ━━━━━━━━ CTA ━━━━━━━━ */
+#cta{padding:160px 8vw;text-align:center;background:var(--void);position:relative;overflow:hidden;z-index:1}
+#cta::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:700px;height:700px;background:radial-gradient(circle,rgba(124,58,237,.12),transparent 70%);pointer-events:none}
+.cta-over{font-family:var(--mono);font-size:11px;color:var(--plasma);letter-spacing:6px;margin-bottom:40px;text-transform:uppercase;opacity:0;transform:translateY(20px)}
+.cta-title-outer{font-family:var(--display);font-size:clamp(64px,10vw,160px);line-height:.88;margin-bottom:60px}
+.cta-ghost{-webkit-text-stroke:1px rgba(167,139,250,.4);color:transparent;display:block}
+.cta-btn{
+  display:inline-flex;align-items:center;gap:16px;
+  background:linear-gradient(135deg,var(--purple),var(--fuchsia));
+  color:#fff;text-decoration:none;
+  font-family:var(--mono);font-size:13px;letter-spacing:3px;
+  padding:20px 48px;border-radius:60px;border:none;
+  text-transform:uppercase;cursor:pointer;
+  transition:transform .3s,box-shadow .3s;
+  opacity:0;transform:translateY(30px) scale(.95)
+}
+.cta-btn:hover{transform:scale(1.07) !important;box-shadow:0 24px 64px rgba(217,70,239,.35)}
+.cta-foot{margin-top:80px;font-family:var(--mono);font-size:10px;color:rgba(107,114,128,.4);letter-spacing:2px;opacity:0;transform:translateY(20px)}
+
+/* image reveal containers */
+.img-reveal-wrap{overflow:hidden;border-radius:16px;position:relative}
+.img-reveal-inner{
+  transform:scale(1.18);
+  transition:transform .1s;
+  will-change:transform
+}
+
+@keyframes rotateBadge{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes pulseLine{0%,100%{opacity:.4}50%{opacity:1}}
+.scroll-line{animation:pulseLine 2s infinite}
+
+@media(max-width:768px){
+  .problem-grid,.tech-cards{grid-template-columns:1fr}
+  .pain-cards,.stats-grid{grid-template-columns:1fr 1fr}
+  .tech-header{flex-direction:column;gap:24px}
+  .vision-stat-row{flex-direction:column;gap:40px}
+  .hero-badge{display:none}
+  #vbar-wrap{display:none}
+}
+</style>
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<div id="progress-bar"></div>
+<canvas id="bg-canvas"></canvas>
+
+<!-- Velocity Bar -->
+<div id="vbar-wrap">
+  <div id="vbar-track"><div id="vbar-fill"></div></div>
+  <div id="vbar-label">VEL</div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">AI×SHOP</div>
+  <div class="nav-year">EST. 2030</div>
+</nav>
+
+<!-- ════════════════ HERO ════════════════ -->
+<section id="hero">
+  <div class="hero-eyebrow">Chapter 00 — The Awakening</div>
+
+  <div class="hero-title-outer" id="hero-title">
+    <div class="title-line-wrap">
+      <span class="title-line-inner">FUTURE</span>
+    </div>
+    <div class="title-line-wrap">
+      <span class="title-line-inner accent">OF AI</span>
+    </div>
+    <div class="title-line-wrap">
+      <span class="title-line-inner">SHOPPING</span>
+    </div>
+  </div>
+
+  <p class="hero-sub">
+    AI는 당신보다 당신의 취향을 더 잘 안다.<br>
+    쇼핑의 개념이 사라지고, <span style="color:var(--plasma)">경험이 시작된다.</span>
+  </p>
+
+  <div class="hero-scroll-hint">
+    <div class="scroll-line"></div>
+    <span>SCROLL TO EXPLORE</span>
+  </div>
+
+  <div class="hero-badge">
+    <span class="badge-num">2030</span>
+    <span>AI RETAIL</span>
+    <span>REVOLUTION</span>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════ PROBLEM ════════════════ -->
+<section id="problem">
+  <div class="chapter-tag">Chapter 01 — The Problem</div>
+  <div class="problem-grid">
+    <div>
+      <div class="problem-headline">
+        <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">쇼핑은</span></div>
+        <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit"><span style="color:var(--plasma)">왜 이렇게</span></span></div>
+        <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">지쳐있나</span></div>
+      </div>
+      <p class="problem-desc">
+        하루 평균 인간이 소비하는 쇼핑 시간은 2.3시간.<br>
+        그 중 실제로 원하는 것을 찾는 데 걸리는 시간은 단 11분.<br>
+        나머지는 모두 <strong style="color:var(--plasma)">노이즈다.</strong>
+      </p>
+    </div>
+    <div class="pain-cards">
+      <div class="pain-card"><span class="pain-icon">🌊</span><div class="pain-title">정보 과부하</div><p class="pain-text">하루 2만 개 이상의 새로운 SKU가 온라인에 등록된다. 선택지가 많을수록 행복은 줄어든다.</p></div>
+      <div class="pain-card"><span class="pain-icon">👻</span><div class="pain-title">검색의 실패</div><p class="pain-text">원하는 것을 말로 표현하지 못한다. 키워드 기반 검색은 감성과 맥락을 잃는다.</p></div>
+      <div class="pain-card"><span class="pain-icon">🎯</span><div class="pain-title">가짜 개인화</div><p class="pain-text">당신이 한 번 산 물건을 계속 보여준다. 알고리즘은 과거를 보지, 미래를 보지 않는다.</p></div>
+      <div class="pain-card"><span class="pain-icon">⏱️</span><div class="pain-title">시간 낭비</div><p class="pain-text">장바구니 이탈률 70%. 결제까지 평균 7번 이상의 페이지를 이동한다.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════ VISION ════════════════ -->
+<section id="vision">
+  <div class="chapter-tag">Chapter 02 — The Vision</div>
+  <div class="vision-big" id="vision-text">
+    <div class="vline-wrap"><div class="vline-inner">AI는 <span class="hl">당신의 감정</span>을 읽고,</div></div>
+    <div class="vline-wrap"><div class="vline-inner"><span class="ow">맥락</span>을 이해하며,</div></div>
+    <div class="vline-wrap"><div class="vline-inner">아직 <span class="hl">스스로도 모르는</span></div></div>
+    <div class="vline-wrap"><div class="vline-inner">욕망을 먼저 발견한다</div></div>
+  </div>
+  <div class="vision-stat-row">
+    <div class="vision-stat"><span class="stat-num" id="st1">0B</span><div class="stat-label">Global AI Retail Market 2030</div></div>
+    <div class="vision-stat"><span class="stat-num" id="st2">0%</span><div class="stat-label">Personalization Accuracy</div></div>
+    <div class="vision-stat"><span class="stat-num" id="st3">0X</span><div class="stat-label">Conversion Rate Increase</div></div>
+    <div class="vision-stat"><span class="stat-num" id="st4">0S</span><div class="stat-label">Average AI Purchase Time</div></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════ TECH ════════════════ -->
+<section id="tech">
+  <div class="tech-header">
+    <div>
+      <div class="chapter-tag">Chapter 03 — Core Technologies</div>
+      <div class="tech-title">
+        <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">세 가지</span></div>
+        <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">혁명의</span></div>
+        <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">엔진</span></div>
+      </div>
+    </div>
+    <p class="tech-desc-side">카드를 뒤집어<br>기술의 핵심을<br>확인하라</p>
+  </div>
+  <div class="tech-cards">
+    <div class="tech-card">
+      <div class="tc-inner">
+        <div class="tc-front"><div class="tc-num">01</div><div class="tc-icon">👁️</div><div class="tc-name">VISION AI</div><div class="tc-tag">Computer Vision</div></div>
+        <div class="tc-back"><div class="tc-tag" style="margin-bottom:16px">Computer Vision</div><p class="tc-desc">카메라 한 장으로 체형, 피부톤, 착용 스타일을 분석. 가상 피팅룸이 현실이 된다.</p><ul class="tc-list"><li>실시간 체형 분석</li><li>AR 가상 착용</li><li>스타일 호환성 검사</li><li>색상 팔레트 매칭</li></ul></div>
+      </div>
+    </div>
+    <div class="tech-card">
+      <div class="tc-inner">
+        <div class="tc-front"><div class="tc-num">02</div><div class="tc-icon">🧠</div><div class="tc-name">PREDICT ENGINE</div><div class="tc-tag">Behavioral AI</div></div>
+        <div class="tc-back"><div class="tc-tag" style="margin-bottom:16px">Behavioral AI</div><p class="tc-desc">스크롤 속도, 눈의 멈춤, 심박수까지. 당신의 다음 구매를 당신보다 먼저 안다.</p><ul class="tc-list"><li>마이크로 행동 분석</li><li>감정 상태 감지</li><li>구매 의도 예측</li><li>최적 타이밍 알림</li></ul></div>
+      </div>
+    </div>
+    <div class="tech-card">
+      <div class="tc-inner">
+        <div class="tc-front"><div class="tc-num">03</div><div class="tc-icon">✨</div><div class="tc-name">HYPER PERSONAL</div><div class="tc-tag">LLM + RAG</div></div>
+        <div class="tc-back"><div class="tc-tag" style="margin-bottom:16px">LLM + RAG</div><p class="tc-desc">수백만 개의 상품과 리뷰를 이해하는 AI 큐레이터. 오직 당신만을 위한 제안.</p><ul class="tc-list"><li>자연어 쇼핑 대화</li><li>라이프스타일 연동</li><li>문화적 맥락 이해</li><li>실시간 트렌드 반영</li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════ SCENARIOS ════════════════ -->
+<section id="scenarios">
+  <div class="scenarios-heading">
+    <div class="chapter-tag">Chapter 04 — 2030 Scenarios</div>
+    <div class="scenarios-title">
+      <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">어느 날</span></div>
+      <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">아침, 2030년</span></div>
+    </div>
+    <p class="drag-hint">→ DRAG TO EXPLORE</p>
+  </div>
+  <div class="scroll-track" id="scenarioTrack">
+    <div class="s-card"><div class="s-bg" style="background:radial-gradient(circle at 30% 40%,#4c1d95,#1e1b4b 40%,#04020c)"></div><div class="s-content"><div class="s-year">SCENARIO 01 · 07:23 AM</div><h3 class="s-title">거울이 오늘의&#10;옷을 제안한다</h3><p class="s-desc">스마트 미러가 오늘 날씨, 일정, 기분을 분석해 코디를 완성. 없는 아이템은 즉시 주문.</p></div></div>
+    <div class="s-card"><div class="s-bg" style="background:radial-gradient(circle at 70% 30%,#7e22ce,#312e81 40%,#04020c)"></div><div class="s-content"><div class="s-year">SCENARIO 02 · 12:05 PM</div><h3 class="s-title">점심 식사 중&#10;AI가 장 본다</h3><p class="s-desc">냉장고 AI가 식재료를 실시간 분석. 부족한 것은 자동 발주, 저녁 레시피까지 제안.</p></div></div>
+    <div class="s-card"><div class="s-bg" style="background:radial-gradient(circle at 50% 60%,#6d28d9,#1e1b4b 50%,#04020c)"></div><div class="s-content"><div class="s-year">SCENARIO 03 · 15:40 PM</div><h3 class="s-title">눈 깜빡임 하나로&#10;결제 완료</h3><p class="s-desc">안경형 디바이스가 매장 내 상품을 인식. 관심 가진 상품은 자동 저장, 시선이 결제가 된다.</p></div></div>
+    <div class="s-card"><div class="s-bg" style="background:radial-gradient(circle at 20% 70%,#5b21b6,#0f0a1e 50%,#04020c)"></div><div class="s-content"><div class="s-year">SCENARIO 04 · 19:20 PM</div><h3 class="s-title">AI 스타일리스트가&#10;시즌을 큐레이션</h3><p class="s-desc">분기별로 AI가 전체 워드로브를 리뷰. 필요 없는 것은 중고 판매 연결, 새 시즌을 설계.</p></div></div>
+    <div class="s-card"><div class="s-bg" style="background:radial-gradient(circle at 80% 50%,#9333ea,#1e1b4b 40%,#04020c)"></div><div class="s-content"><div class="s-year">SCENARIO 05 · 22:00 PM</div><h3 class="s-title">자는 동안&#10;내일이 도착한다</h3><p class="s-desc">수면 패턴, 내일 일정, 기분 데이터로 내일의 필요를 예측. 잠들기 전 주문이 완료된다.</p></div></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════ STATS ════════════════ -->
+<section id="stats">
+  <div class="chapter-tag">Chapter 05 — The Numbers</div>
+  <div class="stats-title">
+    <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">숫자가 말한다</span></div>
+  </div>
+  <div class="stats-grid">
+    <div class="sb"><span class="sb-val"><span class="counter" data-target="340" data-suffix="B">0B</span></span><div class="sb-desc">Global AI Retail Market 2030</div></div>
+    <div class="sb"><span class="sb-val"><span class="counter" data-target="73" data-suffix="%">0%</span></span><div class="sb-desc">소비자가 AI 쇼핑 경험 선호</div></div>
+    <div class="sb"><span class="sb-val"><span class="counter" data-target="11" data-suffix="X">0X</span></span><div class="sb-desc">ROI for AI Personalization</div></div>
+    <div class="sb"><span class="sb-val"><span class="counter" data-target="2" data-suffix="S">0S</span></span><div class="sb-desc">평균 AI 쇼핑 결정 시간</div></div>
+  </div>
+</section>
+
+<!-- ════════════════ CTA ════════════════ -->
+<section id="cta">
+  <div class="cta-over">The Future is Now</div>
+  <div class="cta-title-outer">
+    <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">WELCOME</span></div>
+    <div class="title-line-wrap"><span class="title-line-inner" style="font-size:inherit">TO THE</span></div>
+    <div class="title-line-wrap"><span class="title-line-inner cta-ghost" style="font-size:inherit">NEW RETAIL</span></div>
+  </div>
+  <a href="#hero" class="cta-btn">✦ EXPLORE THE FUTURE ✦</a>
+  <p class="cta-foot">© 2030 AI SHOPPING INSTITUTE · POWERED BY NEURAL COMMERCE</p>
+</section>
+
+<!-- ════════════════ SCRIPTS ════════════════ -->
+<script>
+/* ── THREE.JS PARTICLE BG ─────────────────────── */
+(function(){
+  const canvas = document.getElementById('bg-canvas');
+  const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  renderer.setSize(innerWidth, innerHeight);
+
+  const scene  = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(60, innerWidth/innerHeight, 0.1, 2000);
+  camera.position.z = 500;
+
+  const N   = 2800;
+  const pos = new Float32Array(N*3);
+  const col = new Float32Array(N*3);
+  const pal = [[.486,.227,.933],[.655,.541,.98],[.851,.275,.937],[.91,.475,.976],[.973,.957,1],[.298,.114,.706]];
+  for(let i=0;i<N;i++){
+    pos[i*3]   = (Math.random()-.5)*2000;
+    pos[i*3+1] = (Math.random()-.5)*2000;
+    pos[i*3+2] = (Math.random()-.5)*1500;
+    const c = pal[Math.floor(Math.random()*pal.length)];
+    col[i*3]=c[0]; col[i*3+1]=c[1]; col[i*3+2]=c[2];
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.BufferAttribute(pos,3));
+  geo.setAttribute('color',    new THREE.BufferAttribute(col,3));
+  const mat   = new THREE.PointsMaterial({size:2,vertexColors:true,transparent:true,opacity:.8});
+  const stars = new THREE.Points(geo,mat);
+  scene.add(stars);
+
+  let mx=0, my=0;
+  document.addEventListener('mousemove',e=>{
+    mx=(e.clientX/innerWidth-.5)*.3;
+    my=(e.clientY/innerHeight-.5)*.3;
+  });
+
+  const clock = new THREE.Clock();
+  (function tick(){
+    requestAnimationFrame(tick);
+    const t = clock.getElapsedTime();
+    stars.rotation.y = t*.02 + mx*.5;
+    stars.rotation.x = t*.01 + my*.3;
+    stars.rotation.z = t*.005;
+    camera.position.y = -scrollY*.05;
+    renderer.render(scene,camera);
+  })();
+
+  addEventListener('resize',()=>{
+    camera.aspect = innerWidth/innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(innerWidth,innerHeight);
+  });
+})();
+
+/* ── CURSOR ─────────────────────────────────── */
+(function(){
+  const dot  = document.getElementById('cursor');
+  const ring = document.getElementById('cursor-ring');
+  let cx=0,cy=0,tx=0,ty=0;
+  document.addEventListener('mousemove',e=>{
+    cx=e.clientX; cy=e.clientY;
+    dot.style.left=cx+'px'; dot.style.top=cy+'px';
+  });
+  (function loop(){
+    tx+=(cx-tx)*.12; ty+=(cy-ty)*.12;
+    ring.style.left=tx+'px'; ring.style.top=ty+'px';
+    requestAnimationFrame(loop);
+  })();
+  document.querySelectorAll('a,button,.tech-card,.pain-card,.s-card').forEach(el=>{
+    el.addEventListener('mouseenter',()=>{dot.style.width='20px';dot.style.height='20px';ring.style.width='64px';ring.style.height='64px'});
+    el.addEventListener('mouseleave',()=>{dot.style.width='12px';dot.style.height='12px';ring.style.width='44px';ring.style.height='44px'});
+  });
+})();
+
+/* ── DRAG SCROLL (scenarios) ─────────────────── */
+(function(){
+  const track = document.getElementById('scenarioTrack');
+  let down=false, sx, sl;
+  track.addEventListener('mousedown', e=>{ down=true; sx=e.pageX-track.offsetLeft; sl=track.scrollLeft; track.style.cursor='grabbing'; });
+  track.addEventListener('mouseleave',()=>{ down=false; track.style.cursor='grab'; });
+  track.addEventListener('mouseup',  ()=>{ down=false; track.style.cursor='grab'; });
+  track.addEventListener('mousemove', e=>{ if(!down)return; e.preventDefault(); track.scrollLeft = sl-(e.pageX-track.offsetLeft-sx)*1.4; });
+})();
+
+/* ── COUNTER UTIL ────────────────────────────── */
+function animateCounter(el, target, suffix, dur=2){
+  let val=0;
+  const step = target/(dur*60);
+  const id = setInterval(()=>{
+    val = Math.min(val+step, target);
+    el.textContent = Math.floor(val)+suffix;
+    if(val>=target) clearInterval(id);
+  }, 1000/60);
+}
+
+/* ── GSAP REGISTER ───────────────────────────── */
+gsap.registerPlugin(ScrollTrigger);
+
+/* ── SCROLL PROGRESS BAR ─────────────────────── */
+gsap.to('#progress-bar',{
+  width:'100%',
+  ease:'none',
+  scrollTrigger:{ scrub:0.1, start:'top top', end:'bottom bottom' }
+});
+
+/* ── HERO ENTRANCE ───────────────────────────── */
+const heroTL = gsap.timeline({ defaults:{ ease:'power4.out' } });
+heroTL
+  .to('.hero-eyebrow', { opacity:1, y:0, duration:.9, delay:.3 })
+  .to('.hero-title-outer .title-line-inner', { y:'0%', opacity:1, duration:1.0, stagger:.12 }, '-=.5')
+  .to('.hero-sub',       { opacity:1, y:0, duration:.9 }, '-=.4')
+  .to('.hero-scroll-hint',{ opacity:1, y:0, duration:.8 }, '-=.4')
+  .to('.hero-badge',     { opacity:1, scale:1, duration:1.2, ease:'elastic.out(1,.7)' }, '-=.6');
+
+/* ── VELOCITY-BASED PARALLAX ON HERO TITLE ───── */
+/* Track scroll velocity with a rolling delta */
+let lastScrollY = 0;
+let velocity    = 0;
+let velDisplay  = 0;  // smoothed for vbar
+
+(function velLoop(){
+  requestAnimationFrame(velLoop);
+  const curr   = window.scrollY;
+  const delta  = curr - lastScrollY;
+  lastScrollY  = curr;
+  velocity     = delta;                            // raw vel
+  velDisplay   += (velocity - velDisplay) * .12;  // EMA smooth
+
+  /* title parallax: y offset relative to scroll + velocity push */
+  const baseY   = curr * -0.18;    // slow parallax (title moves slower than scroll)
+  const velPush = velocity * -2.5; // snap lag feel
+  gsap.set('#hero-title', { y: baseY + velPush });
+
+  /* letter-spacing stretches/relaxes with speed */
+  const absVel  = Math.abs(velocity);
+  const ls      = -2 + Math.min(absVel * .15, 14); // -2px → up to 12px
+  gsap.set('#hero-title', { letterSpacing: ls+'px', overwrite:'auto' });
+
+  /* hero opacity fade as user scrolls past */
+  const vhFrac = Math.max(0, 1 - curr / (window.innerHeight * .8));
+  gsap.set('#hero', { opacity: vhFrac });
+
+  /* velocity bar */
+  const vPct = Math.min(Math.abs(velDisplay) / 20, 1) * 100;
+  const fill  = document.getElementById('vbar-fill');
+  if(fill){
+    fill.style.height = vPct+'%';
+    fill.style.background = velocity < 0
+      ? 'linear-gradient(0deg,#e879f9,#7c3aed)'
+      : 'linear-gradient(0deg,#7c3aed,#e879f9)';
+  }
+})();
+
+/* ── CHAPTER TAGS ────────────────────────────── */
+gsap.utils.toArray('.chapter-tag').forEach(el=>{
+  gsap.to(el,{
+    opacity:1, y:0, duration:.8, ease:'power3.out',
+    scrollTrigger:{ trigger:el, start:'top 88%', toggleActions:'play none none none' }
+  });
+});
+
+/* ── GENERIC LINE REVEALS ─────────────────────── */
+/* Every .title-line-inner inside sections (not hero, done above) */
+document.querySelectorAll('section:not(#hero) .title-line-inner').forEach((el, i)=>{
+  gsap.to(el,{
+    y:'0%', opacity:1, duration:1.0, ease:'power4.out',
+    scrollTrigger:{
+      trigger: el.closest('section') || el.parentElement,
+      start:'top 80%',
+      toggleActions:'play none none none'
+    },
+    delay: (i % 4) * .12
+  });
+});
+document.querySelectorAll('.vline-inner').forEach((el, i)=>{
+  gsap.to(el,{
+    y:'0%', opacity:1, duration:1.0, ease:'power4.out',
+    scrollTrigger:{ trigger:'#vision', start:'top 75%' },
+    delay: i * .14
+  });
+});
+
+/* ── PROBLEM: desc + pain cards ─────────────── */
+gsap.to('.problem-desc',{
+  opacity:1, y:0, duration:.9, ease:'power3.out',
+  scrollTrigger:{ trigger:'#problem', start:'top 70%' },
+  delay:.3
+});
+document.querySelectorAll('.pain-card').forEach((el,i)=>{
+  gsap.to(el,{
+    opacity:1, y:0, scale:1, duration:.8, ease:'back.out(1.4)',
+    scrollTrigger:{ trigger:'#problem', start:'top 65%' },
+    delay:.15 + i*.1
+  });
+});
+
+/* ── VISION: stats ───────────────────────────── */
+document.querySelectorAll('.vision-stat').forEach((el,i)=>{
+  gsap.to(el,{
+    opacity:1, y:0, duration:.9, ease:'power3.out',
+    scrollTrigger:{ trigger:'.vision-stat-row', start:'top 80%' },
+    delay: i*.1,
+    onStart: function(){
+      const targets = [
+        {el:'#st1', val:340, s:'B'},
+        {el:'#st2', val:87,  s:'%'},
+        {el:'#st3', val:4,   s:'X'},
+        {el:'#st4', val:2,   s:'S'},
+      ];
+      if(i < targets.length){
+        const t = targets[i];
+        animateCounter(document.querySelector(t.el), t.val, t.s, 1.8);
+      }
+    }
+  });
+});
+
+/* vision-big slow parallax */
+gsap.to('#vision-text',{
+  y: -60, ease:'none',
+  scrollTrigger:{ trigger:'#vision', start:'top bottom', end:'bottom top', scrub:1.5 }
+});
+
+/* ── TECH: cards scale reveal ────────────────── */
+document.querySelectorAll('.tech-card').forEach((el,i)=>{
+  gsap.to(el,{
+    opacity:1, y:0, scale:1, duration:1.0, ease:'power4.out',
+    scrollTrigger:{ trigger:'#tech', start:'top 70%' },
+    delay: .1 + i*.15
+  });
+});
+gsap.to('.tech-desc-side',{
+  opacity:1, y:0, duration:.9, ease:'power3.out',
+  scrollTrigger:{ trigger:'#tech', start:'top 70%' },
+  delay:.3
+});
+
+/* ── SCENARIOS: drag cards reveal ────────────── */
+document.querySelectorAll('.s-card').forEach((el,i)=>{
+  gsap.to(el,{
+    opacity:1, y:0, scale:1, duration:.9, ease:'back.out(1.2)',
+    scrollTrigger:{ trigger:'#scenarios', start:'top 75%' },
+    delay: i*.1
+  });
+});
+gsap.to('.drag-hint',{
+  opacity:1, y:0, duration:.7, ease:'power3.out',
+  scrollTrigger:{ trigger:'#scenarios', start:'top 75%' },
+  delay:.5
+});
+
+/* ── STATS: scale reveal ─────────────────────── */
+document.querySelectorAll('.sb').forEach((el,i)=>{
+  gsap.to(el,{
+    opacity:1, scale:1, duration:.9, ease:'back.out(1.3)',
+    scrollTrigger:{ trigger:'#stats', start:'top 75%' },
+    delay: i*.1,
+    onStart(){
+      const counters = el.querySelectorAll('.counter');
+      counters.forEach(c=>{
+        animateCounter(c, parseInt(c.dataset.target), c.dataset.suffix, 1.8);
+      });
+    }
+  });
+});
+
+/* ── CTA: scale + line reveals ───────────────── */
+gsap.to('.cta-over',{
+  opacity:1, y:0, duration:.8, ease:'power3.out',
+  scrollTrigger:{ trigger:'#cta', start:'top 80%' }
+});
+document.querySelectorAll('#cta .title-line-inner').forEach((el,i)=>{
+  gsap.to(el,{
+    y:'0%', opacity:1, duration:1.1, ease:'power4.out',
+    scrollTrigger:{ trigger:'#cta', start:'top 80%' },
+    delay: i*.14
+  });
+});
+gsap.to('.cta-btn',{
+  opacity:1, y:0, scale:1, duration:1.0, ease:'back.out(1.5)',
+  scrollTrigger:{ trigger:'#cta', start:'top 70%' },
+  delay:.4
+});
+gsap.to('.cta-foot',{
+  opacity:1, y:0, duration:.8, ease:'power3.out',
+  scrollTrigger:{ trigger:'#cta', start:'top 70%' },
+  delay:.6
+});
+
+/* CTA section zooms in as you reach it */
+gsap.from('#cta > *',{
+  scale:.9, duration:1.2, ease:'power3.out',
+  scrollTrigger:{ trigger:'#cta', start:'top 80%' }
+});
+</script>
+</body>
+</html>
