@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A038",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Apple",
+      "title": "Does Gemini-Powered Siri Signal the End of Traditional Search Rankings?",
+      "excerpt": "AI 음성 검색이 대두됨에 따라, 마케터는 대화형 포함 최적화 필요. 전통적 검색 순위의 종말을 예고.",
+      "source_url": "https://www.cmswire.com/customer-experience/does-gemini-powered-siri-signal-the-end-of-traditional-search-rankings/",
+      "source_name": "CMSWire",
+      "date": "2026.03",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "Apple Siri",
+      "grad": "cat-4",
+      "tags": [
+        "Apple",
+        "Siri",
+        "Voice Search",
+        "AI Marketing"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-03T21:24:26.421400Z"
+    },
+    {
       "id": "A037",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -1025,7 +1052,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-02T21:24:27.973122",
-    "total_articles": 37
+    "last_updated": "2026-03-03T21:24:33.605566",
+    "total_articles": 38
   }
 }
