@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A040",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "ComputerWeekly",
+      "title": "Delivery comms, intelligent fulfilment, and AI’s growing influence",
+      "excerpt": "90%의 소매업체가 AI 투자 계획. AI 쇼핑 페르소나 식별 및 유통 최적화 논의 포럼 제공.",
+      "source_url": "https://www.computerweekly.com/feature/Delivery-comms-intelligent-fulfilment-and-AIs-growing-influence",
+      "source_name": "ComputerWeekly.com",
+      "date": "2026.03",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "90%",
+      "key_stat_label": "Retailers Investing",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "90% Investing",
+      "thumb_label": "AI in Retail",
+      "grad": "cat-3",
+      "tags": [
+        "AI",
+        "Retail",
+        "E-commerce",
+        "Investment"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-05T21:24:39.006123Z"
+    },
+    {
       "id": "A039",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -1079,7 +1106,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-04T21:24:45.076216",
-    "total_articles": 39
+    "last_updated": "2026-03-05T21:24:46.396630",
+    "total_articles": 40
   }
 }
