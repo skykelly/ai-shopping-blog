@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A041",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "pymnts.com",
+      "title": "How Brands Are Reinventing Loyalty for the AI Decision-Maker",
+      "excerpt": "2026년, 브랜드가 AI 에이전트를 고객으로 확보하는 방법과 충성도 프로그램의 재구성을 다룸. AI는 프로모션 이메일이나 배너 광고에 반응하지 않음.",
+      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/how-brands-are-reinventing-loyalty-for-the-ai-decision-maker/",
+      "source_name": "pymnts.com",
+      "date": "2026.03",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "",
+      "key_stat_label": "",
+      "thumb_emoji": "🛍️",
+      "thumb_stat": "",
+      "thumb_label": "AI Loyalty Programs",
+      "grad": "cat-2",
+      "tags": [
+        "AI",
+        "Loyalty",
+        "Brands",
+        "Commerce"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-06T21:20:38.053039Z"
+    },
+    {
       "id": "A040",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -1106,7 +1133,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-05T21:24:46.396630",
-    "total_articles": 40
+    "last_updated": "2026-03-06T21:20:45.235762",
+    "total_articles": 41
   }
 }
