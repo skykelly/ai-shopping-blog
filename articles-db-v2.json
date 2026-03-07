@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A042",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Semrush",
+      "title": "Agentic Commerce Is Here: What It Means for the Ecommerce Industry",
+      "excerpt": "Agentic commerce가 온라인 쇼핑을 변화시키고 있습니다. 비즈니스 준비 방법과 작동 방식을 알아보세요.",
+      "source_url": "https://www.semrush.com/blog/agentic-commerce-optimization/",
+      "source_name": "Semrush.com",
+      "date": "2026.03",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "N/A",
+      "thumb_label": "Semrush Agentic",
+      "grad": "cat-2",
+      "tags": [
+        "Agentic Commerce",
+        "Ecommerce",
+        "Online Shopping",
+        "Business Preparation"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-07T21:12:27.572923Z"
+    },
+    {
       "id": "A041",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -1133,7 +1160,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-06T21:20:45.235762",
-    "total_articles": 41
+    "last_updated": "2026-03-07T21:12:33.757535",
+    "total_articles": 42
   }
 }
