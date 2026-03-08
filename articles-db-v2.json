@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A043",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "WWD",
+      "title": "Larger Retailers Are Launching Their Own Beauty Brands, While the Luxury Fashion Market Gap Widens",
+      "excerpt": "2026년 패션 및 뷰티 트렌드는 AI 기반 리테일, 럭셔리 시장 변화, 웰니스 통합, Z세대의 영향력 증가를 포함.",
+      "source_url": "http://wwd.com/business-news/business-features/2026-fashion-beauty-trends-ai-luxury-wellness-gen-z-1238654821/",
+      "source_name": "WWD",
+      "date": "2026.03",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "",
+      "key_stat_label": "",
+      "thumb_emoji": "💄",
+      "thumb_stat": "",
+      "thumb_label": "WWD 패션 트렌드",
+      "grad": "cat-4",
+      "tags": [
+        "Fashion",
+        "Beauty",
+        "AI Retail",
+        "Gen Z"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-08T21:14:20.723912Z"
+    },
+    {
       "id": "A042",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -1160,7 +1187,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-07T21:12:33.757535",
-    "total_articles": 42
+    "last_updated": "2026-03-08T21:14:26.945835",
+    "total_articles": 43
   }
 }
