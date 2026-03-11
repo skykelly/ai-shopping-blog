@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A046",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Anthropic",
+      "title": "Will AI take your job? This chart in an economic study by Anthropic may give you a hint. But the answer is complicated",
+      "excerpt": "Anthropic 연구: AI의 가능성과 현재 활용 간 큰 격차 존재. 이 격차가 얼마나 빨리 좁혀질지가 질문.",
+      "source_url": "https://fortune.com/2026/03/10/will-ai-take-your-job-this-chart-in-an-economic-study-by-anthropic-may-give-you-a-hint-but-the-answer-is-complicated/",
+      "source_name": "Fortune",
+      "date": "2026.03",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🛠️",
+      "thumb_stat": "N/A",
+      "thumb_label": "Anthropic Study",
+      "grad": "cat-2",
+      "tags": [
+        "Anthropic",
+        "AI Jobs",
+        "Economic Study",
+        "AI Potential"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-11T21:22:57.123486Z"
+    },
+    {
       "id": "A045",
       "blog_category": "AI 플랫폼 커머스",
       "region": "India",
@@ -1241,7 +1268,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-10T21:21:41.989098",
-    "total_articles": 45
+    "last_updated": "2026-03-11T21:23:04.737508",
+    "total_articles": 46
   }
 }
