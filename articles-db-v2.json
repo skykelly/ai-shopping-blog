@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A053",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "Adobe",
+      "title": "Adobe Q1 FY26: CEO Exit, DOJ Settlement and 13x Agentic Web Growth",
+      "excerpt": "Adobe의 CEO 퇴임과 DOJ 합의 소식, 에이전틱 웹 13배 성장. Adobe Experience Manager와 플랫폼에 미치는 영향 분석.",
+      "source_url": "https://www.cmswire.com/digital-experience/adobe-q1-fy26-ceo-exit-doj-settlement-and-13x-agentic-web-growth/",
+      "source_name": "CMSWire",
+      "date": "2026.03",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "13x",
+      "key_stat_label": "Agentic Web Growth",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "13x Growth",
+      "thumb_label": "Adobe Agentic Web",
+      "grad": "cat-1",
+      "tags": [
+        "Adobe",
+        "Agentic Web",
+        "CEO Exit",
+        "Digital Experience"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-16T21:29:16.813659Z"
+    },
+    {
       "id": "A052",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -1428,7 +1455,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-15T21:19:04.661289",
-    "total_articles": 52
+    "last_updated": "2026-03-16T21:29:24.236523",
+    "total_articles": 53
   }
 }
