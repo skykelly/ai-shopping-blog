@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A054",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Over The Top SEO",
+      "title": "Over The Top SEO Launches Dedicated Generative Engine Optimization Division, Becoming One of the First Agencies to Offer Full-Service AI Search Optimization",
+      "excerpt": "AI 생성 답변이 전통적인 검색 결과를 대체하며, 브랜드 권위 확립의 기간이 몇 개월로 단축됨. Guy Sheetrit의 발언.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/03/16/3256016/0/en/Over-The-Top-SEO-Launches-Dedicated-Generative-Engine-Optimization-Division-Becoming-One-of-the-First-Agencies-to-Offer-Full-Service-AI-Search-Optimization.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.03",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "Months",
+      "key_stat_label": "Establish Authority",
+      "thumb_emoji": "📈",
+      "thumb_stat": "Months to Authority",
+      "thumb_label": "Over The Top SEO",
+      "grad": "cat-4",
+      "tags": [
+        "AI Optimization",
+        "Search Engine",
+        "Brand Authority",
+        "Generative AI"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-17T21:27:15.725943Z"
+    },
+    {
       "id": "A053",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -1455,7 +1482,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-16T21:29:24.236523",
-    "total_articles": 53
+    "last_updated": "2026-03-17T21:27:24.345480",
+    "total_articles": 54
   }
 }
