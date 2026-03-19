@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A055",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Business Research Industry",
+      "title": "[Latest] Global Customer Journey Orchestration Market Size/Share Worth USD 88.5 Billion by 2034 at a 24.5% CAGR: Business Research Industry (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth, Growth Rate, Value)",
+      "excerpt": "CJO 시장, AI 기반 플랫폼 도입으로 개인화된 옴니채널 고객 경험 제공. 2034년까지 885억 달러 규모, 24.5% CAGR.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/03/18/3257931/0/en/Latest-Global-Customer-Journey-Orchestration-Market-Size-Share-Worth-USD-88-5-Billion-by-2034-at-a-24-5-CAGR-Business-Research-Industry-Analysis-Outlook-Leaders-Report-Trends-Forec.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.03",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "$88.5B",
+      "key_stat_label": "Market Size",
+      "thumb_emoji": "📊",
+      "thumb_stat": "$88.5B Market",
+      "thumb_label": "CJO Market Growth",
+      "grad": "cat-7",
+      "tags": [
+        "Customer Journey",
+        "AI Platforms",
+        "Market Analysis",
+        "CAGR 24.5%"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-19T21:25:48.412040Z"
+    },
+    {
       "id": "A054",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -1482,7 +1509,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-17T21:27:24.345480",
-    "total_articles": 54
+    "last_updated": "2026-03-19T21:25:57.007819",
+    "total_articles": 55
   }
 }
