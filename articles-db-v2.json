@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A056",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "pymnts.com",
+      "title": "Why AI Shopping Is Still Just a Smarter Search Bar",
+      "excerpt": "AI 쇼핑은 여전히 스마트한 검색창에 불과하다는 의견. AI를 통해 원하는 제품을 찾고 구매하는 과정의 한계에 대해 논의.",
+      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/why-ai-shopping-is-still-just-a-smarter-search-bar/",
+      "source_name": "pymnts.com",
+      "date": "2026.03",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "N/A",
+      "thumb_label": "AI Shopping Insights",
+      "grad": "cat-1",
+      "tags": [
+        "AI Shopping",
+        "Search Bar",
+        "Retail Technology",
+        "Consumer Insights"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-20T21:20:51.453891Z"
+    },
+    {
       "id": "A055",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -1509,7 +1536,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-19T21:25:57.007819",
-    "total_articles": 55
+    "last_updated": "2026-03-20T21:20:58.552726",
+    "total_articles": 56
   }
 }
