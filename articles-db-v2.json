@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A057",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Hubspot",
+      "title": "ChatGPT Product Recommendations: How to Make Sure You Are One in 2026",
+      "excerpt": "ChatGPT가 개인 쇼핑 추천에 활용되며, 소비자에게 최적의 선택을 제공하는 방법을 제시. AI 기반의 개인화된 추천이 중요해짐.",
+      "source_url": "https://blog.hubspot.com/marketing/chatgpt-product-recommendations",
+      "source_name": "Hubspot.com",
+      "date": "2026.03",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "Hubspot Recommendations",
+      "grad": "cat-4",
+      "tags": [
+        "ChatGPT",
+        "Product Recommendations",
+        "AI Marketing",
+        "Personal Shopper"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-21T21:15:16.214603Z"
+    },
+    {
       "id": "A056",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -1536,7 +1563,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-20T21:20:58.552726",
-    "total_articles": 56
+    "last_updated": "2026-03-21T21:15:22.681587",
+    "total_articles": 57
   }
 }
