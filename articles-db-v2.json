@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A060",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "Visa",
+      "title": "Visa Says AI Can Shop but Trust Still Has to Close the Sale",
+      "excerpt": "Visa는 AI가 쇼핑을 할 수 있지만, 신뢰가 판매를 완료하는 데 여전히 필요하다고 강조. AI 상업적 이점에 대한 통찰 제공.",
+      "source_url": "https://www.pymnts.com/news/ecommerce/2026/visa-says-ai-can-shop-but-trust-still-has-to-close-the-sale/",
+      "source_name": "pymnts.com",
+      "date": "2026.03",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "",
+      "key_stat_label": "",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "",
+      "thumb_label": "Visa AI Insights",
+      "grad": "cat-1",
+      "tags": [
+        "Visa",
+        "AI Shopping",
+        "Trust",
+        "Ecommerce"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-24T21:28:14.162489Z"
+    },
+    {
       "id": "A058",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -1617,7 +1644,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-23T21:26:50.185283",
-    "total_articles": 59
+    "last_updated": "2026-03-24T21:28:20.984878",
+    "total_articles": 60
   }
 }
