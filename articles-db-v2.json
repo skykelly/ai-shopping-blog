@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A061",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "TechRadar",
+      "title": "From hype to value: The AI trends set to shape 2026",
+      "excerpt": "2026년, AI는 파일럿에서 대규모 생산으로 전환되어 실제 가치를 제공할 것으로 예상됨.",
+      "source_url": "https://www.techradar.com/pro/from-hype-to-value-the-ai-trends-set-to-shape-2026",
+      "source_name": "TechRadar",
+      "date": "2026.03",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "N/A",
+      "thumb_label": "AI Trends 2026",
+      "grad": "cat-1",
+      "tags": [
+        "AI Trends",
+        "2026",
+        "TechRadar",
+        "Agentic Shopping"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-25T21:28:03.280803Z"
+    },
+    {
       "id": "A060",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -1644,7 +1671,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-24T21:28:20.984878",
-    "total_articles": 60
+    "last_updated": "2026-03-25T21:28:10.981779",
+    "total_articles": 61
   }
 }
