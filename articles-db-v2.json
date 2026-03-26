@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A062",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "SNS Insider",
+      "title": "AI Search Engine Market Size to Reach USD 87.63 Billion by 2035, Fueled by Demand for Intelligent and Conversational Search | Report by SNS Insider",
+      "excerpt": "AI 검색 엔진 시장, 2035년까지 876억3천만 달러 도달 전망. 미국 시장, 2025년 53억2천만 달러에서 2035년 240억2천만 달러로 성장.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/03/25/3261932/0/en/AI-Search-Engine-Market-Size-to-Reach-USD-87-63-Billion-by-2035-Fueled-by-Demand-for-Intelligent-and-Conversational-Search-Report-by-SNS-Insider.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.03",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "$87.63B",
+      "key_stat_label": "Market Size",
+      "thumb_emoji": "📊",
+      "thumb_stat": "$87.63B Market",
+      "thumb_label": "SNS Insider Report",
+      "grad": "cat-7",
+      "tags": [
+        "AI Search Engine",
+        "Market Size",
+        "NLP",
+        "Conversational Search"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-26T21:22:31.954500Z"
+    },
+    {
       "id": "A061",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -1671,7 +1698,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-25T21:28:10.981779",
-    "total_articles": 61
+    "last_updated": "2026-03-26T21:22:39.503077",
+    "total_articles": 62
   }
 }
