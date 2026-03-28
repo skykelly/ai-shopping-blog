@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A064",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Practical Ecommerce",
+      "title": "New Ecommerce Tools: March 25, 2026",
+      "excerpt": "이번 주: 예측 지능, 당일 배송, 자동 마케팅, 에이전틱 커머스 등 업데이트. 구체적 수치는 없음.",
+      "source_url": "https://www.practicalecommerce.com/new-ecommerce-tools-march-25-2026",
+      "source_name": "Practical Ecommerce",
+      "date": "2026.03",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "Updates",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "N/A Updates",
+      "thumb_label": "Practical Ecommerce",
+      "grad": "cat-2",
+      "tags": [
+        "Ecommerce",
+        "Agentic Commerce",
+        "Marketing",
+        "Shipping"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-28T21:20:44.391282Z"
+    },
+    {
       "id": "A063",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -1725,7 +1752,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-27T21:25:52.030170",
-    "total_articles": 63
+    "last_updated": "2026-03-28T21:20:51.438523",
+    "total_articles": 64
   }
 }
