@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A066",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "India",
+      "company": "Heritage Fashion Brands",
+      "title": "Retail Reinvention: How heritage fashion brands are expanding in a digital era",
+      "excerpt": "인도 전통 패션 브랜드들이 디지털 세계에 적응 중. E-커머스와 소셜 미디어가 고객 쇼핑 방식을 변화시키고, AI가 다음 큰 물결로 자리잡고 있음.",
+      "source_url": "https://brandequity.economictimes.indiatimes.com/news/marketing/retail-reinvention-how-heritage-fashion-brands-are-expanding-in-a-digital-era/129862559",
+      "source_name": "The Times of India",
+      "date": "2026.03",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "👗",
+      "thumb_stat": "N/A",
+      "thumb_label": "Heritage Fashion Brands",
+      "grad": "cat-4",
+      "tags": [
+        "Heritage Brands",
+        "Digital Era",
+        "E-commerce",
+        "AI"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-30T21:33:01.355472Z"
+    },
+    {
       "id": "A065",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -1779,7 +1806,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-29T21:22:18.200626",
-    "total_articles": 65
+    "last_updated": "2026-03-30T21:33:09.175631",
+    "total_articles": 66
   }
 }
