@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A067",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Semrush",
+      "title": "The agentic web: How AI agents decide which brands make the cut",
+      "excerpt": "AI 에이전트가 고객을 대신해 브랜드를 비교하고 구매. 브랜드 가시성 전략에 미치는 영향 분석.",
+      "source_url": "https://www.semrush.com/blog/the-agentic-web/",
+      "source_name": "Semrush.com",
+      "date": "2026.03",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "Semrush AI Strategy",
+      "grad": "cat-4",
+      "tags": [
+        "AI Agents",
+        "Brand Visibility",
+        "Semrush",
+        "Marketing Strategy"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-03-31T21:29:09.354691Z"
+    },
+    {
       "id": "A066",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "India",
@@ -1806,7 +1833,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-30T21:33:09.175631",
-    "total_articles": 66
+    "last_updated": "2026-03-31T21:29:16.577488",
+    "total_articles": 67
   }
 }
