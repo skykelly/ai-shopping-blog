@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A068",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "TechRadar",
+      "title": "'AI-driven traffic is the fastest-growing category of internet traffic': New report claims it's official — AI and bots have taken over the internet",
+      "excerpt": "AI 크롤러와 에이전트가 상업, 검색, 서비스에서 상호작용하며 자동화된 트래픽이 인간 활동을 초과. AI 기반 트래픽 증가에 대한 구체적 수치 포함.",
+      "source_url": "https://www.techradar.com/pro/ai-driven-traffic-is-the-fastest-growing-category-of-internet-traffic-new-report-claims-its-official-ai-and-bots-have-taken-over-the-internet",
+      "source_name": "TechRadar",
+      "date": "2026.03",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "AI-driven traffic exceeds human activity",
+      "key_stat_label": "Traffic Growth",
+      "thumb_emoji": "📊",
+      "thumb_stat": "AI Traffic Growth",
+      "thumb_label": "TechRadar Report",
+      "grad": "cat-7",
+      "tags": [
+        "AI Traffic",
+        "Bots",
+        "Internet Growth",
+        "TechRadar"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-01T21:33:01.948395Z"
+    },
+    {
       "id": "A067",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -1833,7 +1860,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-31T21:29:16.577488",
-    "total_articles": 67
+    "last_updated": "2026-04-01T21:33:09.417230",
+    "total_articles": 68
   }
 }
