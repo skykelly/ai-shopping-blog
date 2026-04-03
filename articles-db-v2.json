@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A070",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "C-sharpcorner",
+      "title": "What Are AI Agents and How Do They Work?",
+      "excerpt": "AI 에이전트의 개념과 작동 방식, 이점 및 실제 사례를 설명하는 가이드. 자동화의 미래를 받아들이세요!",
+      "source_url": "https://www.c-sharpcorner.com/article/how-is-chatgpt-different-from-claude-and-gemini/",
+      "source_name": "C-sharpcorner.com",
+      "date": "2026.03",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "N/A",
+      "thumb_label": "AI Agents Guide",
+      "grad": "cat-1",
+      "tags": [
+        "AI Agents",
+        "Automation",
+        "Technology",
+        "Use Cases"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-03T21:23:29.936777Z"
+    },
+    {
       "id": "A069",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -1887,7 +1914,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-02T21:27:10.409812",
-    "total_articles": 69
+    "last_updated": "2026-04-03T21:23:36.628054",
+    "total_articles": 70
   }
 }
