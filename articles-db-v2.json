@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A071",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Similarweb",
+      "title": "What Is AI Visibility? The Complete Guide | Similarweb",
+      "excerpt": "2026년 2월, 생성적 AI 플랫폼 방문 수 86억 회 초과. 검색창 대신 AI 플랫폼 활용 증가.",
+      "source_url": "https://www.similarweb.com/blog/marketing/geo/what-is-ai-visibility/",
+      "source_name": "Similarweb.com",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "8.6B",
+      "key_stat_label": "Visits",
+      "thumb_emoji": "📈",
+      "thumb_stat": "8.6B Visits",
+      "thumb_label": "Similarweb Insights",
+      "grad": "cat-4",
+      "tags": [
+        "AI Visibility",
+        "Similarweb",
+        "Generative AI",
+        "Market Research"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-04T21:21:36.484826Z"
+    },
+    {
       "id": "A070",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -1914,7 +1941,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-03T21:23:36.628054",
-    "total_articles": 70
+    "last_updated": "2026-04-04T21:21:42.716010",
+    "total_articles": 71
   }
 }
