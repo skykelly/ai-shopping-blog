@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A072",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Pstechglobal",
+      "title": "Digital Marketing Strategy 2026: A Comprehensive Guide",
+      "excerpt": "2026년 디지털 마케팅 전략 구축 방법. AI, 데이터 분석, 개인화 및 지속 가능한 비즈니스 성장을 위한 새로운 채널 탐색.",
+      "source_url": "https://www.pstechglobal.com/blog/build-your-digital-marketing-strategy-for-2026-success-203",
+      "source_name": "Pstechglobal",
+      "date": "2026.04",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "Pstechglobal Guide",
+      "grad": "cat-4",
+      "tags": [
+        "Digital Marketing",
+        "AI",
+        "Data Analytics",
+        "Personalization"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-05T21:21:38.302560Z"
+    },
+    {
       "id": "A071",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -1941,7 +1968,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-04T21:21:42.716010",
-    "total_articles": 71
+    "last_updated": "2026-04-05T21:21:44.356328",
+    "total_articles": 72
   }
 }
