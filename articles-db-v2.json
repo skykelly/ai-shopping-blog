@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A074",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Commerce",
+      "title": "Commerce Announces Winners of APAC Region Customer and Partner Awards Honoring Exceptional Contributions and Results in Ecommerce",
+      "excerpt": "Ecommerce 리더가 APAC 지역에서 혁신적인 고객과 파트너를 선정하여 이커머스 업적을 기념. AI와의 직접 연관성은 부족.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/04/06/3268374/0/en/Commerce-Announces-Winners-of-APAC-Region-Customer-and-Partner-Awards-Honoring-Exceptional-Contributions-and-Results-in-Ecommerce.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "",
+      "key_stat_label": "",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "",
+      "thumb_label": "Commerce Awards",
+      "grad": "cat-2",
+      "tags": [
+        "Ecommerce",
+        "APAC",
+        "Awards",
+        "Innovation"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-07T21:34:13.122411Z"
+    },
+    {
       "id": "A073",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -1995,7 +2022,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-06T21:28:41.770202",
-    "total_articles": 73
+    "last_updated": "2026-04-07T21:34:22.156128",
+    "total_articles": 74
   }
 }
