@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A075",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Semrush",
+      "title": "Agentic search: How AI agents will decide which brands get found",
+      "excerpt": "AI 에이전트가 사용자 대신 평가하고 행동하는 방식. 브랜드 가시성에 미치는 영향과 작동 원리 설명.",
+      "source_url": "https://www.semrush.com/blog/what-is-agentic-search/",
+      "source_name": "Semrush.com",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "Semrush Agentic Search",
+      "grad": "cat-4",
+      "tags": [
+        "Agentic Search",
+        "AI Agents",
+        "Brand Visibility",
+        "Semrush"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-08T21:33:53.194235Z"
+    },
+    {
       "id": "A074",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -2022,7 +2049,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-07T21:34:22.156128",
-    "total_articles": 74
+    "last_updated": "2026-04-08T21:33:59.597123",
+    "total_articles": 75
   }
 }
