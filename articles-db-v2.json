@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A076",
+      "blog_category": "리테일러 AI 도입",
+      "region": "US",
+      "company": "Exol",
+      "title": "Exol™ Launches U.S. Physical AI Facilities and Groundbreaking Fulfillment-as-a-Service Model to Expand Access to Enterprise-Grade Automation",
+      "excerpt": "Exol, SoftBank와 Symbotic 지원으로 6개 사이트, 600만 평방피트 창고 공간을 갖춘 로봇 옴니채널 물류 네트워크 구축 시작.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/04/08/3269969/0/en/Exol-Launches-U-S-Physical-AI-Facilities-and-Groundbreaking-Fulfillment-as-a-Service-Model-to-Expand-Access-to-Enterprise-Grade-Automation.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.04",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "6M",
+      "key_stat_label": "Square Feet",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "6M Sq Ft",
+      "thumb_label": "Exol Fulfillment",
+      "grad": "cat-3",
+      "tags": [
+        "Exol",
+        "AI Fulfillment",
+        "Robotic Network",
+        "SoftBank"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-09T21:38:15.212207Z"
+    },
+    {
       "id": "A075",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2049,7 +2076,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-08T21:33:59.597123",
-    "total_articles": 75
+    "last_updated": "2026-04-09T21:38:23.724697",
+    "total_articles": 76
   }
 }
