@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A077",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Pomo",
+      "title": "Ex-Google DeepMind and Databricks Engineers Launch Pomo to Apply AI Agent Principles to Decision-Dense Marketing Functions",
+      "excerpt": "구글 딥마인드와 다트브릭스 출신 엔지니어들이 Pomo를 출시. AI 에이전트 원칙을 마케팅 기능에 적용하여 의사결정 밀도를 높임.",
+      "source_url": "http://money.mymotherlode.com/clarkebroadcasting.mymotherlode/article/bizwire-2026-4-8-ex-google-deepmind-and-databricks-engineers-launch-pomo-to-apply-ai-agent-principles-to-decision-dense-marketing-functions",
+      "source_name": "MyMotherLode.com",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "Pomo Launch",
+      "grad": "cat-4",
+      "tags": [
+        "Pomo",
+        "AI Agents",
+        "Marketing",
+        "Decision Making"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-10T21:27:54.120540Z"
+    },
+    {
       "id": "A076",
       "blog_category": "리테일러 AI 도입",
       "region": "US",
@@ -2076,7 +2103,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-09T21:38:23.724697",
-    "total_articles": 76
+    "last_updated": "2026-04-10T21:28:01.775530",
+    "total_articles": 77
   }
 }
