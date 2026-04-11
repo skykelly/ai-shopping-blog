@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A078",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Forrester",
+      "title": "Agentic Payments In B2C Commerce: Where We Are Now",
+      "excerpt": "Forrester의 최신 보고서: 에이전틱 결제 현황 및 주요 발표 타임라인 재조명. B2C 커머스에서의 변화와 전망 제시.",
+      "source_url": "https://www.forrester.com/blogs/agentic-payments-in-b2c-commerce-where-we-are-now/",
+      "source_name": "Forrester.com",
+      "date": "2026.04",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "N/A",
+      "thumb_label": "Forrester Report",
+      "grad": "cat-2",
+      "tags": [
+        "Agentic Payments",
+        "B2C Commerce",
+        "Forrester",
+        "Payments"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-11T21:23:28.313046Z"
+    },
+    {
       "id": "A077",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2103,7 +2130,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-10T21:28:01.775530",
-    "total_articles": 77
+    "last_updated": "2026-04-11T21:23:35.096236",
+    "total_articles": 78
   }
 }
