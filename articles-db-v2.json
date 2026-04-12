@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A079",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "HUMAN Security",
+      "title": "HUMAN Security’s 2026 State of AI Traffic & Cyberthreat Benchmark Report Signals a New Internet Era: Automation Growth Now Outpaces Humans",
+      "excerpt": "자동화가 인간 트래픽보다 8배 빠르게 성장, 조직은 유익한 AI 에이전트와 악의적 활동을 구별하는 새로운 신뢰 계층으로 나아가야 함.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/04/09/3270682/0/en/HUMAN-Security-s-2026-State-of-AI-Traffic-Cyberthreat-Benchmark-Report-Signals-a-New-Internet-Era-Automation-Growth-Now-Outpaces-Humans.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.04",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "8x",
+      "key_stat_label": "Growth Rate",
+      "thumb_emoji": "📊",
+      "thumb_stat": "8x Growth",
+      "thumb_label": "HUMAN Security Report",
+      "grad": "cat-7",
+      "tags": [
+        "HUMAN Security",
+        "AI Traffic",
+        "Cyberthreat",
+        "Automation"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-12T21:24:10.273239Z"
+    },
+    {
       "id": "A078",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -2130,7 +2157,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-11T21:23:35.096236",
-    "total_articles": 78
+    "last_updated": "2026-04-12T21:24:17.193332",
+    "total_articles": 79
   }
 }
