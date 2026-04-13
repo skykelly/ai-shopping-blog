@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A080",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Diymarketers",
+      "title": "Small Business Marketing Trends 2026: What's Working Now",
+      "excerpt": "2026년 소규모 비즈니스 마케팅 트렌드: 68%가 예산을 늘리지만, 20% 미만이 효과에 자신감. 데이터 기반 대안 제시.",
+      "source_url": "https://diymarketers.com/small-business-marketing-trends/",
+      "source_name": "Diymarketers.com",
+      "date": "2026.04",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "68%",
+      "key_stat_label": "Budget Increase",
+      "thumb_emoji": "📈",
+      "thumb_stat": "68% Budget",
+      "thumb_label": "Diymarketers Trends",
+      "grad": "cat-4",
+      "tags": [
+        "Small Business",
+        "Marketing Trends",
+        "Budget Increase",
+        "2026"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-13T21:38:26.625847Z"
+    },
+    {
       "id": "A079",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -2157,7 +2184,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-12T21:24:17.193332",
-    "total_articles": 79
+    "last_updated": "2026-04-13T21:38:33.581722",
+    "total_articles": 80
   }
 }
