@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A081",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "WWD",
+      "title": "Agentic AI in Retail: Bridging the Gap Between Innovation and Consumer Trust",
+      "excerpt": "소매업체들이 자율 에이전트를 도입하는 가운데, AI 오류에 대한 책임을 소비자에게 전가하면 브랜드 충성도가 약화될 수 있다는 경고가 나왔다.",
+      "source_url": "http://wwd.com/sourcing-journal/industry-news/bridging-the-gap-between-innovation-and-consumer-trust-1238912533/",
+      "source_name": "WWD",
+      "date": "2026.04",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "N/A",
+      "thumb_label": "Agentic AI Insights",
+      "grad": "cat-1",
+      "tags": [
+        "Agentic AI",
+        "Retail",
+        "Consumer Trust",
+        "Brand Loyalty"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-14T21:41:30.463793Z"
+    },
+    {
       "id": "A080",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2184,7 +2211,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-13T21:38:33.581722",
-    "total_articles": 80
+    "last_updated": "2026-04-14T21:41:37.659972",
+    "total_articles": 81
   }
 }
