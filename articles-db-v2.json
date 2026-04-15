@@ -63,6 +63,60 @@
   },
   "articles": [
     {
+      "id": "A082",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Pacvue",
+      "title": "Pacvue Launches Pacvue Agent, Advancing AI-Powered Commerce Media Execution",
+      "excerpt": "Pacvue Agent, AI 기반 상거래 미디어 OS 확장. 워크플로우 200배, 인사이트 도출 80배, 성과 54% 향상.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/04/14/3273156/0/en/Pacvue-Launches-Pacvue-Agent-Advancing-AI-Powered-Commerce-Media-Execution.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "+54%",
+      "key_stat_label": "Performance Improvement",
+      "thumb_emoji": "📈",
+      "thumb_stat": "+54% Performance",
+      "thumb_label": "Pacvue Agent",
+      "grad": "cat-4",
+      "tags": [
+        "Pacvue",
+        "AI Commerce",
+        "Media Execution",
+        "Performance"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-15T21:41:45.155760Z"
+    },
+    {
+      "id": "A083",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Search Engine Journal",
+      "title": "How AI Chooses Which Brands To Recommend: From Relational Knowledge To Topical Presence via @sejournal, @Dixon_Jones",
+      "excerpt": "AI 추천 시스템 연구, 브랜드의 연관성 강도에 따라 추천 성패 결정. 최신 언어 모델 활용.",
+      "source_url": "https://www.searchenginejournal.com/relational-knowledge-topical-presence-how-ai-chooses-which-brands-to-recommend/570482/",
+      "source_name": "Search Engine Journal",
+      "date": "2026.04",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "AI Recommendations",
+      "grad": "cat-4",
+      "tags": [
+        "AI Recommendations",
+        "Brand Strategy",
+        "Language Models",
+        "Search Engine Journal"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-15T21:41:52.274855Z"
+    },
+    {
       "id": "A081",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -2211,7 +2265,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-14T21:41:37.659972",
-    "total_articles": 81
+    "last_updated": "2026-04-15T21:41:59.239152",
+    "total_articles": 83
   }
 }
