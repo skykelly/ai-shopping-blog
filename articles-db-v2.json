@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A085",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Practical Ecommerce",
+      "title": "New Ecommerce Tools: April 15, 2026",
+      "excerpt": "이번 주 출시된 도구에는 크로스 채널 마케팅, B2B, 에이전틱 마케팅 등 포함. AI 관련 도구로 최신 트렌드 반영.",
+      "source_url": "https://www.practicalecommerce.com/new-ecommerce-tools-april-15-2026",
+      "source_name": "Practical Ecommerce",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "7",
+      "key_stat_label": "Days Old",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "New Tools",
+      "thumb_label": "Practical Ecommerce",
+      "grad": "cat-2",
+      "tags": [
+        "Ecommerce",
+        "AI Tools",
+        "Marketing",
+        "Agentic"
+      ]
+    },
+    {
       "id": "A084",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2292,7 +2317,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-16T21:34:03.943622",
-    "total_articles": 84
+    "last_updated": "2026-04-17T21:32:34.346925",
+    "total_articles": 85
   }
 }
