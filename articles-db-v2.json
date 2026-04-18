@@ -63,6 +63,60 @@
   },
   "articles": [
     {
+      "id": "A086",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "WWD",
+      "title": "The 2025 Top 100 Beauty Companies",
+      "excerpt": "WWD Beauty Inc Top 100, 2025년 세계 최대 뷰티 제조업체 순위. 2029년 시장 규모 $7.54B 전망.",
+      "source_url": "http://wwd.com/beauty-industry-news/beauty-features/lists/top-100-beauty-companies-in-the-world-2025-1238915113/",
+      "source_name": "WWD",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "$7.54B",
+      "key_stat_label": "Market Size",
+      "thumb_emoji": "💄",
+      "thumb_stat": "$7.54B Market",
+      "thumb_label": "WWD Beauty Ranking",
+      "grad": "cat-4",
+      "tags": [
+        "Beauty",
+        "Market Size",
+        "Top 100",
+        "WWD"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-18T21:24:24.137390Z"
+    },
+    {
+      "id": "A087",
+      "blog_category": "한국 사례",
+      "region": "Korea",
+      "company": "Baemin",
+      "title": "South Korea Quick Commerce Report 2026: Market to Reach $7.54 Billion by 2029 - Baemin's B-Mart and GS Retail Spearhead Growth through Dark-Store Innovation and Hyper-Local Fulfillment",
+      "excerpt": "2029년 한국 퀵 커머스 시장 규모 $7.54B 전망. Baemin과 GS리테일이 다크스토어 혁신으로 성장 주도.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/04/17/3276223/28124/en/South-Korea-Quick-Commerce-Report-2026-Market-to-Reach-7-54-Billion-by-2029-Baemin-s-B-Mart-and-GS-Retail-Spearhead-Growth-through-Dark-Store-Innovation-and-Hyper-Local-Fulfillment.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.04",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "$7.54B",
+      "key_stat_label": "Market Size",
+      "thumb_emoji": "🇰🇷",
+      "thumb_stat": "$7.54B Market",
+      "thumb_label": "Baemin Growth",
+      "grad": "cat-6",
+      "tags": [
+        "Baemin",
+        "Quick Commerce",
+        "Dark Store",
+        "GS Retail"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-18T21:24:30.423005Z"
+    },
+    {
       "id": "A085",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -2317,7 +2371,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-17T21:32:34.346925",
-    "total_articles": 85
+    "last_updated": "2026-04-18T21:24:37.328873",
+    "total_articles": 87
   }
 }
