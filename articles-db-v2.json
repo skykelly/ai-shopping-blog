@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A088",
+      "blog_category": "데이터 & 리포트",
+      "region": "US",
+      "company": "GlobeNewswire",
+      "title": "United States Quick Commerce Databook Report 2026: Market to Surpass $55.5 Billion by 2029, Driven by GoPuff, DoorDash, Instacart, Walmart, and Amazon",
+      "excerpt": "미국의 빠른 상거래 시장, 2029년까지 $55.5B 초과 전망. 신속한 배송과 온디맨드 서비스 통합으로 기회 창출.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/04/17/3276037/28124/en/United-States-Quick-Commerce-Databook-Report-2026-Market-to-Surpass-55-5-Billion-by-2029-Driven-by-GoPuff-DoorDash-Instacart-Walmart-and-Amazon.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.04",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "$55.5B",
+      "key_stat_label": "Market Size",
+      "thumb_emoji": "📊",
+      "thumb_stat": "$55.5B Market",
+      "thumb_label": "Quick Commerce Report",
+      "grad": "cat-7",
+      "tags": [
+        "Quick Commerce",
+        "Market Report",
+        "US",
+        "Delivery"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-19T21:25:31.711606Z"
+    },
+    {
       "id": "A086",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2371,7 +2398,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-18T21:24:37.328873",
-    "total_articles": 87
+    "last_updated": "2026-04-19T21:25:38.964455",
+    "total_articles": 88
   }
 }
