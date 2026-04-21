@@ -63,6 +63,60 @@
   },
   "articles": [
     {
+      "id": "A090",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Adobe",
+      "title": "Adobe Doubles Down on Agentic AI — But the Hard Work May Be the Operating Model",
+      "excerpt": "Adobe가 Summit 2026에서 고객 경험 오케스트레이션을 위한 에이전틱 AI 플랫폼 CX Enterprise Coworker를 공개. 고객 경험 혁신을 위한 AI 기술 활용.",
+      "source_url": "https://www.cmswire.com/customer-experience/adobe-doubles-down-on-agentic-ai-but-the-hard-work-may-be-operating-model/",
+      "source_name": "CMSWire",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "CX Enterprise Coworker",
+      "key_stat_label": "AI Platform",
+      "thumb_emoji": "📈",
+      "thumb_stat": "CX Platform",
+      "thumb_label": "Adobe Agentic AI",
+      "grad": "cat-4",
+      "tags": [
+        "Adobe",
+        "Agentic AI",
+        "Customer Experience",
+        "CX Platform"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-21T21:37:00.036403Z"
+    },
+    {
+      "id": "A091",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Semrush",
+      "title": "Semrush launches a framework for measuring brand visibility in AI search as the old SEO playbook breaks down",
+      "excerpt": "Semrush가 Adobe Summit에서 AI 검색에서 브랜드 가시성을 측정하는 프레임워크 발표. 2억1천3백만 데이터 기반의 Agentic Search Optimisation 도입.",
+      "source_url": "https://thenextweb.com/news/semrush-brand-visibility-framework-ai-search/",
+      "source_name": "The Next Web",
+      "date": "2026.04",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "213M",
+      "key_stat_label": "Data Points",
+      "thumb_emoji": "📈",
+      "thumb_stat": "213M Data",
+      "thumb_label": "Semrush Framework",
+      "grad": "cat-4",
+      "tags": [
+        "Semrush",
+        "Brand Visibility",
+        "AI Search",
+        "Agentic Search Optimisation"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-21T21:37:06.619926Z"
+    },
+    {
       "id": "A089",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -2425,7 +2479,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-20T21:37:28.947728",
-    "total_articles": 89
+    "last_updated": "2026-04-21T21:37:13.427499",
+    "total_articles": 91
   }
 }
