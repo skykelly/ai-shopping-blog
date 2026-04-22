@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A092",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Anaqua",
+      "title": "Anaqua Sets a New Standard for Modern Brand Protection with AI-driven Solutions",
+      "excerpt": "Anaqua의 브랜드 보호 솔루션 통합으로 기업과 법률 사무소가 디지털 위협을 더 빠르게 감지하고 대응 가능. 통합 플랫폼으로 효율성 향상.",
+      "source_url": "https://financialpost.com/globe-newswire/anaqua-sets-a-new-standard-for-modern-brand-protection-with-ai-driven-solutions",
+      "source_name": "Financial Post",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🛡️",
+      "thumb_stat": "N/A",
+      "thumb_label": "Anaqua Brand Protection",
+      "grad": "cat-2",
+      "tags": [
+        "Anaqua",
+        "Brand Protection",
+        "AI Solutions",
+        "Digital Threats"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-22T21:41:18.165048Z"
+    },
+    {
       "id": "A090",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2479,7 +2506,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-21T21:37:13.427499",
-    "total_articles": 91
+    "last_updated": "2026-04-22T21:41:24.835043",
+    "total_articles": 92
   }
 }
