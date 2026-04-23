@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A093",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Crazyegg",
+      "title": "How Ecommerce Brands Should Respond to AI Shopping",
+      "excerpt": "AI와 전자상거래에 대한 대화는 위협으로 프레임화되지만, 설문 데이터는 더 미묘한 이야기를 전달합니다.",
+      "source_url": "https://www.crazyegg.com/blog/ecommerce-ai-shopping/",
+      "source_name": "Crazyegg.com",
+      "date": "2026.04",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "",
+      "key_stat_label": "",
+      "thumb_emoji": "📈",
+      "thumb_stat": "",
+      "thumb_label": "Crazyegg AI Insight",
+      "grad": "cat-4",
+      "tags": [
+        "Ecommerce",
+        "AI Shopping",
+        "Brand Response",
+        "Survey Data"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-23T21:36:58.181262Z"
+    },
+    {
       "id": "A092",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -2506,7 +2533,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-22T21:41:24.835043",
-    "total_articles": 92
+    "last_updated": "2026-04-23T21:37:05.045750",
+    "total_articles": 93
   }
 }
