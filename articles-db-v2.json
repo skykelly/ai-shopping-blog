@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A094",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "FairPrice",
+      "title": "FairPrice to roll out AI-powered smart carts to more stores",
+      "excerpt": "AI 스마트 카트 도입으로 체크아웃 시간이 36초로 단축. 슈퍼마켓 직원은 AI 사이드킥으로 일상 업무 자동화.",
+      "source_url": "https://www.computerweekly.com/news/366642213/FairPrice-to-roll-out-AI-powered-smart-carts-to-more-stores",
+      "source_name": "ComputerWeekly.com",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "36",
+      "key_stat_label": "Checkout Time (sec)",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "36 sec Checkout",
+      "thumb_label": "FairPrice Smart Carts",
+      "grad": "cat-1",
+      "tags": [
+        "FairPrice",
+        "AI Smart Carts",
+        "Checkout Automation",
+        "Agentic Shopping"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-24T21:38:39.978197Z"
+    },
+    {
       "id": "A093",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2533,7 +2560,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-23T21:37:05.045750",
-    "total_articles": 93
+    "last_updated": "2026-04-24T21:38:47.431140",
+    "total_articles": 94
   }
 }
