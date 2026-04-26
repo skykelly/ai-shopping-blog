@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A096",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Meta",
+      "title": "Meta signs multibillion-dollar deal for Amazon Graviton5 chips as AI compute demand outstrips $135B capex budget",
+      "excerpt": "Meta, AWS 데이터 센터에 Amazon Graviton5 칩 수억 달러 계약 체결. AI 컴퓨팅 수요가 $135B 예산 초과.",
+      "source_url": "https://thenextweb.com/news/meta-amazon-graviton-chips-agentic-ai/",
+      "source_name": "The Next Web",
+      "date": "2026.04",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "$135B",
+      "key_stat_label": "Capex Budget",
+      "thumb_emoji": "🖥️",
+      "thumb_stat": "$135B Budget",
+      "thumb_label": "Meta & Amazon Deal",
+      "grad": "cat-2",
+      "tags": [
+        "Meta",
+        "Amazon",
+        "Graviton5",
+        "AI Compute"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-26T21:28:25.247884Z"
+    },
+    {
       "id": "A095",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2587,7 +2614,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-25T21:27:10.970365",
-    "total_articles": 95
+    "last_updated": "2026-04-26T21:28:31.623169",
+    "total_articles": 96
   }
 }
