@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A097",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "OroCommerce",
+      "title": "OroCommerce and Blue Yonder Partner to Unify B2B Commerce and Fulfillment",
+      "excerpt": "OroCommerce와 Blue Yonder의 파트너십으로 B2B 커머스와 주문 이행 통합. 제조업체, 유통업체, 도매업체에 혜택.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/04/24/3280855/0/en/OroCommerce-and-Blue-Yonder-Partner-to-Unify-B2B-Commerce-and-Fulfillment.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "",
+      "key_stat_label": "",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "",
+      "thumb_label": "OroCommerce Partnership",
+      "grad": "cat-2",
+      "tags": [
+        "OroCommerce",
+        "Blue Yonder",
+        "B2B Commerce",
+        "Fulfillment"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-27T21:44:58.812294Z"
+    },
+    {
       "id": "A096",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -2614,7 +2641,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-26T21:28:31.623169",
-    "total_articles": 96
+    "last_updated": "2026-04-27T21:45:06.478681",
+    "total_articles": 97
   }
 }
