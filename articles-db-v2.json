@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A098",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "The Times of India",
+      "title": "Inside AI-led digital storefronts; Lalit Keshre’s big ET Awards win",
+      "excerpt": "디지털 플랫폼과 브랜드가 AI 스토어프론트를 구축 중. ETtech Morning Dispatch에서 더 많은 내용 확인.",
+      "source_url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/inside-ai-led-digital-storefronts-lalit-keshres-big-et-awards-win/articleshow/130541596.cms",
+      "source_name": "The Times of India",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "",
+      "key_stat_label": "",
+      "thumb_emoji": "🛍️",
+      "thumb_stat": "",
+      "thumb_label": "AI Storefronts",
+      "grad": "cat-2",
+      "tags": [
+        "AI",
+        "Digital Storefronts",
+        "ET Awards",
+        "Lalit Keshre"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-28T21:49:38.438757Z"
+    },
+    {
       "id": "A097",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -2641,7 +2668,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-27T21:45:06.478681",
-    "total_articles": 97
+    "last_updated": "2026-04-28T21:49:46.393002",
+    "total_articles": 98
   }
 }
