@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A099",
+      "blog_category": "리테일러 AI 도입",
+      "region": "US",
+      "company": "Ace Hardware",
+      "title": "Ace Hardware Is Using AI To Make Store Associates Smarter: Here’s How",
+      "excerpt": "Ace Hardware, AI 도구 Hey ARMA 도입. 매장 직원의 업무 효율성 향상에 기여하고, 오프라인 소매업의 AI 활용 사례로 주목받음.",
+      "source_url": "https://www.forbes.com/sites/shelleykohan/2026/04/28/ace-hardware-is-using-ai-to-make-store-associates-smarter-heres-how/",
+      "source_name": "Forbes",
+      "date": "2026.04",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🏬",
+      "thumb_stat": "N/A",
+      "thumb_label": "Ace Hardware AI",
+      "grad": "cat-3",
+      "tags": [
+        "Ace Hardware",
+        "AI Tools",
+        "Retail Innovation",
+        "Store Associates"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-29T21:51:41.851910Z"
+    },
+    {
       "id": "A098",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -2668,7 +2695,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-28T21:49:46.393002",
-    "total_articles": 98
+    "last_updated": "2026-04-29T21:51:49.480163",
+    "total_articles": 99
   }
 }
