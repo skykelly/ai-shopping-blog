@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A100",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Etsy",
+      "title": "Etsy Bets on AI to Attract the Shoppers It’s Been Losing",
+      "excerpt": "Etsy, 8천6백만 활성 구매자 보유. AI 도입으로 맞춤형 제품 추천 시스템 강화, 쇼핑 경험 혁신 기대.",
+      "source_url": "https://www.pymnts.com/earnings/2026/etsy-bets-on-ai-to-attract-the-shoppers-its-been-losing/",
+      "source_name": "pymnts.com",
+      "date": "2026.04",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "86M",
+      "key_stat_label": "Active Buyers",
+      "thumb_emoji": "🛍️",
+      "thumb_stat": "86M Buyers",
+      "thumb_label": "Etsy AI Strategy",
+      "grad": "cat-4",
+      "tags": [
+        "Etsy",
+        "AI",
+        "Active Buyers",
+        "Shopping Experience"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-04-30T21:46:26.529045Z"
+    },
+    {
       "id": "A099",
       "blog_category": "리테일러 AI 도입",
       "region": "US",
@@ -2695,7 +2722,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-29T21:51:49.480163",
-    "total_articles": 99
+    "last_updated": "2026-04-30T21:46:33.538322",
+    "total_articles": 100
   }
 }
