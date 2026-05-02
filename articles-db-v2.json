@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A102",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Fortune",
+      "title": "Why your data infrastructure — not your AI model — will determine whether Agentic AI scales",
+      "excerpt": "대부분의 기업이 AI 예산을 준비되지 않은 도구에 낭비. 제약은 컴퓨팅이 아닌 혼란스럽고 분리된 데이터.",
+      "source_url": "https://fortune.com/2026/04/30/agentic-ai-data-infrastructure-readiness-scale/",
+      "source_name": "Fortune",
+      "date": "2026.04",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🛠️",
+      "thumb_stat": "N/A",
+      "thumb_label": "Agentic AI Insights",
+      "grad": "cat-2",
+      "tags": [
+        "Agentic AI",
+        "Data Infrastructure",
+        "AI Budget",
+        "Enterprise"
+      ]
+    },
+    {
       "id": "A101",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -2749,7 +2774,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-01T21:42:47.320963",
-    "total_articles": 101
+    "last_updated": "2026-05-02T21:30:33.042401",
+    "total_articles": 102
   }
 }
