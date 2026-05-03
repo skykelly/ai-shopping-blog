@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A103",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "MarketingProfs",
+      "title": "AI Update, May 1, 2026: AI News and Views From the Past Week",
+      "excerpt": "4월 24일 이후 AI 뉴스 및 발전 요약. 최신 동향을 파악하고 전체 기사를 확인하세요.",
+      "source_url": "https://www.marketingprofs.com/opinions/2026/54640/ai-update-may-1-2026-ai-news-and-views-from-the-past-week",
+      "source_name": "MarketingProfs.com",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "",
+      "key_stat_label": "",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "AI News Update",
+      "grad": "cat-4",
+      "tags": [
+        "AI News",
+        "Marketing",
+        "Trends",
+        "Updates"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-03T21:32:09.881658Z"
+    },
+    {
       "id": "A102",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -2774,7 +2801,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-02T21:30:33.042401",
-    "total_articles": 102
+    "last_updated": "2026-05-03T21:32:16.872744",
+    "total_articles": 103
   }
 }
