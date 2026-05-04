@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A104",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "Walmart",
+      "title": "Walmart Dollar General Costco Rethink Self-Checkout Amid Theft Surge and New State Laws",
+      "excerpt": "Walmart, Dollar General, Costco, 자율 계산대 축소. 도난 증가와 고객 불만, 법안 제안으로 업계 전환 필요.",
+      "source_url": "https://www.ibtimes.com.au/walmart-dollar-general-costco-rethink-self-checkout-amid-theft-surge-new-state-laws-1868079",
+      "source_name": "Ibtimes.com.au",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "N/A",
+      "thumb_label": "Self-Checkout Rethink",
+      "grad": "cat-3",
+      "tags": [
+        "Walmart",
+        "Self-Checkout",
+        "Retail",
+        "Theft"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-04T21:52:11.336700Z"
+    },
+    {
       "id": "A103",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2801,7 +2828,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-03T21:32:16.872744",
-    "total_articles": 103
+    "last_updated": "2026-05-04T21:52:18.301198",
+    "total_articles": 104
   }
 }
