@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A105",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "AINewsWire",
+      "title": "Service Robotics Growth Accelerates as Global Demand Fuels Strategic Expansion",
+      "excerpt": "서비스 로봇 수요 증가, 자동화로 인한 노동력 부족 해결. 산업 전반에서 전략적 확장 가속화.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/05/04/3286705/0/en/Service-Robotics-Growth-Accelerates-as-Global-Demand-Fuels-Strategic-Expansion.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "서비스 로봇 성장",
+      "grad": "cat-4",
+      "tags": [
+        "Service Robotics",
+        "Automation",
+        "Global Demand",
+        "Strategic Expansion"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-05T21:52:19.678093Z"
+    },
+    {
       "id": "A104",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -2828,7 +2855,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-04T21:52:18.301198",
-    "total_articles": 104
+    "last_updated": "2026-05-05T21:52:26.917597",
+    "total_articles": 105
   }
 }
