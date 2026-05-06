@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A106",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Semrush",
+      "title": "Attribution gap in agentic search: how to close it",
+      "excerpt": "AI 도구가 구매 결정에 미치는 영향을 분석하는 방법을 제시. 분석 도구가 AI 도구를 인식하지 못하는 문제 해결 방안 제안.",
+      "source_url": "https://www.semrush.com/blog/attribution-gap-in-agentic-search/",
+      "source_name": "Semrush.com",
+      "date": "2026.05",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "Semrush Insights",
+      "grad": "cat-4",
+      "tags": [
+        "Semrush",
+        "Attribution Gap",
+        "AI Tools",
+        "Buying Decisions"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-06T21:50:58.973106Z"
+    },
+    {
       "id": "A105",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2855,7 +2882,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-05T21:52:26.917597",
-    "total_articles": 105
+    "last_updated": "2026-05-06T21:51:05.130860",
+    "total_articles": 106
   }
 }
