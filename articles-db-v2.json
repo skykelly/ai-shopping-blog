@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A107",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "VenHub",
+      "title": "VenHub Highlights Rapid Progress Since Nasdaq Debut Including Expanded Smart Store Deployments, Enhanced Technology Platform and Increased Las Vegas Production Capacity",
+      "excerpt": "VenHub, 자율 소매 플랫폼 채택을 위한 로드맵을 지속적으로 발전시키며, 스마트 스토어 배치 확대 및 기술 플랫폼 강화.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/05/06/3288702/0/en/VenHub-Highlights-Rapid-Progress-Since-Nasdaq-Debut-Including-Expanded-Smart-Store-Deployments-Enhanced-Technology-Platform-and-Increased-Las-Vegas-Production-Capacity.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🏬",
+      "thumb_stat": "N/A",
+      "thumb_label": "VenHub Progress",
+      "grad": "cat-3",
+      "tags": [
+        "VenHub",
+        "Autonomous Retail",
+        "Smart Store",
+        "Technology Platform"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-07T21:45:05.738791Z"
+    },
+    {
       "id": "A106",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2882,7 +2909,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-06T21:51:05.130860",
-    "total_articles": 106
+    "last_updated": "2026-05-07T21:45:13.910677",
+    "total_articles": 107
   }
 }
