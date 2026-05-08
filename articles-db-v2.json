@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A108",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "Joor",
+      "title": "Field Notes: Joor Sees Boost in French Apparel Brands, How AI Protects Margin Erosion, and More",
+      "excerpt": "프랑스 패션 성장과 AI가 소매 마진 보호에 미치는 영향, Interpack 2026에서 공개된 최신 포장 기술 탐구.",
+      "source_url": "http://wwd.com/sourcing-journal/industry-news/joor-sees-boost-in-french-apparel-brands-1238945713/",
+      "source_name": "WWD",
+      "date": "2026.05",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🛍️",
+      "thumb_stat": "N/A",
+      "thumb_label": "Joor Insights",
+      "grad": "cat-3",
+      "tags": [
+        "Joor",
+        "French Fashion",
+        "AI Impact",
+        "Retail Margins"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-08T21:48:49.688303Z"
+    },
+    {
       "id": "A107",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -2909,7 +2936,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-07T21:45:13.910677",
-    "total_articles": 107
+    "last_updated": "2026-05-08T21:48:56.068895",
+    "total_articles": 108
   }
 }
