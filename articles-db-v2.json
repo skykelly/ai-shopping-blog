@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A110",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Search Engine Journal",
+      "title": "How To Leverage AI Ad Placements And Are They Worth It? – Ask A PPC via @sejournal, @navahf",
+      "excerpt": "AI 광고는 규칙을 알면 신비롭지 않다. 인벤토리 접근, 기대 설정, 효과적인 예산 구축 방법 소개.",
+      "source_url": "https://www.searchenginejournal.com/ask-a-ppc-how-to-leverage-ai-ad-placements-and-are-they-worth-it/573639/",
+      "source_name": "Search Engine Journal",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "AI 광고 활용",
+      "grad": "cat-4",
+      "tags": [
+        "AI Advertising",
+        "PPC",
+        "Budgeting",
+        "Search Engine Journal"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-10T21:38:10.592975Z"
+    },
+    {
       "id": "A109",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -2963,7 +2990,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-09T21:33:52.765319",
-    "total_articles": 109
+    "last_updated": "2026-05-10T21:38:17.111487",
+    "total_articles": 110
   }
 }
