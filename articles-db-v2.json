@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A111",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "BusinessLine",
+      "title": "Sensex today | Stock Market Highlights: Benchmark indices end lower; Sensex drops 516 pts to 77,328, Nifty closes at 24,176 amid West Asia tensions",
+      "excerpt": "인도 주식 시장, 미국-이란 긴장으로 하락. Sensex 516포인트 하락, Nifty 24,176 마감. 외국인 투자자 매도 지속.",
+      "source_url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-8th-may-2026/article70953659.ece",
+      "source_name": "BusinessLine",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "-516",
+      "key_stat_label": "Points Drop",
+      "thumb_emoji": "📉",
+      "thumb_stat": "-516 pts",
+      "thumb_label": "Sensex Market Drop",
+      "grad": "cat-7",
+      "tags": [
+        "Sensex",
+        "Nifty",
+        "Stock Market",
+        "India"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-11T22:00:03.063610Z"
+    },
+    {
       "id": "A110",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -2990,7 +3017,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-10T21:38:17.111487",
-    "total_articles": 110
+    "last_updated": "2026-05-11T22:00:10.185681",
+    "total_articles": 111
   }
 }
