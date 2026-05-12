@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A112",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "AIxCrypto Holdings",
+      "title": "AIxCrypto Holdings Reports First Quarter 2026 Results; Highlights Q1 Execution Across Embodied AI, RWA Tokenization, and AI Agent Platforms",
+      "excerpt": "AIxCrypto Holdings, Q1 2026 결과 발표. AI 플랫폼 및 RWA 토큰화에서의 성과 강조, 투자 포지션 $12M 확대.",
+      "source_url": "https://www.prnewswire.com/news-releases/aixcrypto-holdings-reports-first-quarter-2026-results-highlights-q1-execution-across-embodied-ai-rwa-tokenization-and-ai-agent-platforms-302768643.html",
+      "source_name": "PRNewswire",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "$12M",
+      "key_stat_label": "Investment Position",
+      "thumb_emoji": "📈",
+      "thumb_stat": "$12M Investment",
+      "thumb_label": "AIxCrypto Holdings",
+      "grad": "cat-4",
+      "tags": [
+        "AIxCrypto",
+        "Q1 Results",
+        "AI Platforms",
+        "Investment"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-12T22:02:32.194684Z"
+    },
+    {
       "id": "A111",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -3017,7 +3044,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-11T22:00:10.185681",
-    "total_articles": 111
+    "last_updated": "2026-05-12T22:02:39.348427",
+    "total_articles": 112
   }
 }
