@@ -63,6 +63,60 @@
   },
   "articles": [
     {
+      "id": "A113",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Big Tech",
+      "title": "Big Tech in Fashion Feels New. History Says Otherwise.",
+      "excerpt": "메트 갈라 이전부터 테크 기업들이 패션에 깊이 투자 중. AI 기반 커머스와 관련된 2배 전환율 수치 포함.",
+      "source_url": "http://wwd.com/sourcing-journal/industry-news/big-tech-in-fashion-met-gala-bezos-meta-google-apple-1238948244/",
+      "source_name": "WWD",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "2X",
+      "key_stat_label": "Conversion Rate",
+      "thumb_emoji": "🛍️",
+      "thumb_stat": "2X Conversion",
+      "thumb_label": "Big Tech Fashion",
+      "grad": "cat-2",
+      "tags": [
+        "Big Tech",
+        "Fashion",
+        "AI Commerce",
+        "Met Gala"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-13T22:03:57.626161Z"
+    },
+    {
+      "id": "A114",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "ChannelEngine",
+      "title": "As AI-Referred Retail Traffic Surges 393%, ChannelEngine Launches Tools to Help Marketplace Sellers Stay Visible",
+      "excerpt": "ChannelEngine의 2026년 봄 출시, AI 기반 제품 데이터 생성 및 에이전틱 커머스 플랫폼과의 조기 연결 도입. AI 추천 리테일 트래픽 393% 증가.",
+      "source_url": "https://www.prnewswire.com/news-releases/as-ai-referred-retail-traffic-surges-393-channelengine-launches-tools-to-help-marketplace-sellers-stay-visible-302769765.html",
+      "source_name": "PRNewswire",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "+393%",
+      "key_stat_label": "Traffic Surge",
+      "thumb_emoji": "🛍️",
+      "thumb_stat": "+393% Traffic",
+      "thumb_label": "ChannelEngine Tools",
+      "grad": "cat-2",
+      "tags": [
+        "ChannelEngine",
+        "AI Traffic",
+        "Marketplace Tools",
+        "Agentic Commerce"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-13T22:04:04.146828Z"
+    },
+    {
       "id": "A112",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -3044,7 +3098,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-12T22:02:39.348427",
-    "total_articles": 112
+    "last_updated": "2026-05-13T22:04:11.321052",
+    "total_articles": 114
   }
 }
