@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A115",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Swap",
+      "title": "Swap Storefront Delivers 2X Conversion Rates As Brands Embrace AI-Powered Commerce",
+      "excerpt": "Swap가 첫 번째 에이전틱 스토어프론트를 출시. AI 기반 판매 채널로 전환율 2배 증가. 브랜드 웹사이트와 별도로 운영.",
+      "source_url": "https://www.forbes.com/sites/sharonedelson/2026/05/12/swap-storefront-delivers-2x-conversion-rates-as-brands-embrace-ai-powered-commerce/",
+      "source_name": "Forbes",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "2X",
+      "key_stat_label": "Conversion Rates",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "2X Conversion",
+      "thumb_label": "Swap Storefront",
+      "grad": "cat-2",
+      "tags": [
+        "Swap",
+        "AI Commerce",
+        "Conversion Rates",
+        "Agentic Storefront"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-14T22:00:22.470982Z"
+    },
+    {
       "id": "A113",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -3098,7 +3125,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-13T22:04:11.321052",
-    "total_articles": 114
+    "last_updated": "2026-05-14T22:00:29.711612",
+    "total_articles": 115
   }
 }
