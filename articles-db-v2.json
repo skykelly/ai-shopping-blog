@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A116",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "SAP",
+      "title": "Innovation News Guide: Advancing the Autonomous Enterprise",
+      "excerpt": "SAP Sapphire 2026에서 자율 기업을 이끄는 혁신과 뉴스 소개. Joule Work, SAP Business AI 플랫폼 및 SAP Autonomous Suite 포함.",
+      "source_url": "https://www.sap.com/topics/events/sapphire/innovation-news-guide-2026",
+      "source_name": "Sap.com",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "",
+      "key_stat_label": "",
+      "thumb_emoji": "🛠️",
+      "thumb_stat": "N/A",
+      "thumb_label": "SAP Innovations",
+      "grad": "cat-2",
+      "tags": [
+        "SAP",
+        "Autonomous Enterprise",
+        "Business AI",
+        "Innovation"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-15T21:48:13.580095Z"
+    },
+    {
       "id": "A115",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -3125,7 +3152,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-14T22:00:29.711612",
-    "total_articles": 115
+    "last_updated": "2026-05-15T21:48:20.399508",
+    "total_articles": 116
   }
 }
