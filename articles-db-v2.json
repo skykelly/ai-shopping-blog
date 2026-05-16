@@ -63,6 +63,60 @@
   },
   "articles": [
     {
+      "id": "A117",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "China",
+      "company": "Alibaba Group",
+      "title": "China’s tech giants are replacing the search bar with AI agents that shop for you",
+      "excerpt": "중국의 온라인 쇼핑 방식 변화. 알리바바, Qwen AI를 타오바오에 통합. 검색 바 대신 AI 에이전트가 쇼핑 지원.",
+      "source_url": "https://thenextweb.com/news/chinas-tech-giants-are-replacing-the-search-bar-with-ai-agents-that-shop-for-you/",
+      "source_name": "The Next Web",
+      "date": "2026.05",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "N/A",
+      "thumb_label": "Alibaba Qwen AI",
+      "grad": "cat-1",
+      "tags": [
+        "Alibaba",
+        "Qwen",
+        "AI Agents",
+        "Shopping"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-16T21:38:47.095310Z"
+    },
+    {
+      "id": "A118",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Linkedin",
+      "title": "Retail & Consumer Packaged Goods (CPG) Marketing Solutions Market Size, Trends, 2026-2033 Forecast & Strategic Insights",
+      "excerpt": "2024년 CPG 마케팅 솔루션 시장 규모 452억 달러, 2026-2033년 성장 전망. AI와의 간접적 연관성.",
+      "source_url": "https://www.linkedin.com/pulse/retail-consumer-packaged-goods-cpg-marketing-solutions-puhkf",
+      "source_name": "Linkedin.com",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "$45.2B",
+      "key_stat_label": "Market Value",
+      "thumb_emoji": "📊",
+      "thumb_stat": "$45.2B Market",
+      "thumb_label": "Linkedin CPG Market",
+      "grad": "cat-7",
+      "tags": [
+        "CPG",
+        "Marketing Solutions",
+        "Market Size",
+        "Forecast"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-16T21:38:53.493245Z"
+    },
+    {
       "id": "A116",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -3152,7 +3206,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-15T21:48:20.399508",
-    "total_articles": 116
+    "last_updated": "2026-05-16T21:39:00.122062",
+    "total_articles": 118
   }
 }
