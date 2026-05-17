@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A119",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "A2Z",
+      "title": "A2Z Provides Update to Financial Results for First Quarter 2026",
+      "excerpt": "A2Z 2026년 1분기 매출 $3.3M, 114% 증가. 계약 잔고 $195M 초과, 글로벌 배포 가속화.",
+      "source_url": "https://www.prnewswire.com/news-releases/a2z-provides-update-to-financial-results-for-first-quarter-2026-302773656.html",
+      "source_name": "PRNewswire",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "+114%",
+      "key_stat_label": "Revenue Growth",
+      "thumb_emoji": "🏬",
+      "thumb_stat": "+114% Growth",
+      "thumb_label": "A2Z Financials",
+      "grad": "cat-3",
+      "tags": [
+        "A2Z",
+        "Financial Results",
+        "Revenue Growth",
+        "Global Deployment"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-17T21:44:16.865511Z"
+    },
+    {
       "id": "A117",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "China",
@@ -3206,7 +3233,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-16T21:39:00.122062",
-    "total_articles": 118
+    "last_updated": "2026-05-17T21:44:23.127634",
+    "total_articles": 119
   }
 }
