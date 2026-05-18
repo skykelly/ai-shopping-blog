@@ -63,6 +63,32 @@
   },
   "articles": [
     {
+      "id": "A120",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Successful Blog",
+      "title": "Marketing Trends: 10 Essential Strategies Every Modern Business Must Adopt to Scale",
+      "excerpt": "디지털 환경 변화가 빠르게 진행되고 있으며, 브랜드가 현대 소비자와 연결하기 위해서는 현재의 마케팅 트렌드를 이해하는 것이 중요합니다.",
+      "source_url": "https://www.successful-blog.com/1/marketing-trends-business-must-adopt/",
+      "source_name": "Successful-blog.com",
+      "date": "2026.05",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "",
+      "key_stat_label": "",
+      "thumb_emoji": "📈",
+      "thumb_stat": "",
+      "thumb_label": "마케팅 전략",
+      "grad": "cat-4",
+      "tags": [
+        "Marketing",
+        "Business Strategies",
+        "Digital Trends"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-18T21:58:39.143930Z"
+    },
+    {
       "id": "A119",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -3233,7 +3259,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-17T21:44:23.127634",
-    "total_articles": 119
+    "last_updated": "2026-05-18T21:58:46.770609",
+    "total_articles": 120
   }
 }
