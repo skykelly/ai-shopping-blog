@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A121",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "India",
+      "company": "Amazon",
+      "title": "Old shopping funnel is gone: Gen Z is rewriting rules of retail",
+      "excerpt": "Gen Z가 인도 온라인 소매 시장을 재편하고 있으며, 패션·뷰티 쇼핑객의 절반이 Gen Z. 브랜드는 전통 마케팅 전략을 재고해야 함.",
+      "source_url": "https://economictimes.indiatimes.com/industry/services/retail/old-shopping-funnel-is-gone-gen-z-is-rewriting-rules-of-retail-myntra-amazon-nykaa-shein-sale/articleshow/131171422.cms",
+      "source_name": "The Times of India",
+      "date": "2026.05",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "50%",
+      "key_stat_label": "Gen Z Shoppers",
+      "thumb_emoji": "🛍️",
+      "thumb_stat": "50% Shoppers",
+      "thumb_label": "Gen Z in Retail",
+      "grad": "cat-4",
+      "tags": [
+        "Gen Z",
+        "Retail",
+        "India",
+        "Marketing"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-19T22:05:23.226134Z"
+    },
+    {
       "id": "A120",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -3259,7 +3286,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-18T21:58:46.770609",
-    "total_articles": 120
+    "last_updated": "2026-05-19T22:05:31.712337",
+    "total_articles": 121
   }
 }
