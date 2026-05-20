@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A122",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Centric Software",
+      "title": "Centric Software to Showcase AI-Powered Retail Innovations at NRF 2026 APAC",
+      "excerpt": "Centric Software, AI 기반 리테일 혁신 솔루션 소개. 제품 개선, 스마트한 상품 구성, 가격 책정 최적화, 신속한 출시 지원.",
+      "source_url": "https://www.prnewswire.com/news-releases/centric-software-to-showcase-ai-powered-retail-innovations-at-nrf-2026-apac-302776565.html",
+      "source_name": "PRNewswire",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "Centric Software AI",
+      "grad": "cat-4",
+      "tags": [
+        "Centric Software",
+        "AI Innovations",
+        "Retail",
+        "NRF 2026"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-20T22:19:04.424416Z"
+    },
+    {
       "id": "A121",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "India",
@@ -3286,7 +3313,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-19T22:05:31.712337",
-    "total_articles": 121
+    "last_updated": "2026-05-20T22:19:11.561927",
+    "total_articles": 122
   }
 }
