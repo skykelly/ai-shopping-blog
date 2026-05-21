@@ -63,6 +63,114 @@
   },
   "articles": [
     {
+      "id": "A123",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Google",
+      "title": "Google Marketing Live 2026 Unveils Gemini as Core AI Engine for Future Advertising and Commerce",
+      "excerpt": "Google, 멀티모달 AI 기반의 에이전틱 크리에이티브 및 솔루션 공개. 에이전틱 커머스 기능이 새로운 광고 및 상거래 방식으로 변모.",
+      "source_url": "https://www.brandiconimage.com/2026/05/gemini-is-ai-engine-across-next.html",
+      "source_name": "Brandiconimage.com",
+      "date": "2026.05",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🛍️",
+      "thumb_stat": "N/A",
+      "thumb_label": "Google Gemini",
+      "grad": "cat-2",
+      "tags": [
+        "Google",
+        "Gemini",
+        "AI Engine",
+        "Agentic Commerce"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-21T22:10:38.083681Z"
+    },
+    {
+      "id": "A124",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "Google",
+      "title": "Google Builds a Cart That Shops While You Sleep",
+      "excerpt": "구글, AI 에이전트가 자동으로 쇼핑하는 '유니버설 카트' 공개. 가격 하락 시 자동 구매로 쇼핑 편의성 대폭 향상.",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/google-builds-cart-shops-while-you-sleep/",
+      "source_name": "pymnts.com",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "No redirect",
+      "key_stat_label": "Checkout Process",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "No redirect",
+      "thumb_label": "Google Universal Cart",
+      "grad": "cat-1",
+      "tags": [
+        "Google",
+        "AI Shopping",
+        "Universal Cart",
+        "Agentic Shopping"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-21T22:10:52.921078Z"
+    },
+    {
+      "id": "A125",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "Google",
+      "title": "Google says AI agents spending your money is a 'more fun' way to shop",
+      "excerpt": "구글의 새로운 유니버설 카트는 여러 소매업체의 제품을 하나의 장소에 통합. AI 에이전트가 쇼핑을 더 재미있게 만든다.",
+      "source_url": "https://www.zdnet.com/article/google-says-ai-agents-spending-your-money-is-a-more-fun-way-to-shop/",
+      "source_name": "ZDNet",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "N/A",
+      "thumb_label": "Google Universal Cart",
+      "grad": "cat-1",
+      "tags": [
+        "Google",
+        "AI Agents",
+        "Universal Cart",
+        "Agentic Shopping"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-21T22:11:04.344445Z"
+    },
+    {
+      "id": "A126",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Practical Ecommerce",
+      "title": "New Ecommerce Tools: May 20, 2026",
+      "excerpt": "이번 주: 퀵 커머스, SMS 마케팅, SEO, 에이전틱 스토어프론트, 멀티채널 관리 등 다양한 이커머스 도구 소개.",
+      "source_url": "https://www.practicalecommerce.com/new-ecommerce-tools-may-20-2026",
+      "source_name": "Practical Ecommerce",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🛍️",
+      "thumb_stat": "N/A",
+      "thumb_label": "Ecommerce Tools",
+      "grad": "cat-2",
+      "tags": [
+        "Ecommerce",
+        "AI Tools",
+        "Marketing",
+        "Multichannel"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-21T22:11:15.364142Z"
+    },
+    {
       "id": "A122",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -3313,7 +3421,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-20T22:19:11.561927",
-    "total_articles": 122
+    "last_updated": "2026-05-21T22:11:25.919780",
+    "total_articles": 126
   }
 }
