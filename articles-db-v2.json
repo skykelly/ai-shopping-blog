@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A127",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "GlobeNewswire",
+      "title": "Live Commerce Platforms Market Report 2026-2032: Innovations, Consumer Preferences, Key Growth Drivers",
+      "excerpt": "라이브 커머스가 실시간 비디오 스트리밍과 인터랙티브 쇼핑을 결합하여 브랜드 참여와 신뢰를 증대시키고 있습니다.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/05/21/3299050/28124/en/Live-Commerce-Platforms-Market-Report-2026-2032-Innovations-Consumer-Preferences-Key-Growth-Drivers.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.05",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "Live Commerce Trends",
+      "grad": "cat-4",
+      "tags": [
+        "Live Commerce",
+        "E-commerce",
+        "Consumer Preferences",
+        "Brand Engagement"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-22T21:56:54.301922Z"
+    },
+    {
       "id": "A123",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -3421,7 +3448,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-21T22:11:25.919780",
-    "total_articles": 126
+    "last_updated": "2026-05-22T21:57:04.188242",
+    "total_articles": 127
   }
 }
