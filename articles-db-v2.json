@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A128",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "Google",
+      "title": "Google Wants To Do Your Shopping For You At GML This Year",
+      "excerpt": "구글 마케팅 라이브에서 쇼핑 자동화 발표. AI 기반 쇼핑 지원으로 사용자 경험 개선 기대.",
+      "source_url": "http://www.adexchanger.com/marketers/google-wants-to-do-your-shopping-for-you-at-gml-this-year/",
+      "source_name": "AdExchanger",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "N/A",
+      "thumb_label": "Google Shopping",
+      "grad": "cat-1",
+      "tags": [
+        "Google",
+        "Shopping",
+        "AI",
+        "Marketing"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-23T21:43:38.398784Z"
+    },
+    {
       "id": "A127",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -3448,7 +3475,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-22T21:57:04.188242",
-    "total_articles": 127
+    "last_updated": "2026-05-23T21:43:47.940599",
+    "total_articles": 128
   }
 }
