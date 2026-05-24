@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A129",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Skift",
+      "title": "Why Payments Have Become an Important Strategic Lever in Airline Distribution",
+      "excerpt": "항공사들이 결제를 과소평가할 수 있음. 복잡한 유통 구조 속 결제 인프라가 성장과 파트너십에 영향을 미침.",
+      "source_url": "https://skift.com/2026/05/21/why-payments-have-become-an-important-strategic-lever-in-airline-distribution/",
+      "source_name": "Skift",
+      "date": "2026.05",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🛫",
+      "thumb_stat": "N/A",
+      "thumb_label": "항공사 유통",
+      "grad": "cat-2",
+      "tags": [
+        "Payments",
+        "Airlines",
+        "Distribution",
+        "Retail"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-24T21:44:44.674136Z"
+    },
+    {
       "id": "A128",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -3475,7 +3502,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-23T21:43:47.940599",
-    "total_articles": 128
+    "last_updated": "2026-05-24T21:44:52.347283",
+    "total_articles": 129
   }
 }
