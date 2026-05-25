@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A130",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Keyrock",
+      "title": "Crypto rails are becoming the default payment layer for AI agents, report says",
+      "excerpt": "Keyrock 보고서에 따르면, 블록체인 기반 스테이블코인이 AI 에이전트의 기본 결제 레이어로 자리잡고 있음. 전통적인 카드 결제는 마이크로 결제를 처리하는 데 어려움.",
+      "source_url": "https://www.coindesk.com/business/2026/05/21/crypto-rails-are-becoming-the-default-payment-layer-for-ai-agents-report-says",
+      "source_name": "CoinDesk",
+      "date": "2026.05",
+      "read_time": "4 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "💳",
+      "thumb_stat": "N/A",
+      "thumb_label": "Keyrock Report",
+      "grad": "cat-2",
+      "tags": [
+        "Keyrock",
+        "AI Agents",
+        "Payment Layer",
+        "Stablecoins"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-25T22:00:49.483502Z"
+    },
+    {
       "id": "A129",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -3502,7 +3529,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-24T21:44:52.347283",
-    "total_articles": 129
+    "last_updated": "2026-05-25T22:00:59.252046",
+    "total_articles": 130
   }
 }
