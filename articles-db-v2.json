@@ -63,6 +63,60 @@
   },
   "articles": [
     {
+      "id": "A131",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "pymnts.com",
+      "title": "The Agentic Commerce Checklist Every Merchant Needs Now",
+      "excerpt": "AI 에이전트는 클릭하지 않고, 제품 설명을 읽지 않으며, 초고속으로 거래. 상인들은 새로운 고객 유형에 대비해야 함.",
+      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/the-agentic-commerce-checklist-every-merchant-needs-now/",
+      "source_name": "pymnts.com",
+      "date": "2026.05",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🤖",
+      "thumb_stat": "N/A",
+      "thumb_label": "Agentic Commerce",
+      "grad": "cat-1",
+      "tags": [
+        "Agentic Commerce",
+        "AI Agents",
+        "Merchants",
+        "E-commerce"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-26T22:14:50.235058Z"
+    },
+    {
+      "id": "A132",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Hubspot",
+      "title": "How to optimize for AI overviews (AIOs): A complete 2026 playbook",
+      "excerpt": "Google AI Overviews가 검색 결과에서 점점 더 많은 쿼리에 나타나고 있으며, 콘텐츠가 인용을 받을 수 있도록 구조화되지 않으면 경쟁자에게 가시성을 잃게 됩니다.",
+      "source_url": "https://blog.hubspot.com/marketing/optimize-for-ai-overviews",
+      "source_name": "Hubspot.com",
+      "date": "2026.05",
+      "read_time": "5 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "📈",
+      "thumb_stat": "N/A",
+      "thumb_label": "Hubspot AI Playbook",
+      "grad": "cat-4",
+      "tags": [
+        "AI Optimization",
+        "Google Search",
+        "SEO",
+        "Content Strategy"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-26T22:14:59.102424Z"
+    },
+    {
       "id": "A130",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -3529,7 +3583,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-25T22:00:59.252046",
-    "total_articles": 130
+    "last_updated": "2026-05-26T22:15:07.846120",
+    "total_articles": 132
   }
 }
