@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A135",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Kuaishou Technology",
+      "title": "Kuaishou Technology Announces First Quarter 2026 Unaudited Financial Results",
+      "excerpt": "Kuaishou Technology, 2026년 1분기 재무 결과 발표. AI 쇼핑 관련성 낮음.",
+      "source_url": "https://www.prnewswire.com/news-releases/kuaishou-technology-announces-first-quarter-2026-unaudited-financial-results-302782888.html",
+      "source_name": "PRNewswire",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "N/A",
+      "key_stat_label": "N/A",
+      "thumb_emoji": "🛍️",
+      "thumb_stat": "N/A",
+      "thumb_label": "Kuaishou Financials",
+      "grad": "cat-2",
+      "tags": [
+        "Kuaishou",
+        "Financial Results",
+        "Q1 2026",
+        "Social Platform"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-28T22:25:29.717291Z"
+    },
+    {
       "id": "A133",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -3637,7 +3664,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-27T22:24:51.304473",
-    "total_articles": 134
+    "last_updated": "2026-05-28T22:25:36.946254",
+    "total_articles": 135
   }
 }
