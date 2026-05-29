@@ -63,6 +63,60 @@
   },
   "articles": [
     {
+      "id": "A136",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "US",
+      "company": "OpenAI",
+      "title": "75% of Americans say they would trust AI shopping recommendations less if results were sponsored — which means OpenAI just made a decision that could structurally damage the thing that makes it valuable",
+      "excerpt": "미국인 75%가 AI 쇼핑 추천이 후원되면 신뢰도 감소. OpenAI의 결정이 가치에 구조적 손상 초래할 수 있음.",
+      "source_url": "https://spacedaily.com/n-75-of-americans-say-they-would-trust-ai-shopping-recommendations-less-if-results-were-sponsored-which-means-openai-just-made-a-decision-that-could-structurally-damage-the-thing-that-makes-it/",
+      "source_name": "Space Daily",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "75%",
+      "key_stat_label": "Trust Reduction",
+      "thumb_emoji": "📈",
+      "thumb_stat": "75% Trust",
+      "thumb_label": "OpenAI Recommendations",
+      "grad": "cat-4",
+      "tags": [
+        "OpenAI",
+        "AI Recommendations",
+        "Consumer Trust",
+        "Survey"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-29T22:24:08.357308Z"
+    },
+    {
+      "id": "A137",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "Alpha Modus",
+      "title": "Alpha Modus Introduces ARIA: Enterprise AI for Physical Retail, Built on Anthropic's Claude and Backed by 12 Granted U.S. Patents",
+      "excerpt": "Alpha Modus가 Anthropic의 Claude 기반으로 물리적 소매를 위한 ARIA AI 플랫폼을 공개. 12개의 미국 특허 보유.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/05/27/3301926/0/en/Alpha-Modus-Introduces-ARIA-Enterprise-AI-for-Physical-Retail-Built-on-Anthropic-s-Claude-and-Backed-by-12-Granted-U-S-Patents.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "12",
+      "key_stat_label": "Granted Patents",
+      "thumb_emoji": "🛍️",
+      "thumb_stat": "12 Patents",
+      "thumb_label": "Alpha Modus ARIA",
+      "grad": "cat-3",
+      "tags": [
+        "Alpha Modus",
+        "ARIA",
+        "Enterprise AI",
+        "Physical Retail"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-29T22:24:16.423472Z"
+    },
+    {
       "id": "A135",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -3664,7 +3718,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-28T22:25:36.946254",
-    "total_articles": 135
+    "last_updated": "2026-05-29T22:24:24.077454",
+    "total_articles": 137
   }
 }
