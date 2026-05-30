@@ -63,6 +63,33 @@
   },
   "articles": [
     {
+      "id": "A138",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "Digital Brands Group",
+      "title": "Counterfeiters Stole an Estimated $500K From One Brand -- Now This NASDAQ Apparel Stock Is Building the AI That Fights Back",
+      "excerpt": "디지털 브랜드 그룹, $500K 도난 피해 브랜드 보호를 위한 AI 구축. 글로벌 아웃도어 브랜드와 파트너십 체결.",
+      "source_url": "https://www.prnewswire.com/news-releases/counterfeiters-stole-an-estimated-500k-from-one-brand--now-this-nasdaq-apparel-stock-is-building-the-ai-that-fights-back-302784420.html",
+      "source_name": "PRNewswire",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "$500K",
+      "key_stat_label": "Stolen Amount",
+      "thumb_emoji": "👗",
+      "thumb_stat": "$500K Stolen",
+      "thumb_label": "Digital Brands AI",
+      "grad": "cat-4",
+      "tags": [
+        "Digital Brands Group",
+        "Counterfeit",
+        "AI Protection",
+        "NASDAQ"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-30T21:50:28.952228Z"
+    },
+    {
       "id": "A136",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "US",
@@ -3718,7 +3745,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-29T22:24:24.077454",
-    "total_articles": 137
+    "last_updated": "2026-05-30T21:50:35.567995",
+    "total_articles": 138
   }
 }
