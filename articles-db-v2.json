@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A139",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Unbiasthenews.com",
+      "title": "Show HN: Simple news aggregator with source bias meters",
+      "excerpt": "Article URL: https://unbiasthenews.com\nComments URL: https://news.ycombinator...",
+      "source_url": "https://unbiasthenews.com",
+      "source_name": "Unbiasthenews.com",
+      "date": "2026.05",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Unbiasthenews.com",
+      "grad": "cat-7",
+      "tags": [
+        "Unbiasthenews.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-05-31T21:47:42.318579Z"
+    },
+    {
       "id": "A138",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -3745,7 +3770,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-30T21:50:35.567995",
-    "total_articles": 138
+    "last_updated": "2026-05-31T21:47:45.321056",
+    "total_articles": 139
   }
 }
