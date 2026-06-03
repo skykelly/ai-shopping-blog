@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A142",
+      "blog_category": "한국 사례",
+      "region": "Korea",
+      "company": "MarketBeat",
+      "title": "PayPal CEO Unveils AI Reset, $1.5B Savings Plan at Bernstein Conference",
+      "excerpt": "PayPal (NASDAQ:PYPL) President and CEO Enrique Lores outlined a broad operati...",
+      "source_url": "https://www.marketbeat.com/instant-alerts/paypal-ceo-unveils-ai-reset-15b-savings-plan-at-bernstein-conference-2026-06-02/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+      "source_name": "MarketBeat",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🇰🇷",
+      "thumb_stat": "NEW",
+      "thumb_label": "MarketBeat",
+      "grad": "cat-6",
+      "tags": [
+        "MarketBeat",
+        "한국 사례"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-03T22:57:36.636067Z"
+    },
+    {
       "id": "A141",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -3820,7 +3845,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-02T22:54:18.602076",
-    "total_articles": 141
+    "last_updated": "2026-06-03T22:57:39.639341",
+    "total_articles": 142
   }
 }
