@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A145",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "MarketingProfs.com",
+      "title": "AI Update, June 5, 2026: AI News and Views From the Past Week",
+      "excerpt": "Catch up on select AI news and developments since Friday, May 29. Stay in the...",
+      "source_url": "https://www.marketingprofs.com/opinions/2026/54909/ai-update-june-5-2026-ai-news-and-views-from-the-past-week",
+      "source_name": "MarketingProfs.com",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "MarketingProfs.com",
+      "grad": "cat-7",
+      "tags": [
+        "MarketingProfs.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-06T21:55:12.961027Z"
+    },
+    {
       "id": "A144",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -3895,7 +3920,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-05T22:08:10.242659",
-    "total_articles": 144
+    "last_updated": "2026-06-06T21:55:15.964282",
+    "total_articles": 145
   }
 }
