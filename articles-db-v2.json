@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A147",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Music Business Worldwide",
+      "title": "The Music Industry’s Music Streaming Problem",
+      "excerpt": "The industry is not short of superfans. It never has been. It is short of the...",
+      "source_url": "https://www.musicbusinessworldwide.com/the-music-industry-doesnt-have-a-streaming-problem-it-has-a-customer-ownership-problem/",
+      "source_name": "Music Business Worldwide",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Music Business World",
+      "grad": "cat-7",
+      "tags": [
+        "Music Business Worldwide",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-08T22:18:07.280360Z"
+    },
+    {
       "id": "A146",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -3945,7 +3970,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-07T21:57:34.290615",
-    "total_articles": 146
+    "last_updated": "2026-06-08T22:18:10.283774",
+    "total_articles": 147
   }
 }
