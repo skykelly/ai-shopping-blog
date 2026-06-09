@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A148",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Nohacks.co",
+      "title": "AI Visibility Used To Mean Citation. Late June 2026, It Starts To Mean Transaction via @sejournal, @slobodanmanic",
+      "excerpt": "Six months of Google product releases compose into one agentic-web stack. Lat...",
+      "source_url": "https://nohacks.co/blog/ai-citation-to-ai-transaction",
+      "source_name": "Nohacks.co",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "200 million",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "200 million",
+      "thumb_label": "Nohacks.co",
+      "grad": "cat-7",
+      "tags": [
+        "Nohacks.co",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-09T22:17:05.884510Z"
+    },
+    {
       "id": "A147",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -3970,7 +3995,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-08T22:18:10.283774",
-    "total_articles": 147
+    "last_updated": "2026-06-09T22:17:08.887761",
+    "total_articles": 148
   }
 }
