@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A149",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "PRNewswire",
+      "title": "Selkirk, JOOLA, and Paddletek Lead 5W's First Pickleball AI Visibility Index -- But Wilson and Babolat, Top Brands by Retail Distribution, Rank Outside the Top 15",
+      "excerpt": "New 5W research finds the answer-box leaders in America's fastest-growing $4....",
+      "source_url": "https://www.prnewswire.com/news-releases/selkirk-joola-and-paddletek-lead-5ws-first-pickleball-ai-visibility-index--but-wilson-and-babolat-top-brands-by-retail-distribution-rank-outside-the-top-15-302776501.html",
+      "source_name": "PRNewswire",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "PRNewswire",
+      "grad": "cat-7",
+      "tags": [
+        "PRNewswire",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-10T22:46:19.403285Z"
+    },
+    {
       "id": "A148",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -3995,7 +4020,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-09T22:17:08.887761",
-    "total_articles": 148
+    "last_updated": "2026-06-10T22:46:22.406568",
+    "total_articles": 149
   }
 }
