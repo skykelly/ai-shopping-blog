@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A151",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "pymnts.com",
+      "title": "Bots Run the Internet. Now Someone Has to Run Them.",
+      "excerpt": "Bots now generate more web traffic than people do. Automated systems account ...",
+      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/bots-run-the-internet-now-someone-has-to-run-them/",
+      "source_name": "pymnts.com",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "57.4%",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "57.4%",
+      "thumb_label": "pymnts.com",
+      "grad": "cat-7",
+      "tags": [
+        "pymnts.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-12T22:18:29.263218Z"
+    },
+    {
       "id": "A150",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -4045,7 +4070,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-11T22:46:31.864656",
-    "total_articles": 150
+    "last_updated": "2026-06-12T22:18:32.266459",
+    "total_articles": 151
   }
 }
