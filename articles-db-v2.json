@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A152",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Forbes",
+      "title": "SpaceX IPO Lines Up $230 Billion Windfall For Peter Thiel And Other Musk Backers",
+      "excerpt": "SpaceX’s monster initial public offering could deliver massive gains for some...",
+      "source_url": "https://www.forbes.com/sites/iainmartin/2026/06/12/spacex-ipo-lines-up-230-billion-windfall-for-peter-thiel-and-other-musk-backers/",
+      "source_name": "Forbes",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Forbes",
+      "grad": "cat-7",
+      "tags": [
+        "Forbes",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-13T21:55:37.310396Z"
+    },
+    {
       "id": "A151",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -4070,7 +4095,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-12T22:18:32.266459",
-    "total_articles": 151
+    "last_updated": "2026-06-13T21:55:40.313105",
+    "total_articles": 152
   }
 }
