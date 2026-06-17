@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A156",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "PRNewswire",
+      "title": "XR and AI Leap into the Future at Augmented World Expo USA 2026 as Expo Hall Opens in Long Beach, CA",
+      "excerpt": "Major product launches, new immersive experiences, and industry announcements...",
+      "source_url": "https://www.prnewswire.com/news-releases/xr-and-ai-leap-into-the-future-at-augmented-world-expo-usa-2026-as-expo-hall-opens-in-long-beach-ca-302802146.html",
+      "source_name": "PRNewswire",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "PRNewswire",
+      "grad": "cat-7",
+      "tags": [
+        "PRNewswire",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-17T22:28:50.588293Z"
+    },
+    {
       "id": "A155",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -4170,7 +4195,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-16T22:47:05.260112",
-    "total_articles": 155
+    "last_updated": "2026-06-17T22:28:53.591506",
+    "total_articles": 156
   }
 }
