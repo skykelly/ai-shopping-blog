@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A157",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "Forbes",
+      "title": "AI Knows What I Want. So Why Am I Afraid To Buy It?",
+      "excerpt": "As AI reshapes product discovery, retailers face a new challenge: proving the...",
+      "source_url": "https://www.forbes.com/sites/katehardcastle/2026/06/17/ai-knows-what-i-want-so-why-am-i-afraid-to-buy-it/",
+      "source_name": "Forbes",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🏪",
+      "thumb_stat": "NEW",
+      "thumb_label": "Forbes",
+      "grad": "cat-3",
+      "tags": [
+        "Forbes",
+        "리테일러 AI 도입"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-18T22:50:38.822708Z"
+    },
+    {
       "id": "A156",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -4195,7 +4220,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-17T22:28:53.591506",
-    "total_articles": 156
+    "last_updated": "2026-06-18T22:50:41.826044",
+    "total_articles": 157
   }
 }
