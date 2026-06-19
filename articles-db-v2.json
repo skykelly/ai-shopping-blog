@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A158",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "DigitalCommerce360",
+      "title": "10 ecommerce trends that are defining 2026 for online retailers",
+      "excerpt": "Heading into 2026, online retailers could already see that artificial intelli...",
+      "source_url": "https://www.digitalcommerce360.com/2026/06/18/ecommerce-trends-shaping-2026/",
+      "source_name": "DigitalCommerce360",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "NEW",
+      "thumb_label": "DigitalCommerce360",
+      "grad": "cat-1",
+      "tags": [
+        "DigitalCommerce360",
+        "AI 쇼핑 어시스턴트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-19T21:57:20.211092Z"
+    },
+    {
       "id": "A157",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -4220,7 +4245,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-18T22:50:41.826044",
-    "total_articles": 157
+    "last_updated": "2026-06-19T21:57:23.214633",
+    "total_articles": 158
   }
 }
