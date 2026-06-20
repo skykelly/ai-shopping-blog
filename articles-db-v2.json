@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A159",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Lucidrank.io",
+      "title": "Winning Marketing Channel Strategy 2026: Your Playbook",
+      "excerpt": "Build a winning marketing channel strategy for 2026. This step-by-step playbo...",
+      "source_url": "https://www.lucidrank.io/blog/marketing-channel-strategy",
+      "source_name": "Lucidrank.io",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Lucidrank.io",
+      "grad": "cat-7",
+      "tags": [
+        "Lucidrank.io",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-20T21:58:33.802910Z"
+    },
+    {
       "id": "A158",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -4245,7 +4270,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-19T21:57:23.214633",
-    "total_articles": 158
+    "last_updated": "2026-06-20T21:58:36.806343",
+    "total_articles": 159
   }
 }
