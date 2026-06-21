@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A160",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Fashionunited.com",
+      "title": "DPP readiness: When and how brands and suppliers can get started",
+      "excerpt": "This article outlines when and how brands and suppliers can prepare for the D...",
+      "source_url": "https://fashionunited.com/news/business/dpp-readiness-when-and-how-brands-and-suppliers-can-get-started/2026061872936",
+      "source_name": "Fashionunited.com",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Fashionunited.com",
+      "grad": "cat-7",
+      "tags": [
+        "Fashionunited.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-21T22:07:12.471964Z"
+    },
+    {
       "id": "A159",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -4270,7 +4295,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-20T21:58:36.806343",
-    "total_articles": 159
+    "last_updated": "2026-06-21T22:07:15.475551",
+    "total_articles": 160
   }
 }
