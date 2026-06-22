@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A161",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "WWD",
+      "title": "Inside VivaTech: AI Discovery, GEO and the New Attention Economy",
+      "excerpt": "Across the three-day conference, fashion and beauty executives discussed the ...",
+      "source_url": "http://wwd.com/business-news/technology/inside-vivatech-ai-geo-attention-economy-fashion-1239018870/",
+      "source_name": "WWD",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🔮",
+      "thumb_stat": "NEW",
+      "thumb_label": "WWD",
+      "grad": "cat-2",
+      "tags": [
+        "WWD",
+        "AI 플랫폼 커머스"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-22T22:40:39.909260Z"
+    },
+    {
       "id": "A160",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -4295,7 +4320,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-21T22:07:15.475551",
-    "total_articles": 160
+    "last_updated": "2026-06-22T22:40:42.911534",
+    "total_articles": 161
   }
 }
