@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A162",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "TechRadar",
+      "title": "How AI fraud rings are taking on retail",
+      "excerpt": "AI-powered fraud rings are automating scams faster than retailers can detect ...",
+      "source_url": "https://www.techradar.com/pro/how-ai-fraud-rings-are-taking-on-retail",
+      "source_name": "TechRadar",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🏪",
+      "thumb_stat": "NEW",
+      "thumb_label": "TechRadar",
+      "grad": "cat-3",
+      "tags": [
+        "TechRadar",
+        "리테일러 AI 도입"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-23T22:07:03.867800Z"
+    },
+    {
       "id": "A161",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -4320,7 +4345,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-22T22:40:42.911534",
-    "total_articles": 161
+    "last_updated": "2026-06-23T22:07:06.871215",
+    "total_articles": 162
   }
 }
