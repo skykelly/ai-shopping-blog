@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A163",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Crypto Briefing",
+      "title": "Super Micro Computer expands edge AI lineup with Intel-powered systems",
+      "excerpt": "Super Micro's edge AI expansion enhances real-time processing capabilities, c...",
+      "source_url": "https://cryptobriefing.com/supermicro-edge-ai-intel-systems/",
+      "source_name": "Crypto Briefing",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Crypto Briefing",
+      "grad": "cat-7",
+      "tags": [
+        "Crypto Briefing",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-24T22:06:25.653360Z"
+    },
+    {
       "id": "A162",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -4345,7 +4370,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-23T22:07:06.871215",
-    "total_articles": 162
+    "last_updated": "2026-06-24T22:06:28.656833",
+    "total_articles": 163
   }
 }
