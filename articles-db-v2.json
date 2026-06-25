@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A164",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "TechRadar",
+      "title": "When AI agents start shopping for us, retail’s identity stack needs a rewrite",
+      "excerpt": "As AI shopping agents rise, retailers must rebuild trust, identity and fraud ...",
+      "source_url": "https://www.techradar.com/pro/when-ai-agents-start-shopping-for-us-retails-identity-stack-needs-a-rewrite",
+      "source_name": "TechRadar",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🏪",
+      "thumb_stat": "NEW",
+      "thumb_label": "TechRadar",
+      "grad": "cat-3",
+      "tags": [
+        "TechRadar",
+        "리테일러 AI 도입"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-25T22:14:34.450557Z"
+    },
+    {
       "id": "A163",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -4370,7 +4395,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-24T22:06:28.656833",
-    "total_articles": 163
+    "last_updated": "2026-06-25T22:14:37.454954",
+    "total_articles": 164
   }
 }
