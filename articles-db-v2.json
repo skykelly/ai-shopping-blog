@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A165",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "CMSWire",
+      "title": "Salesforce Debuts Help Agent With Pay-Per-Resolution AI",
+      "excerpt": "Salesforce's new autonomous service agent charges only for issues it resolves...",
+      "source_url": "https://www.cmswire.com/contact-center/salesforce-debuts-help-agent-with-payperresolution-ai/",
+      "source_name": "CMSWire",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "CMSWire",
+      "grad": "cat-7",
+      "tags": [
+        "CMSWire",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-26T22:02:05.892035Z"
+    },
+    {
       "id": "A164",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -4395,7 +4420,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-25T22:14:37.454954",
-    "total_articles": 164
+    "last_updated": "2026-06-26T22:02:08.896387",
+    "total_articles": 165
   }
 }
