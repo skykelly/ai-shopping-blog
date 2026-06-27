@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A166",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Cartai.ai",
+      "title": "Show HN: CartAI – Checkout API for AI agents and apps",
+      "excerpt": "One API to deploy a specialized agent that navigates any web property and com...",
+      "source_url": "https://www.cartai.ai/",
+      "source_name": "Cartai.ai",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🔮",
+      "thumb_stat": "NEW",
+      "thumb_label": "Cartai.ai",
+      "grad": "cat-2",
+      "tags": [
+        "Cartai.ai",
+        "AI 플랫폼 커머스"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-27T21:52:50.736158Z"
+    },
+    {
       "id": "A165",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -4420,7 +4445,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-26T22:02:08.896387",
-    "total_articles": 165
+    "last_updated": "2026-06-27T21:52:53.740686",
+    "total_articles": 166
   }
 }
