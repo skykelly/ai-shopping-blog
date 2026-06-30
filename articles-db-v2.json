@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A169",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "Microsoft.com",
+      "title": "Dynamics 365 Commerce introduces agentic capabilities with Model Context Protocol (MCP)",
+      "excerpt": "The Dynamics 365 Commerce MCP server enables AI agents to connect securely wi...",
+      "source_url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/06/29/dynamics-365-commerce-introduces-agentic-capabilities-with-model-context-protocol-mcp/",
+      "source_name": "Microsoft.com",
+      "date": "2026.06",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "NEW",
+      "thumb_label": "Microsoft.com",
+      "grad": "cat-1",
+      "tags": [
+        "Microsoft.com",
+        "AI 쇼핑 어시스턴트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-06-30T22:07:39.936923Z"
+    },
+    {
       "id": "A168",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -4495,7 +4520,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-29T22:03:01.119768",
-    "total_articles": 168
+    "last_updated": "2026-06-30T22:07:42.940235",
+    "total_articles": 169
   }
 }
