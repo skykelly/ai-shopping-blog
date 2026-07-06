@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A175",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "WWD",
+      "title": "China Insight: China’s Fashion Industry Enters the AI Era, From a Search Economy to Machine-led Discovery",
+      "excerpt": "As China’s fashion industry enters the AI era, AI is moving from toolset to i...",
+      "source_url": "http://wwd.com/business-news/technology/chinas-fashion-industry-ai-search-economy-machine-led-discovery-1239051683/",
+      "source_name": "WWD",
+      "date": "2026.07",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "WWD",
+      "grad": "cat-7",
+      "tags": [
+        "WWD",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-07-06T22:05:10.578020Z"
+    },
+    {
       "id": "A174",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -4645,7 +4670,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-05T21:50:04.383126",
-    "total_articles": 174
+    "last_updated": "2026-07-06T22:05:13.582275",
+    "total_articles": 175
   }
 }
