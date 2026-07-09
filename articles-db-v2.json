@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A178",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Martech.org",
+      "title": "The CMS is becoming the AI operating system for brands",
+      "excerpt": "Choosing a CMS now means preparing for AI discovery, governance, personalizat...",
+      "source_url": "https://martech.org/the-cms-is-becoming-the-ai-operating-system-for-brands/",
+      "source_name": "Martech.org",
+      "date": "2026.07",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🔮",
+      "thumb_stat": "NEW",
+      "thumb_label": "Martech.org",
+      "grad": "cat-2",
+      "tags": [
+        "Martech.org",
+        "AI 플랫폼 커머스"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-07-09T22:12:10.122098Z"
+    },
+    {
       "id": "A177",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -4720,7 +4745,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-08T21:57:46.700585",
-    "total_articles": 177
+    "last_updated": "2026-07-09T22:12:13.126715",
+    "total_articles": 178
   }
 }
