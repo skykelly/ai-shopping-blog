@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A182",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "BusinessLine",
+      "title": "Cannes dichotomy: The lion and the login screen",
+      "excerpt": "Inside the Palais, ad campaigns are celebrated and awarded. But today, creati...",
+      "source_url": "https://www.thehindubusinessline.com/catalyst/cannes-dichotomy-the-lion-and-the-login-screen/article71214824.ece",
+      "source_name": "BusinessLine",
+      "date": "2026.07",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📢",
+      "thumb_stat": "NEW",
+      "thumb_label": "BusinessLine",
+      "grad": "cat-4",
+      "tags": [
+        "BusinessLine",
+        "브랜드 AI 마케팅/세일즈"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-07-13T21:43:22.574318Z"
+    },
+    {
       "id": "A181",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -4820,7 +4845,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-12T21:38:09.703310",
-    "total_articles": 181
+    "last_updated": "2026-07-13T21:43:25.577710",
+    "total_articles": 182
   }
 }
