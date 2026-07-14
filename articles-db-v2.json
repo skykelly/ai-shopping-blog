@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A183",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "GlobeNewswire",
+      "title": "Circana’s 2026/2027 Global Food and Beverage Outlook Predicts Slow-to-Moderate Growth as Market Enters Period of Rationalization",
+      "excerpt": "Chicago, July 13, 2026 (GLOBE NEWSWIRE) -- U.S. consumers are no longer just ...",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/13/3326234/0/en/Circana-s-2026-2027-Global-Food-and-Beverage-Outlook-Predicts-Slow-to-Moderate-Growth-as-Market-Enters-Period-of-Rationalization.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.07",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "GlobeNewswire",
+      "grad": "cat-7",
+      "tags": [
+        "GlobeNewswire",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-07-14T21:45:00.922353Z"
+    },
+    {
       "id": "A182",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -4845,7 +4870,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-13T21:43:25.577710",
-    "total_articles": 182
+    "last_updated": "2026-07-14T21:45:03.926048",
+    "total_articles": 183
   }
 }
