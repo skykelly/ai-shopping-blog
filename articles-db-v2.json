@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A193",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "BusinessLine",
+      "title": "Sensex today | Stock Market Highlights: Markets slip for 4th straight day as crude rises; Sensex drops 363 pts, Nifty ends below 23,870",
+      "excerpt": "Sensex Today, Nifty 50 | Stock Market Highlights: Find here all the highlight...",
+      "source_url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-23rd-july-2026/article71253376.ece",
+      "source_name": "BusinessLine",
+      "date": "2026.07",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "BusinessLine",
+      "grad": "cat-7",
+      "tags": [
+        "BusinessLine",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-07-24T21:54:25.685387Z"
+    },
+    {
       "id": "A192",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5095,7 +5120,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-23T21:55:16.542091",
-    "total_articles": 192
+    "last_updated": "2026-07-24T21:54:28.688900",
+    "total_articles": 193
   }
 }
