@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A204",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "pymnts.com",
+      "title": "The Performance Gap: Why Every Transaction Is a Growth Opportunity",
+      "excerpt": "The payments industry has mastered how to move money but not how to maximize ...",
+      "source_url": "https://www.pymnts.com/tracker_posts/the-performance-gap-why-every-transaction-is-a-growth-opportunity/",
+      "source_name": "pymnts.com",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "pymnts.com",
+      "grad": "cat-7",
+      "tags": [
+        "pymnts.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-04T22:02:09.952878Z"
+    },
+    {
       "id": "A203",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5370,7 +5395,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-03T21:57:05.997664",
-    "total_articles": 203
+    "last_updated": "2026-08-04T22:02:12.956896",
+    "total_articles": 204
   }
 }
