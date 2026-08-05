@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A205",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Fortune",
+      "title": "OpenAI president Greg Brockman: We ‘contort’ ourselves around computers, clicking and typing is a ‘phase’",
+      "excerpt": "An office full of people talking to their computers may seem weird today, but...",
+      "source_url": "https://fortune.com/2026/08/04/openai-president-greg-brockman-we-contort-ourselves-around-computers-clicking-and-typing-is-a-phase/",
+      "source_name": "Fortune",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Fortune",
+      "grad": "cat-7",
+      "tags": [
+        "Fortune",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-05T22:04:32.844534Z"
+    },
+    {
       "id": "A204",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5395,7 +5420,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-04T22:02:12.956896",
-    "total_articles": 204
+    "last_updated": "2026-08-05T22:04:35.848547",
+    "total_articles": 205
   }
 }
