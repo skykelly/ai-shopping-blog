@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A206",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "GlobeNewswire",
+      "title": "Decision Intelligence Market Set to Surpass $88.98 Billion by 2035 | SNS Insider",
+      "excerpt": "The U.S. decision intelligence market is expected to reach $24.54 billion by ...",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339075/0/en/Decision-Intelligence-Market-Set-to-Surpass-88-98-Billion-by-2035-SNS-Insider.html",
+      "source_name": "GlobeNewswire",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "24.54 billion",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "24.54 billion",
+      "thumb_label": "GlobeNewswire",
+      "grad": "cat-7",
+      "tags": [
+        "GlobeNewswire",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-07T00:59:02.936336Z"
+    },
+    {
       "id": "A205",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5420,7 +5445,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-05T22:04:35.848547",
-    "total_articles": 205
+    "last_updated": "2026-08-07T00:59:05.940154",
+    "total_articles": 206
   }
 }
