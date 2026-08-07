@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A207",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "PRNewswire",
+      "title": "Ex-Spotify Team Raises $10M for Malachyte to Bring Behavior Intelligence to Consumer Commerce",
+      "excerpt": "Backed by Bessemer Venture Partners and Gradient, Spotify's Recommendation Te...",
+      "source_url": "https://www.prnewswire.com/news-releases/ex-spotify-team-raises-10m-for-malachyte-to-bring-behavior-intelligence-to-consumer-commerce-302844962.html",
+      "source_name": "PRNewswire",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "10 million",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "10 million",
+      "thumb_label": "PRNewswire",
+      "grad": "cat-7",
+      "tags": [
+        "PRNewswire",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-07T21:27:17.335850Z"
+    },
+    {
       "id": "A206",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5445,7 +5470,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-07T00:59:05.940154",
-    "total_articles": 206
+    "last_updated": "2026-08-07T21:27:20.339749",
+    "total_articles": 207
   }
 }
