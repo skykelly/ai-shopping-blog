@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A208",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "Yahoo Entertainment",
+      "title": "Lands’ End: This $400M Retailer Quietly Reinvented Its Business. Wall Street May Not Have Caught Up Yet – Initiation Report",
+      "excerpt": "Download the Complete Report Here Lands’ End, Inc. (LE) WHP JV Sets the Stage...",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/lands-end-400m-retailer-quietly-154505048.html",
+      "source_name": "Yahoo Entertainment",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🏪",
+      "thumb_stat": "NEW",
+      "thumb_label": "Yahoo Entertainment",
+      "grad": "cat-3",
+      "tags": [
+        "Yahoo Entertainment",
+        "리테일러 AI 도입"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-08T21:19:02.491368Z"
+    },
+    {
       "id": "A207",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5470,7 +5495,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-07T21:27:20.339749",
-    "total_articles": 207
+    "last_updated": "2026-08-08T21:19:05.495467",
+    "total_articles": 208
   }
 }
