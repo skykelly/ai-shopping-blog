@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A209",
+      "blog_category": "한국 사례",
+      "region": "Korea",
+      "company": "MarketBeat",
+      "title": "Nextdoor Q2 Earnings Call Highlights",
+      "excerpt": "Nextdoor (NYSE:KIND) reported second-quarter results that exceeded its guidan...",
+      "source_url": "https://www.marketbeat.com/instant-alerts/nextdoor-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+      "source_name": "MarketBeat",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "15%",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🇰🇷",
+      "thumb_stat": "15%",
+      "thumb_label": "MarketBeat",
+      "grad": "cat-6",
+      "tags": [
+        "MarketBeat",
+        "한국 사례"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-09T21:20:21.012544Z"
+    },
+    {
       "id": "A208",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -5495,7 +5520,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-08T21:19:05.495467",
-    "total_articles": 208
+    "last_updated": "2026-08-09T21:20:24.015905",
+    "total_articles": 209
   }
 }
