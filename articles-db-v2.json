@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A210",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Affiliateincomestream.com",
+      "title": "AI Affiliate Marketing for Absolute Beginners With $0 Budget\" – Affiliate Income Stream",
+      "excerpt": "Learn how to start AI affiliate marketing with $0 using free AI tools, organi...",
+      "source_url": "https://affiliateincomestream.com/ai-affiliate-marketing-for-absolute-beginners-0-budget/",
+      "source_name": "Affiliateincomestream.com",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Affiliateincomestrea",
+      "grad": "cat-7",
+      "tags": [
+        "Affiliateincomestream.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-10T21:30:58.298824Z"
+    },
+    {
       "id": "A209",
       "blog_category": "한국 사례",
       "region": "Korea",
@@ -5520,7 +5545,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-09T21:20:24.015905",
-    "total_articles": 209
+    "last_updated": "2026-08-10T21:31:01.303274",
+    "total_articles": 210
   }
 }
