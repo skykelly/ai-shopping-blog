@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A211",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Talkpython.fm",
+      "title": "Talk Python to Me: #558: Hyper-Personal Software with Python",
+      "excerpt": "Every company has one. The little internal tool that Jane built back in 2021,...",
+      "source_url": "https://talkpython.fm/episodes/show/558/hyper-personal-software-with-python",
+      "source_name": "Talkpython.fm",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Talkpython.fm",
+      "grad": "cat-7",
+      "tags": [
+        "Talkpython.fm",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-11T21:34:06.339192Z"
+    },
+    {
       "id": "A210",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5545,7 +5570,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-10T21:31:01.303274",
-    "total_articles": 210
+    "last_updated": "2026-08-11T21:34:09.343471",
+    "total_articles": 211
   }
 }
