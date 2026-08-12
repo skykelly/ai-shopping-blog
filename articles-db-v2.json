@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A212",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Hubspot.com",
+      "title": "AI search performance KPIs every marketer should track",
+      "excerpt": "As long as I’ve been in marketing, people have warned against focusing on “va...",
+      "source_url": "https://blog.hubspot.com/marketing/ai-search-kpis",
+      "source_name": "Hubspot.com",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Hubspot.com",
+      "grad": "cat-7",
+      "tags": [
+        "Hubspot.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-12T21:33:32.707934Z"
+    },
+    {
       "id": "A211",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5570,7 +5595,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-11T21:34:09.343471",
-    "total_articles": 211
+    "last_updated": "2026-08-12T21:33:35.711832",
+    "total_articles": 212
   }
 }
