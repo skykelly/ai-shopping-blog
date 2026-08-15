@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A215",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "Plos.org",
+      "title": "Relational intelligence in AI chatbots: Examining the trust–engagement-emotion–social presence model using PLS-SEM and fsQCA",
+      "excerpt": "AI-driven chatbots may have emerged as the main architects for developing rel...",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356073",
+      "source_name": "Plos.org",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "NEW",
+      "thumb_label": "Plos.org",
+      "grad": "cat-1",
+      "tags": [
+        "Plos.org",
+        "AI 쇼핑 어시스턴트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-15T21:10:23.429529Z"
+    },
+    {
       "id": "A214",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5645,7 +5670,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-14T21:14:37.596765",
-    "total_articles": 214
+    "last_updated": "2026-08-15T21:10:26.433570",
+    "total_articles": 215
   }
 }
