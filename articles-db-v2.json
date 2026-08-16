@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A216",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "CMSWire",
+      "title": "Why Customer Journey Continuity Mattered at eTail Boston 2026",
+      "excerpt": "Retailers have spent decades perfecting the journey they control. AI is now r...",
+      "source_url": "https://www.cmswire.com/customer-experience/why-customer-journey-continuity-mattered-at-etail-boston-2026/",
+      "source_name": "CMSWire",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🏪",
+      "thumb_stat": "NEW",
+      "thumb_label": "CMSWire",
+      "grad": "cat-3",
+      "tags": [
+        "CMSWire",
+        "리테일러 AI 도입"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-16T21:09:37.417222Z"
+    },
+    {
       "id": "A215",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -5670,7 +5695,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T21:10:26.433570",
-    "total_articles": 215
+    "last_updated": "2026-08-16T21:09:40.421384",
+    "total_articles": 216
   }
 }
