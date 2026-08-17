@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A217",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Mktcrew.com",
+      "title": "How Lean Startups Handle Marketing Operations Without a Mar…",
+      "excerpt": "Learn what recurring marketing operations actually look like for lean startup...",
+      "source_url": "https://mktcrew.com/blog/lean-startup-marketing-operations-without-marketing-ops-hire",
+      "source_name": "Mktcrew.com",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Mktcrew.com",
+      "grad": "cat-7",
+      "tags": [
+        "Mktcrew.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-17T21:15:15.767349Z"
+    },
+    {
       "id": "A216",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -5695,7 +5720,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-16T21:09:40.421384",
-    "total_articles": 216
+    "last_updated": "2026-08-17T21:15:18.772560",
+    "total_articles": 217
   }
 }
