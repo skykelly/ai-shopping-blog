@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A222",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "BusinessLine",
+      "title": "Sensex today | Stock Market Highlights: Indian markets decline for seventh straight session; Nifty loses 2.1% in seven days",
+      "excerpt": "Sensex, Nifty, Share Prices Highlights: Indian equities extended their losing...",
+      "source_url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-19th-august-2026/article71360276.ece",
+      "source_name": "BusinessLine",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "2.1%",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "2.1%",
+      "thumb_label": "BusinessLine",
+      "grad": "cat-7",
+      "tags": [
+        "BusinessLine",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-22T21:10:57.160542Z"
+    },
+    {
       "id": "A221",
       "blog_category": "AI 플랫폼 커머스",
       "region": "Global",
@@ -5820,7 +5845,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-21T21:12:59.615649",
-    "total_articles": 221
+    "last_updated": "2026-08-22T21:11:00.164784",
+    "total_articles": 222
   }
 }
