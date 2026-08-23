@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A223",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "Projectvrm.org",
+      "title": "UCP needs VRM",
+      "excerpt": "In Microsoft Advertising’s Agentic Playbook, Laurie Sullivan of MediaPost loo...",
+      "source_url": "https://projectvrm.org/2026/08/22/ucp-needs-vrm/",
+      "source_name": "Projectvrm.org",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "NEW",
+      "thumb_label": "Projectvrm.org",
+      "grad": "cat-1",
+      "tags": [
+        "Projectvrm.org",
+        "AI 쇼핑 어시스턴트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-23T21:11:02.538976Z"
+    },
+    {
       "id": "A222",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5845,7 +5870,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T21:11:00.164784",
-    "total_articles": 222
+    "last_updated": "2026-08-23T21:11:05.543062",
+    "total_articles": 223
   }
 }
