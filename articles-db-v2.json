@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A224",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Blogripley.com",
+      "title": "The Intelligent Engine: Changing Development with Marketing AI Solutions - Aspects To Understand",
+      "excerpt": "The Intelligent Engine: Changing Development with Marketing AI Solutions - As...",
+      "source_url": "https://mylesbdlzy.blogripley.com/40699333/the-intelligent-engine-changing-development-with-marketing-ai-solutions-aspects-to-understand",
+      "source_name": "Blogripley.com",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Blogripley.com",
+      "grad": "cat-7",
+      "tags": [
+        "Blogripley.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-24T21:18:10.042157Z"
+    },
+    {
       "id": "A223",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -5870,7 +5895,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T21:11:05.543062",
-    "total_articles": 223
+    "last_updated": "2026-08-24T21:18:13.045743",
+    "total_articles": 224
   }
 }
