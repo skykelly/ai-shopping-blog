@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A225",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Entrepreneur",
+      "title": "3 Digital Strategies Small Business Owners Can Use to Do More With Less",
+      "excerpt": "Digital tools are giving small businesses new ways to compete, grow and opera...",
+      "source_url": "https://www.entrepreneur.com/building-a-business/3-digital-strategies-small-business-owners-can-use-to-do-more-with-less",
+      "source_name": "Entrepreneur",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Entrepreneur",
+      "grad": "cat-7",
+      "tags": [
+        "Entrepreneur",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-25T21:16:41.034016Z"
+    },
+    {
       "id": "A224",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5895,7 +5920,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T21:18:13.045743",
-    "total_articles": 224
+    "last_updated": "2026-08-25T21:16:44.037259",
+    "total_articles": 225
   }
 }
