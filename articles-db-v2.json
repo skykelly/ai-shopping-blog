@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A226",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Apple Newsroom",
+      "title": "Apple's new Mac mini, featuring M6 and M5 Pro",
+      "excerpt": "Apple announced the new Mac mini with the all-new M6 and powerful M5 Pro, del...",
+      "source_url": "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+      "source_name": "Apple Newsroom",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Apple Newsroom",
+      "grad": "cat-7",
+      "tags": [
+        "Apple Newsroom",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-27T00:19:55.455655Z"
+    },
+    {
       "id": "A225",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -5920,7 +5945,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T21:16:44.037259",
-    "total_articles": 225
+    "last_updated": "2026-08-27T00:19:58.460032",
+    "total_articles": 226
   }
 }
