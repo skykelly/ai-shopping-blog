@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A228",
+      "blog_category": "AI 플랫폼 커머스",
+      "region": "Global",
+      "company": "Adweek",
+      "title": "Is The Trade Desk’s Turnaround Push Officially Underway?",
+      "excerpt": "The Trade Desk's Kokai refresh and C-suite overhaul may indicate a new direct...",
+      "source_url": "https://www.adweek.com/programmatic/is-the-trade-desks-turnaround-push-officially-underway/",
+      "source_name": "Adweek",
+      "date": "2026.08",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🔮",
+      "thumb_stat": "NEW",
+      "thumb_label": "Adweek",
+      "grad": "cat-2",
+      "tags": [
+        "Adweek",
+        "AI 플랫폼 커머스"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-08-29T02:56:31.891717Z"
+    },
+    {
       "id": "A227",
       "blog_category": "한국 사례",
       "region": "Korea",
@@ -5970,7 +5995,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T05:00:58.940532",
-    "total_articles": 227
+    "last_updated": "2026-08-29T02:56:34.896040",
+    "total_articles": 228
   }
 }
