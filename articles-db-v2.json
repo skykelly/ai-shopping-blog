@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A232",
+      "blog_category": "한국 사례",
+      "region": "Korea",
+      "company": "PRNewswire",
+      "title": "Union Savings Bank Uses AI to Reduce Churn, Grow Deposits and Increase Customer Lifetime Value",
+      "excerpt": "Celent Solution Brief examines how USB's deployment of NGDATA AI Hub identifi...",
+      "source_url": "https://www.prnewswire.com/news-releases/union-savings-bank-uses-ai-to-reduce-churn-grow-deposits-and-increase-customer-lifetime-value-302866652.html",
+      "source_name": "PRNewswire",
+      "date": "2026.09",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "74%",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🇰🇷",
+      "thumb_stat": "74%",
+      "thumb_label": "PRNewswire",
+      "grad": "cat-6",
+      "tags": [
+        "PRNewswire",
+        "한국 사례"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-09-02T22:53:36.916802Z"
+    },
+    {
       "id": "A231",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -6070,7 +6095,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-01T22:53:42.811585",
-    "total_articles": 231
+    "last_updated": "2026-09-02T22:53:39.922066",
+    "total_articles": 232
   }
 }
