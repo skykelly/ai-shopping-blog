@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A235",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Drupal.org",
+      "title": "Drupal AI Initiative: Yesterday's CMS published pages. Tomorrow's CMS publishes capabilities",
+      "excerpt": "Author: Will Huggins\r\n\nImagine asking an AI assistant:\r\n\n\"Show me waterproof ...",
+      "source_url": "https://www.drupal.org/about/ai/initiatives/blog/yesterdays-cms-published-pages-tomorrows-cms-publishes-capabilities",
+      "source_name": "Drupal.org",
+      "date": "2026.09",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Drupal.org",
+      "grad": "cat-7",
+      "tags": [
+        "Drupal.org",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-09-05T22:27:19.686454Z"
+    },
+    {
       "id": "A234",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -6145,7 +6170,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-04T22:37:12.048438",
-    "total_articles": 234
+    "last_updated": "2026-09-05T22:27:22.690853",
+    "total_articles": 235
   }
 }
