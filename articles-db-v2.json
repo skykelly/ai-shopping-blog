@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A240",
+      "blog_category": "AI 쇼핑 어시스턴트",
+      "region": "Global",
+      "company": "pymnts.com",
+      "title": "Merchants Put AI to Work Without Handing Over the Customer",
+      "excerpt": "The payments and retail industries are asking the wrong question about agenti...",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/merchants-put-ai-work-without-handing-over-customer/",
+      "source_name": "pymnts.com",
+      "date": "2026.09",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🛒",
+      "thumb_stat": "NEW",
+      "thumb_label": "pymnts.com",
+      "grad": "cat-1",
+      "tags": [
+        "pymnts.com",
+        "AI 쇼핑 어시스턴트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-09-10T22:50:21.717761Z"
+    },
+    {
       "id": "A239",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -6270,7 +6295,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-09T22:49:40.509189",
-    "total_articles": 239
+    "last_updated": "2026-09-10T22:50:24.721848",
+    "total_articles": 240
   }
 }
