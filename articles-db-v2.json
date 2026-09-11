@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A241",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "TheStreet",
+      "title": "Kroger and Albertsons make key moves to take on Amazon, Walmart",
+      "excerpt": "Both companies are adapting to a grocery battlefield that now extends far bey...",
+      "source_url": "https://www.thestreet.com/retail/kroger-and-albertsons-make-key-moves-to-take-on-amazon-walmart",
+      "source_name": "TheStreet",
+      "date": "2026.09",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🏪",
+      "thumb_stat": "NEW",
+      "thumb_label": "TheStreet",
+      "grad": "cat-3",
+      "tags": [
+        "TheStreet",
+        "리테일러 AI 도입"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-09-11T22:51:50.245021Z"
+    },
+    {
       "id": "A240",
       "blog_category": "AI 쇼핑 어시스턴트",
       "region": "Global",
@@ -6295,7 +6320,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-10T22:50:24.721848",
-    "total_articles": 240
+    "last_updated": "2026-09-11T22:51:53.249549",
+    "total_articles": 241
   }
 }
