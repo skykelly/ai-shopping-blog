@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A243",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "Energyskeptic.com",
+      "title": "The Nerd Reich: Nation States",
+      "excerpt": "Introduction This is a book review of part of Gil Duran’s “Network States and...",
+      "source_url": "https://energyskeptic.com/2026/the-nerd-reich-nation-states/",
+      "source_name": "Energyskeptic.com",
+      "date": "2026.09",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "Energyskeptic.com",
+      "grad": "cat-7",
+      "tags": [
+        "Energyskeptic.com",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-09-13T22:42:57.338660Z"
+    },
+    {
       "id": "A242",
       "blog_category": "브랜드 AI 마케팅/세일즈",
       "region": "Global",
@@ -6345,7 +6370,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-12T22:42:07.357074",
-    "total_articles": 242
+    "last_updated": "2026-09-13T22:43:00.343281",
+    "total_articles": 243
   }
 }
