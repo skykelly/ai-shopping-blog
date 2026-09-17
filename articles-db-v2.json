@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A247",
+      "blog_category": "한국 사례",
+      "region": "Korea",
+      "company": "PRNewswire",
+      "title": "Brightstar Lottery Showcases Innovative Lottery Solutions at NASPL 2026",
+      "excerpt": "LONDON, Sept. 16, 2026 /PRNewswire/ -- Brightstar Lottery PLC (NYSE: BRSL) (\"...",
+      "source_url": "https://www.prnewswire.com/news-releases/brightstar-lottery-showcases-innovative-lottery-solutions-at-naspl-2026-302880916.html",
+      "source_name": "PRNewswire",
+      "date": "2026.09",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🇰🇷",
+      "thumb_stat": "NEW",
+      "thumb_label": "PRNewswire",
+      "grad": "cat-6",
+      "tags": [
+        "PRNewswire",
+        "한국 사례"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-09-17T23:13:20.423791Z"
+    },
+    {
       "id": "A246",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -6445,7 +6470,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-16T23:22:06.311110",
-    "total_articles": 246
+    "last_updated": "2026-09-17T23:13:23.428405",
+    "total_articles": 247
   }
 }
