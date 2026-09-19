@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A249",
+      "blog_category": "리테일러 AI 도입",
+      "region": "Global",
+      "company": "CMSWire",
+      "title": "HubSpot, OpenAI Deepen CRM-ChatGPT Integration",
+      "excerpt": "New ChatGPT Ads management inside HubSpot and a joint pricing bundle target s...",
+      "source_url": "https://www.cmswire.com/customer-experience/hubspot-openai-deepen-crmchatgpt-integration/",
+      "source_name": "CMSWire",
+      "date": "2026.09",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🏪",
+      "thumb_stat": "NEW",
+      "thumb_label": "CMSWire",
+      "grad": "cat-3",
+      "tags": [
+        "CMSWire",
+        "리테일러 AI 도입"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-09-19T22:33:32.237552Z"
+    },
+    {
       "id": "A248",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -6495,7 +6520,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-18T22:54:34.858871",
-    "total_articles": 248
+    "last_updated": "2026-09-19T22:33:35.242139",
+    "total_articles": 249
   }
 }
