@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A250",
+      "blog_category": "브랜드 AI 마케팅/세일즈",
+      "region": "Global",
+      "company": "BusinessLine",
+      "title": "Sensex today | Stock Market Highlights: Sensex slips but Nifty gains 75 points by closing as easing crude offers relief",
+      "excerpt": "Sensex, Nifty, Share Prices Highlights: Indian benchmark indices ended mixed ...",
+      "source_url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-18th-september-2026/article71477821.ece",
+      "source_name": "BusinessLine",
+      "date": "2026.09",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📢",
+      "thumb_stat": "NEW",
+      "thumb_label": "BusinessLine",
+      "grad": "cat-4",
+      "tags": [
+        "BusinessLine",
+        "브랜드 AI 마케팅/세일즈"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-09-20T22:46:47.146605Z"
+    },
+    {
       "id": "A249",
       "blog_category": "리테일러 AI 도입",
       "region": "Global",
@@ -6520,7 +6545,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-19T22:33:35.242139",
-    "total_articles": 249
+    "last_updated": "2026-09-20T22:46:50.149425",
+    "total_articles": 250
   }
 }
