@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A254",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "WWD",
+      "title": "AI Commerce Revolution: How Bloomreach Redefines Shopping",
+      "excerpt": "Raj De Datta, CEO and co-founder of Bloomreach, dicusses how AI is transformi...",
+      "source_url": "http://wwd.com/sourcing-journal/industry-news/the-new-rules-of-ai-ecommerce-bloomreach-raj-de-datta-1239251854/",
+      "source_name": "WWD",
+      "date": "2026.09",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "WWD",
+      "grad": "cat-7",
+      "tags": [
+        "WWD",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-09-24T23:38:55.153108Z"
+    },
+    {
       "id": "A253",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -6620,7 +6645,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-23T23:17:54.343049",
-    "total_articles": 253
+    "last_updated": "2026-09-24T23:38:58.157695",
+    "total_articles": 254
   }
 }
