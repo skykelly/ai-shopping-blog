@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A255",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "CMSWire",
+      "title": "Marketo Co-Founder's Phave Takes On Marketing Automation Incumbents, Including Marketo",
+      "excerpt": "Jon Miller helped build marketing automation. His new company, Phave, wants c...",
+      "source_url": "https://www.cmswire.com/marketing-automation/marketo-co-founder-jon-miller-launches-phave-to-replace-the-marketing-automation-platform-he-built/",
+      "source_name": "CMSWire",
+      "date": "2026.09",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "NEW",
+      "thumb_label": "CMSWire",
+      "grad": "cat-7",
+      "tags": [
+        "CMSWire",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-09-25T23:40:43.345847Z"
+    },
+    {
       "id": "A254",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -6645,7 +6670,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-24T23:38:58.157695",
-    "total_articles": 254
+    "last_updated": "2026-09-25T23:40:46.350794",
+    "total_articles": 255
   }
 }
