@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A258",
+      "blog_category": "데이터 & 리포트",
+      "region": "Global",
+      "company": "The Times of India",
+      "title": "FDI equity inflows rise 6% to $20 billion in Q1; US contribution drops, Japan tops",
+      "excerpt": "Foreign direct investment equity inflows into India rose by 6% to nearly $19....",
+      "source_url": "https://economictimes.indiatimes.com/markets/forex/forex-news/fdi-equity-inflows-rise-6-to-20-billion-in-q1-us-contribution-drops-japan-tops/articleshow/134497120.cms",
+      "source_name": "The Times of India",
+      "date": "2026.09",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "6%",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "📊",
+      "thumb_stat": "6%",
+      "thumb_label": "The Times of India",
+      "grad": "cat-7",
+      "tags": [
+        "The Times of India",
+        "데이터 & 리포트"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-09-29T00:43:22.592518Z"
+    },
+    {
       "id": "A257",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -6720,7 +6745,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-27T23:28:13.443280",
-    "total_articles": 257
+    "last_updated": "2026-09-29T00:43:25.596520",
+    "total_articles": 258
   }
 }
