@@ -63,6 +63,31 @@
   },
   "articles": [
     {
+      "id": "A263",
+      "blog_category": "GEO",
+      "region": "Global",
+      "company": "Seerinteractive.com",
+      "title": "Re-imagining AI Visibility KPIs in a Query Fan Out world",
+      "excerpt": "Wil Reynolds shares essential AI visibility KPIs for generative engine optimi...",
+      "source_url": "https://www.seerinteractive.com/insights/ai-visibility-kpis",
+      "source_name": "Seerinteractive.com",
+      "date": "2026.10",
+      "read_time": "3 min",
+      "is_featured": false,
+      "key_stat": "NEW",
+      "key_stat_label": "Key Metric",
+      "thumb_emoji": "🌐",
+      "thumb_stat": "NEW",
+      "thumb_label": "Seerinteractive.com",
+      "grad": "cat-5",
+      "tags": [
+        "Seerinteractive.com",
+        "GEO"
+      ],
+      "auto_collected": true,
+      "collected_at": "2026-10-03T23:25:40.541337Z"
+    },
+    {
       "id": "A262",
       "blog_category": "데이터 & 리포트",
       "region": "Global",
@@ -6845,7 +6870,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T00:03:08.625882",
-    "total_articles": 262
+    "last_updated": "2026-10-03T23:25:43.546366",
+    "total_articles": 263
   }
 }
